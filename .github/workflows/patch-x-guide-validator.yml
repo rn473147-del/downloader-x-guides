@@ -21,22 +21,24 @@ jobs:
           ref: content/x-video-hd-device-guide
           fetch-depth: 0
 
-      - name: Add ffmpeg installation to validator
+      - name: Add FFmpeg installation to validator
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
+
           workflow = Path('.github/workflows/apply-x-guide-content.yml')
           text = workflow.read_text(encoding='utf-8')
           text = text.replace("    if: github.actor != 'github-actions[bot]'\n", '')
           needle = '      - name: Validate article, unique media, metadata, and video\n'
-          install = '''      - name: Install FFmpeg for real MP4 inspection
-        shell: bash
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-
-'''
+          install = '\n'.join([
+              '      - name: Install FFmpeg for real MP4 inspection',
+              '        shell: bash',
+              '        run: |',
+              '          sudo apt-get update -qq',
+              '          sudo apt-get install -y -qq ffmpeg',
+              '',
+          ]) + '\n'
           if 'Install FFmpeg for real MP4 inspection' not in text:
               if needle not in text:
                   raise SystemExit('Validation step not found')
