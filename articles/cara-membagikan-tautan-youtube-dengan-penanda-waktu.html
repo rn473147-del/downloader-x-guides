@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cara Membagikan Tautan YouTube Publik dengan Penanda Waktu | Downloader-X Guides</title>
+  <meta name="description" content="Panduan langkah demi langkah untuk membuat, memeriksa, dan menjelaskan tautan YouTube publik yang dimulai pada waktu tertentu tanpa membagikan data login.">
+  <link rel="canonical" href="https://rn473147-del.github.io/downloader-x-guides/articles/cara-membagikan-tautan-youtube-dengan-penanda-waktu.html">
+  <style>
+    :root{--ink:#201c35;--violet:#6b42c9;--lav:#f4efff;--line:#ded8eb;--muted:#6e687c;--warn:#fff5d9}*{box-sizing:border-box}body{margin:0;font:18px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}header,main,footer{width:min(920px,calc(100% - 36px));margin:auto}header{display:flex;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}header a{color:var(--ink);text-decoration:none;font-weight:850}main{padding:42px 0 70px}h1{font-size:clamp(2.15rem,6vw,3.65rem);line-height:1.08;margin:.2em 0}h2{font-size:1.75rem;line-height:1.26;margin-top:2em}.eyebrow{color:var(--violet);font-weight:850;text-transform:uppercase;letter-spacing:.07em}.lead{font-size:1.17rem;color:#49425e}.visual{background:var(--lav);border:1px solid #d3c5f1;border-radius:24px;margin:28px 0;padding:20px}.visual svg{width:100%;display:block}.warning,.note{padding:18px 20px;border-radius:12px;margin:24px 0}.warning{background:var(--warn);border-left:5px solid #d89917}.note{background:var(--lav);border-left:5px solid var(--violet)}.code{font: .94em ui-monospace,SFMono-Regular,Consolas,monospace;background:#f0edf5;border-radius:5px;padding:.1em .35em;overflow-wrap:anywhere}.steps li{margin-bottom:17px;padding-left:8px}.checklist{border:1px solid var(--line);border-radius:15px;padding:18px 22px}.checklist li,.related li{margin:.55em 0}.related{margin-top:34px;padding:20px;border-radius:15px;border:1px solid var(--line)}.faq details{border-top:1px solid var(--line);padding:16px 0}.faq summary{cursor:pointer;font-weight:800}a{color:#5b32ba}.cta{display:block;padding:17px 20px;background:var(--violet);color:#fff;text-align:center;text-decoration:none;font-weight:850;border-radius:13px;margin:36px 0}footer{border-top:1px solid var(--line);padding:25px 0 45px;color:var(--muted);font-size:.92rem}@media(max-width:600px){header{flex-direction:column}.visual{padding:10px}}
+  </style>
+</head>
+<body>
+<header><a href="../index.html">Downloader-X Guides</a><a href="https://downloader-x.com/id">Situs Indonesia</a></header>
+<main>
+  <p class="eyebrow">Berbagi bagian yang tepat</p>
+  <h1>Cara Membagikan Tautan YouTube Publik dengan Penanda Waktu</h1>
+  <p class="lead">Penanda waktu membuat tautan membuka video pada menit atau detik yang dipilih. Fitur ini berguna saat Anda merujuk satu penjelasan dalam kuliah, rapat, tutorial, atau diskusi. Agar penerima tidak kehilangan konteks, buat penanda waktu dari halaman resmi, uji hasilnya, dan sertakan alasan mengapa bagian tersebut relevan.</p>
+
+  <figure class="visual">
+    <svg viewBox="0 0 720 310" role="img" aria-labelledby="svg3t svg3d">
+      <title id="svg3t">Garis waktu dengan penanda pembagian</title><desc id="svg3d">Sebuah penunjuk menandai menit dua detik tiga puluh pada garis waktu.</desc>
+      <rect x="26" y="36" width="668" height="238" rx="28" fill="#e8defc"/>
+      <rect x="75" y="132" width="570" height="18" rx="9" fill="#c9b9ed"/>
+      <rect x="75" y="132" width="305" height="18" rx="9" fill="#6b42c9"/>
+      <circle cx="380" cy="141" r="24" fill="#fff" stroke="#6b42c9" stroke-width="7"/>
+      <path d="M380 117V78" stroke="#6b42c9" stroke-width="6" stroke-linecap="round"/>
+      <path d="M365 90l15-18 15 18" fill="none" stroke="#6b42c9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="303" y="187" width="154" height="48" rx="12" fill="#201c35"/>
+      <text x="331" y="219" fill="#fff" font-size="27" font-family="ui-monospace">02:30</text>
+      <text x="73" y="104" fill="#49425e" font-size="20" font-family="system-ui">Awal</text><text x="580" y="104" fill="#49425e" font-size="20" font-family="system-ui">Akhir</text>
+    </svg>
+  </figure>
+
+  <div class="warning"><strong>Gunakan hanya untuk sumber yang layak dibagikan.</strong> Penanda waktu tidak mengubah hak cipta, status publik, atau izin penggunaan. Jangan memakainya untuk mengakali video privat, batas umur, wilayah, atau akses lembaga. Anda tidak perlu memberikan kata sandi, cookie, token, kode verifikasi, atau kredensial login kepada layanan lain untuk membuat URL berpenanda waktu.</div>
+
+  <h2>Cara kerja penanda waktu pada URL</h2>
+  <p>YouTube dapat menerima nilai waktu melalui parameter URL. Pada bentuk tautan pendek, parameter sering diawali tanda tanya, misalnya <span class="code">?t=150</span>. Pada URL yang sudah memiliki parameter <span class="code">v</span>, nilai waktu biasanya ditambahkan dengan ampersand, misalnya <span class="code">&amp;t=150s</span>. Angka tersebut dapat mewakili jumlah detik, tergantung bentuk yang dihasilkan antarmuka.</p>
+  <p>Anda tidak harus menghitung parameter secara manual. Tombol Bagikan di halaman desktop biasanya menyediakan pilihan untuk memulai pada waktu saat ini. Tampilan aplikasi dapat berbeda menurut perangkat dan pembaruan. Bila pilihan tidak tampak, Anda dapat menyalin URL publik dahulu dan menambahkan penanda dengan cara yang dijelaskan secara hati-hati di bawah.</p>
+
+  <h2>Langkah melalui halaman YouTube</h2>
+  <ol class="steps">
+    <li><strong>Buka video publik pada domain resmi.</strong> Cocokkan judul, kanal, dan halaman sumber. Jika halaman memerlukan izin khusus, jangan lanjutkan dan jangan mencoba mencari jalur lain.</li>
+    <li><strong>Pindahkan pemutar ke bagian yang relevan.</strong> Catat menit dan detik yang terlihat. Pilih beberapa detik sebelum kalimat penting bila penerima memerlukan konteks.</li>
+    <li><strong>Pilih Bagikan.</strong> Pada tampilan yang menyediakan opsi mulai pada waktu tertentu, aktifkan opsi tersebut dan pastikan nilai waktunya sesuai posisi yang Anda pilih.</li>
+    <li><strong>Salin URL yang dihasilkan.</strong> Jangan salin teks lain, URL iklan, atau alamat pengalihan. Periksa bahwa domainnya tetap resmi.</li>
+    <li><strong>Uji pada tab baru.</strong> Tempel alamat di tab browser yang baru, lalu lihat apakah halaman membuka bagian yang dimaksud. Riwayat pemutaran pada aplikasi dapat memengaruhi posisi, jadi bandingkan angka pada URL juga.</li>
+    <li><strong>Tambahkan keterangan.</strong> Tulis misalnya “lihat penjelasan mulai 02:30” dan jelaskan topiknya. Keterangan membuat rujukan tetap dapat dipahami bila perilaku aplikasi penerima berbeda.</li>
+  </ol>
+
+  <h2>Membuat penanda secara manual</h2>
+  <p>Jika halaman tidak menampilkan kotak waktu, konversikan menit menjadi detik: kalikan menit dengan 60, lalu tambahkan detik sisanya. Waktu 2 menit 30 detik menjadi 150 detik. Untuk tautan pendek ilustratif <span class="code">https://youtu.be/AbC12_xYz90</span>, hasilnya dapat berbentuk <span class="code">https://youtu.be/AbC12_xYz90?t=150</span>.</p>
+  <p>Pada URL standar ilustratif <span class="code">https://www.youtube.com/watch?v=AbC12_xYz90</span>, tambahkan pemisah ampersand karena tanda tanya sudah dipakai oleh parameter <span class="code">v</span>: <span class="code">https://www.youtube.com/watch?v=AbC12_xYz90&amp;t=150s</span>. Jangan mengganti ID, jangan menambahkan spasi, dan jangan menyalin tanda titik dari akhir kalimat.</p>
+
+  <h2>Memilih detik yang memberi konteks</h2>
+  <p>Tepat secara teknis belum tentu jelas secara komunikasi. Jika gagasan dimulai pada 02:30 tetapi istilahnya diperkenalkan pada 02:22, rujuk beberapa detik lebih awal. Untuk presentasi, catat juga rentang yang sebaiknya diperhatikan, seperti “02:22–03:05”. URL hanya menentukan titik awal; teks pendamping menjelaskan batas perhatian.</p>
+  <p>Hindari memilih potongan yang mengubah makna pembicara. Pernyataan singkat dapat terdengar berbeda bila dipisahkan dari penjelasan sebelum atau sesudahnya. Sertakan judul video, nama kanal, dan tujuan rujukan. Jika video berisi orang lain atau informasi sensitif, pertimbangkan apakah pembagian ulang memang diperlukan meskipun halamannya publik.</p>
+
+  <h2>Daftar periksa sebelum mengirim</h2>
+  <div class="checklist">
+    <ul>
+      <li>Domain dan ejaan YouTube sudah benar.</li>
+      <li>ID video tidak berubah ketika parameter waktu ditambahkan.</li>
+      <li>Angka waktu sesuai bagian yang hendak dirujuk.</li>
+      <li>Judul, kanal, dan konteks disebutkan dalam pesan.</li>
+      <li>Penerima memang tepat untuk mendapat tautan tersebut.</li>
+      <li>Tidak ada data akun atau informasi pribadi dalam pesan.</li>
+    </ul>
+  </div>
+
+  <h2>Mengatasi hasil yang membuka posisi berbeda</h2>
+  <p>Pertama, periksa apakah aplikasi penerima melanjutkan posisi tontonan sebelumnya. Cobalah alamat pada tab browser baru dan bandingkan nilai parameter. Kedua, pastikan Anda memakai tanda tanya atau ampersand pada tempat yang sesuai. Ketiga, periksa apakah ada parameter waktu ganda; simpan hanya satu yang sengaja digunakan.</p>
+  <p>Bila penerima tetap tidak diarahkan ke posisi yang sama, berikan waktu dalam teks biasa agar rujukan tidak bergantung pada perilaku aplikasi. Jangan meminta penerima mengirim data login atau tangkapan layar yang memperlihatkan informasi akun. Masalah posisi tidak menjadi alasan untuk melewati pembatasan pada video.</p>
+
+  <h2>Menghindari penanda waktu ganda</h2>
+  <p>URL yang disalin, diedit, lalu dibagikan ulang dapat memuat dua parameter waktu. Browser atau aplikasi mungkin memilih salah satunya sehingga hasil sulit diprediksi. Baca seluruh alamat dari awal sampai akhir dan pertahankan satu nilai yang benar-benar Anda maksud. Simpan salinan asli sebelum mengubahnya.</p>
+  <p>Jika Anda mengganti rujukan dari satu bagian ke bagian lain, perbarui pula teks pendamping. Jangan hanya mengganti angka pada URL sementara pesan masih menyebut waktu lama. Pemeriksaan sederhana antara URL, keterangan, dan catatan sumber mencegah penerima mengira video atau pembuatnya memberi informasi yang berbeda.</p>
+
+  <h2>Praktik pencatatan untuk sekolah dan kerja</h2>
+  <p>Simpan URL lengkap, waktu yang dipilih, tanggal pemeriksaan, judul, dan kanal dalam catatan proyek. Jelaskan mengapa segmen dirujuk dan siapa yang diizinkan melihat catatan. Jika pembuat mengubah atau menghapus video, tandai sumber sebagai tidak tersedia alih-alih mencari salinan tanpa izin.</p>
+  <p>Untuk kutipan akademik, penanda waktu membantu pembaca menemukan bagian, tetapi tidak menggantikan format sitasi yang diminta guru atau lembaga. Gunakan parafrasa Anda sendiri dan hindari menyalin transkrip panjang. Hak atas karya tetap berada pada pemiliknya.</p>
+
+  <section class="related">
+    <h2>Panduan lain yang relevan</h2>
+    <ul>
+      <li><a href="cara-menyalin-tautan-video-publik.html">Cara menyalin tautan video publik dengan benar</a></li>
+      <li><a href="periksa-tautan-youtube-publik-sebelum-digunakan.html">Memeriksa tautan YouTube publik sebelum digunakan</a></li>
+      <li><a href="membedakan-tautan-youtube-video-shorts-playlist-publik.html">Membedakan tautan video, Shorts, dan playlist publik</a></li>
+      <li><a href="memeriksa-tautan-video-publik-tanpa-data-login.html">Memeriksa tautan publik tanpa memberikan data login</a></li>
+    </ul>
+  </section>
+
+  <h2>FAQ</h2>
+  <div class="faq">
+    <details><summary>Apakah penanda waktu mengubah isi video?</summary><p>Tidak. Parameter hanya meminta halaman mulai pada posisi tertentu. Isi, status akses, dan hak pemilik tidak berubah.</p></details>
+    <details><summary>Apakah saya harus login untuk membuatnya?</summary><p>Tidak untuk tautan publik. Jangan memberikan kredensial, cookie, token, atau kode verifikasi kepada alat pihak lain.</p></details>
+    <details><summary>Mengapa tautan dimulai dari posisi lama saya?</summary><p>Aplikasi mungkin mengingat riwayat tontonan. Periksa parameter pada URL dan uji di tab baru. Sertakan waktu dalam pesan agar penerima tetap memahami maksud Anda.</p></details>
+    <details><summary>Bolehkah saya mengirim penanda waktu untuk video privat?</summary><p>Jangan. Parameter waktu tidak memberikan izin. Hormati pengaturan privat dan minta akses langsung kepada pemilik melalui cara resmi bila memang diperlukan.</p></details>
+    <details><summary>Haruskah waktu ditulis dalam detik?</summary><p>URL yang dibuat antarmuka dapat memakai bentuk tertentu. Untuk cara manual sederhana, total detik mudah diperiksa. Selalu uji hasilnya pada halaman resmi.</p></details>
+    <details><summary>Apakah penanda waktu cukup sebagai sitasi?</summary><p>Belum tentu. Ikuti gaya sitasi yang diwajibkan dan tambahkan judul, kanal, tanggal, serta URL. Penanda waktu berfungsi sebagai petunjuk bagian.</p></details>
+  </div>
+
+  <a class="cta" href="https://downloader-x.com/id">Kunjungi Downloader-X Indonesia</a>
+  <p class="note"><strong>Catatan tanggung jawab:</strong> gunakan hanya media publik yang Anda miliki atau telah mendapat izin untuk digunakan. Jangan melewati pembatasan platform, jangan membagikan kredensial login, dan periksa hak cipta serta privasi sebelum meneruskan tautan.</p>
+</main>
+<footer>© 2026 Downloader-X Guides · Rujukan penanda waktu untuk tautan publik.</footer>
+</body>
+</html>

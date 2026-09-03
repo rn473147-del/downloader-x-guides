@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cara Mengenali URL Status, Profil, dan Media di X | Downloader-X Guides</title>
+  <meta name="description" content="Panduan membaca struktur URL X untuk membedakan tautan status, profil, foto, serta halaman lain sebelum mencatat atau memakai tautan publik.">
+  <link rel="canonical" href="https://rn473147-del.github.io/downloader-x-guides/articles/mengenali-url-status-profil-media-x.html">
+  <style>
+    :root{--ink:#17213a;--muted:#596780;--line:#d9e2ee;--accent:#6246ea;--soft:#f4f2ff;--warning:#fff5d8}*{box-sizing:border-box}body{margin:0;background:#f1f4f8;color:var(--ink);font:17px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#4b35ba}header,main,footer{max-width:930px;margin:auto;padding-left:18px;padding-right:18px}.top{padding-top:28px}.crumbs{color:var(--muted);font-size:.9rem}article{background:#fff;border-radius:22px;padding:clamp(24px,6vw,62px);margin:18px 0 34px;box-shadow:0 16px 48px #14213d17}.kicker{color:var(--accent);font-weight:850;font-size:.82rem;letter-spacing:.09em}h1{font-size:clamp(2rem,5.5vw,3.45rem);line-height:1.13;margin:.25em 0}h2{font-size:1.62rem;line-height:1.3;margin-top:2.45rem}h3{font-size:1.13rem;margin-top:1.45rem}.lead{font-size:1.19rem;color:var(--muted)}.visual{background:var(--soft);border-radius:20px;padding:16px;border:1px solid #ddd7ff;margin:28px 0}.answer,.warning,.cta{border-radius:15px;padding:20px 22px}.answer{background:var(--soft)}.warning{background:var(--warning);border-left:5px solid #d99e15}.cta{background:#211a45;color:#fff;margin-top:34px}.cta a{display:inline-block;color:#211a45;background:#fff;padding:10px 16px;border-radius:9px;text-decoration:none;font-weight:800}code{background:#eff2f6;border-radius:5px;padding:.12em .35em;overflow-wrap:anywhere}table{width:100%;border-collapse:collapse}td,th{border:1px solid var(--line);padding:11px;text-align:left;vertical-align:top}footer{color:var(--muted);font-size:.9rem;padding-bottom:34px}@media(max-width:620px){article{padding:22px;border-radius:13px}table{font-size:.9rem}}
+  </style>
+</head>
+<body>
+  <header class="top"><nav class="crumbs"><a href="/id/">Downloader-X Indonesia</a> / <a href="/id/guides/">Panduan</a> / Jenis URL X</nav></header>
+  <main>
+    <article>
+      <p class="kicker">ANATOMI ALAMAT WEB</p>
+      <h1>Cara Mengenali URL Status, Profil, dan Media di X</h1>
+      <p class="lead">Tidak setiap alamat X menunjuk ke posting yang sama jenisnya. Ada URL profil, status, tampilan foto, pencarian, daftar, dan jalur lain. Membaca strukturnya sejak awal mencegah Anda menyalin halaman yang terlalu umum atau keliru menganggap sebuah pratinjau sebagai sumber asli.</p>
+
+      <figure class="visual">
+        <svg viewBox="0 0 760 320" role="img" aria-labelledby="u-title u-desc" xmlns="http://www.w3.org/2000/svg">
+          <title id="u-title">Anatomi URL posting X</title>
+          <desc id="u-desc">Alamat X dipecah menjadi domain, nama akun, status, pengenal, dan tampilan media.</desc>
+          <rect x="18" y="18" width="724" height="284" rx="26" fill="#fff" stroke="#cfc7fb"/>
+          <g font-family="system-ui"><text x="52" y="72" font-size="23" font-weight="800" fill="#211a45">x.com / nara / status / 1842 / photo / 1</text><path d="M65 91v42h112M215 91v78h82M358 91v42h84M494 91v78h73M609 91v42h92" fill="none" stroke="#6246ea" stroke-width="3"/><g text-anchor="middle" font-size="17" font-weight="700"><rect x="85" y="132" width="112" height="48" rx="12" fill="#e9e5ff"/><text x="141" y="162" fill="#3c2a9b">domain</text><rect x="244" y="169" width="112" height="48" rx="12" fill="#e5f1ff"/><text x="300" y="199" fill="#225a90">akun</text><rect x="386" y="132" width="112" height="48" rx="12" fill="#e8f8f1"/><text x="442" y="162" fill="#246746">jenis</text><rect x="516" y="169" width="112" height="48" rx="12" fill="#fff1d7"/><text x="572" y="199" fill="#805a13">pengenal</text><rect x="618" y="132" width="92" height="48" rx="12" fill="#ffe8ef"/><text x="664" y="162" fill="#8d2949">tampilan</text></g><text x="380" y="266" text-anchor="middle" font-size="18" fill="#596780">Identitas posting berada pada jalur status dan pengenal</text></g>
+        </svg>
+      </figure>
+
+      <section class="answer">
+        <h2>Inti yang perlu dikenali</h2>
+        <p>URL profil biasanya berbentuk <code>x.com/namaakun</code>. URL satu posting umumnya menambahkan <code>/status/</code> dan serangkaian angka. Jalur seperti <code>/photo/1</code> adalah tampilan salah satu lampiran dalam posting tersebut, bukan posting baru. URL pencarian, beranda, notifikasi, bookmark, atau pesan tidak cocok sebagai rujukan publik untuk satu posting.</p>
+      </section>
+
+      <section>
+        <h2>Bagian URL dan fungsinya</h2>
+        <h3>Skema dan domain</h3>
+        <p>Awalan <code>https://</code> menunjukkan cara browser berkomunikasi dengan situs. Sesudahnya terdapat domain, misalnya x.com atau twitter.com. Pastikan nama domain tepat dan tidak sekadar muncul sebagai subdomain dari situs lain. Ejaan yang menyerupai merek dapat dipakai untuk membuat halaman tiruan. Pemeriksaan domain harus dilakukan sebelum Anda mempertimbangkan isi jalur.</p>
+        <h3>Nama akun</h3>
+        <p>Segmen pertama setelah domain sering menyerupai nama pengguna. Pada profil, segmen ini menjadi bagian akhir URL. Pada posting, nama tersebut diikuti <code>/status/</code>. Nama pengguna dapat berubah dari waktu ke waktu, sehingga jangan menjadikannya satu-satunya tanda identitas. Cocokkan juga pengenal status, nama tampilan, isi, dan waktu posting.</p>
+        <h3>Status dan pengenal angka</h3>
+        <p>Kata <code>status</code> menandai jalur permanen sebuah posting, sedangkan angka setelahnya membedakan posting tersebut. Angka ini bukan nomor urut yang aman ditebak dan bukan undangan untuk mencari konten yang tidak tersedia. Salin dari menu Bagikan agar tidak ada digit yang hilang atau tertukar.</p>
+        <h3>Jalur media</h3>
+        <p>Tambahan seperti <code>/photo/1</code> dapat membuka penampil lampiran tertentu. Nomor di ujung menunjukkan posisi lampiran pada antarmuka. Tautan ini tetap bergantung pada posting induk. Bila Anda membutuhkan bukti konteks, simpan URL status induk dan catat lampiran mana yang dirujuk. Jangan hanya menyimpan alamat gambar sementara dari alat pengembang karena alamat tersebut dapat berubah dan kehilangan konteks kepengarangan.</p>
+      </section>
+
+      <section>
+        <h2>Jenis alamat yang sering tertukar</h2>
+        <table>
+          <thead><tr><th>Pola konseptual</th><th>Merujuk ke</th><th>Cocok untuk catatan sumber?</th></tr></thead>
+          <tbody>
+            <tr><td><code>x.com/nama</code></td><td>Profil akun</td><td>Ya untuk identitas akun, bukan untuk satu posting</td></tr>
+            <tr><td><code>x.com/nama/status/angka</code></td><td>Satu posting</td><td>Ya, setelah isi dan akses publik dikonfirmasi</td></tr>
+            <tr><td><code>.../status/angka/photo/1</code></td><td>Lampiran pertama</td><td>Ya sebagai tambahan, bersama URL induk</td></tr>
+            <tr><td><code>x.com/search?... </code></td><td>Hasil pencarian yang dapat berubah</td><td>Tidak ideal sebagai sumber satu posting</td></tr>
+            <tr><td><code>x.com/home</code></td><td>Linimasa personal</td><td>Tidak, hasilnya berbeda antarpengguna</td></tr>
+            <tr><td>Tautan pesan langsung</td><td>Percakapan privat</td><td>Tidak untuk pemrosesan publik</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Cara memperoleh URL yang tepat</h2>
+        <ol>
+          <li><strong>Buka posting tunggal.</strong> Ketuk tanggal atau area posting agar halaman permanennya tampil, bukan sekadar kartu di linimasa.</li>
+          <li><strong>Gunakan menu Bagikan.</strong> Pilih perintah menyalin tautan posting. Cara ini mengurangi risiko salah menyalin alamat pencarian atau profil.</li>
+          <li><strong>Periksa segmen status.</strong> Pastikan terdapat <code>/status/</code> dan pengenal lengkap bila tujuan Anda adalah merujuk satu posting.</li>
+          <li><strong>Bandingkan halaman.</strong> Buka alamat pada tab baru dan cocokkan teks, penulis, waktu, serta lampiran. Jangan lanjut bila tujuan berubah menjadi situs yang tidak diharapkan.</li>
+          <li><strong>Tentukan kebutuhan lampiran.</strong> Untuk posting berisi beberapa gambar, catat nomor lampiran dalam catatan terpisah. Pertahankan URL induk sebagai rujukan utama.</li>
+          <li><strong>Catat waktu akses.</strong> Posting dapat diedit, dihapus, dibatasi, atau kehilangan lampiran. Tanggal pemeriksaan menjelaskan kapan pengamatan dilakukan.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Contoh penalaran tanpa memakai tautan nyata</h2>
+        <p>Bayangkan Anda menerima <code>https://x.com/arsipkota</code>. Alamat ini hanya menunjuk ke profil; tidak ada cara mengetahui posting mana yang dimaksud. Mintalah tautan langsung atau buka posting terkait lalu gunakan menu Bagikan. Sebaliknya, <code>https://x.com/arsipkota/status/123456</code> mengidentifikasi satu posting secara konseptual, meskipun Anda masih harus memastikan halaman tersedia bagi publik dan pengenalnya tidak merupakan contoh palsu.</p>
+        <p>Jika alamat berakhir dengan <code>/photo/2</code>, jangan menyimpulkan ada posting kedua. Itu biasanya menunjukkan lampiran kedua pada posting yang sama. Catatan yang baik bisa berbunyi: “lampiran kedua, dilihat pada tanggal tertentu, URL posting induk …”. Pendekatan ini menjaga hubungan antara materi, penulis, dan konteks.</p>
+      </section>
+
+      <section>
+        <h2>Sinyal bahwa URL belum layak dipakai</h2>
+        <ul>
+          <li>Alamat hanya membuka profil atau linimasa, bukan posting tunggal.</li>
+          <li>Domain sebenarnya bukan x.com atau twitter.com meski merek disebut dalam jalur.</li>
+          <li>Halaman akhir meminta Anda menyerahkan kata sandi, kode verifikasi, cookie, atau token ke pihak lain.</li>
+          <li>Posting menampilkan pemberitahuan dilindungi, dihapus, dibatasi, atau tidak tersedia di wilayah Anda.</li>
+          <li>Nama penulis, teks, atau tanggal berbeda dari klaim pengirim.</li>
+          <li>URL berasal dari pesan privat dan tidak dapat diperiksa sebagai sumber publik.</li>
+        </ul>
+        <p>Jika sebuah catatan akan dibagikan kepada tim, tulis jenis URL secara eksplisit: “profil”, “posting”, atau “lampiran pada posting”. Keterangan kecil ini mencegah rekan membuka profil lalu memilih posting yang kebetulan berada paling atas. Sertakan juga judul kerja singkat dan tanggal akses, sebab posisi posting pada profil dapat berubah setiap saat.</p>
+      </section>
+
+      <section class="warning">
+        <h2>Peringatan hak cipta dan privasi</h2>
+        <p>Struktur URL menjelaskan lokasi, bukan izin. Posting publik tetap dapat dilindungi hak cipta, hak pribadi, atau ketentuan penggunaan. Jangan menyalin atau menerbitkan ulang materi tanpa hak. Jangan mencoba mengakses akun dilindungi, pesan privat, batas usia, atau pembatasan wilayah melalui cara lain. Untuk materi milik orang lain, minta izin yang jelas dan simpan atribusi. Layanan berbasis tautan publik tidak memerlukan kredensial X Anda.</p>
+      </section>
+
+      <section>
+        <h2>FAQ URL status, profil, dan media</h2>
+        <h3>Apakah URL profil dapat menggantikan URL posting?</h3>
+        <p>Tidak untuk rujukan spesifik. Profil berisi banyak posting dan dapat berubah. Gunakan tautan dengan segmen status untuk menunjuk satu posting.</p>
+        <h3>Apa fungsi angka setelah kata status?</h3>
+        <p>Angka tersebut adalah pengenal posting. Salin apa adanya dari menu Bagikan; jangan menebak atau mengubah digitnya.</p>
+        <h3>Apakah /photo/1 berarti berkas pertama?</h3>
+        <p>Jalur itu biasanya memilih tampilan lampiran pertama pada antarmuka. Simpan juga URL posting induk agar konteks tidak hilang.</p>
+        <h3>Mengapa URL pencarian kurang cocok sebagai sumber?</h3>
+        <p>Hasil pencarian dapat berubah karena waktu, pengaturan, dan ketersediaan. Tautan posting permanen lebih tepat untuk satu item.</p>
+        <h3>Bisakah nama akun di URL berbeda dari nama yang terlihat?</h3>
+        <p>Perubahan nama pengguna atau pengalihan dapat menimbulkan perbedaan. Cocokkan pengenal status dan identitas halaman saat ini.</p>
+        <h3>Bagaimana jika URL hanya terbuka sesudah login?</h3>
+        <p>Jangan memindahkan kredensial ke layanan lain. Hormati batas akses dan mintalah sumber publik atau salinan resmi dari pemilik bila perlu.</p>
+      </section>
+
+      <section>
+        <h2>Bacaan internal terkait</h2>
+        <ul>
+          <li><a href="cara-memeriksa-tautan-video-x-publik.html">Cara memeriksa tautan video X publik</a></li>
+          <li><a href="memeriksa-tautan-video-publik-tanpa-data-login.html">Memeriksa tautan publik tanpa data login</a></li>
+          <li><a href="cara-menyalin-tautan-video-publik.html">Cara menyalin tautan video publik</a></li>
+        </ul>
+      </section>
+
+      <section class="cta">
+        <h2>Gunakan URL yang benar dan berizin</h2>
+        <p>Setelah Anda mengonfirmasi URL status, akses publik, dan hak penggunaan, kunjungi halaman Indonesia berikut sebagai langkah lanjutan.</p>
+        <a href="https://downloader-x.com/id">Kunjungi Downloader-X Indonesia</a>
+      </section>
+    </article>
+  </main>
+  <footer><p>Panduan ini membahas struktur tautan, bukan cara melewati pembatasan. Downloader-X tidak berafiliasi dengan X.</p></footer>
+</body>
+</html>
