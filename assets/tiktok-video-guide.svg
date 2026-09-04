@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok video guide illustration</title>
+  <desc id="desc">A dark vertical-video phone illustration with cyan and pink music accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.55" stop-color="#11182b"/>
+      <stop offset="1" stop-color="#080b14"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202944"/>
+      <stop offset="1" stop-color="#0c1222"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#25f4ee"/>
+      <stop offset="1" stop-color="#fe2c55"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="228" cy="118" r="170" fill="#25f4ee" opacity=".09" filter="url(#glow)"/>
+  <circle cx="1000" cy="555" r="210" fill="#fe2c55" opacity=".09" filter="url(#glow)"/>
+  <path d="M0 536 C240 432 420 635 650 530 S985 405 1200 498 V675 H0Z" fill="#11182a" opacity=".7"/>
+  <g opacity=".7">
+    <circle cx="112" cy="140" r="7" fill="#25f4ee"/>
+    <circle cx="1048" cy="150" r="7" fill="#fe2c55"/>
+    <circle cx="1086" cy="192" r="4" fill="#25f4ee"/>
+    <circle cx="165" cy="510" r="5" fill="#fe2c55"/>
+  </g>
+  <g transform="translate(135 150)">
+    <text x="0" y="0" fill="#25f4ee" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">VIDEO GUIDE</text>
+    <text x="0" y="78" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800">TikTok videos,</text>
+    <text x="0" y="150" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800">saved clearly.</text>
+    <rect x="0" y="194" width="310" height="8" rx="4" fill="url(#line)"/>
+    <text x="0" y="250" fill="#b9c2d6" font-family="Arial,Helvetica,sans-serif" font-size="26">Public links • HD options • Mobile ready</text>
+  </g>
+  <g transform="translate(810 64)" filter="url(#shadow)">
+    <rect x="0" y="0" width="258" height="548" rx="42" fill="#03050b" stroke="#2d374f" stroke-width="4"/>
+    <rect x="15" y="17" width="228" height="514" rx="30" fill="url(#screen)"/>
+    <rect x="90" y="28" width="80" height="9" rx="4.5" fill="#39435a"/>
+    <rect x="38" y="74" width="182" height="284" rx="24" fill="#151d31" stroke="#313c55"/>
+    <circle cx="129" cy="215" r="58" fill="#0d1425" stroke="url(#line)" stroke-width="5"/>
+    <path d="M111 174 v91 a28 28 0 1 1-17-26 v-83 l76-17 v92 a28 28 0 1 1-17-26 v-83z" fill="#25f4ee" opacity=".96"/>
+    <path d="M118 181 v91 a28 28 0 1 1-17-26 v-83 l76-17 v92 a28 28 0 1 1-17-26 v-83z" fill="#fe2c55" opacity=".92"/>
+    <path d="M114 177 v91 a28 28 0 1 1-17-26 v-83 l76-17 v92 a28 28 0 1 1-17-26 v-83z" fill="#fff"/>
+    <rect x="38" y="386" width="164" height="13" rx="6.5" fill="#fff" opacity=".9"/>
+    <rect x="38" y="415" width="132" height="10" rx="5" fill="#8490a8"/>
+    <rect x="38" y="441" width="154" height="10" rx="5" fill="#606c84"/>
+    <rect x="38" y="482" width="182" height="34" rx="17" fill="url(#line)"/>
+    <path d="M116 491 v11 h-9 l22 18 22-18h-9v-11z" fill="#07101d"/>
+  </g>
+</svg>
