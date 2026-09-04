@@ -230,6 +230,36 @@ function stripTags(value) {
     .trim();
 }
 
+function completeSentences(value) {
+  const text = stripTags(value);
+  const matches = text.match(/[^.!?。！？؟।]+[.!?。！？؟।]+/gu) || [];
+  return matches.map((sentence) => sentence.trim()).filter(Boolean);
+}
+
+function asSentence(value) {
+  const text = stripTags(value);
+  if (!text) return "";
+  return /\p{Sentence_Terminal}$/u.test(text) ? text : `${text}.`;
+}
+
+function makeMetaDescription({ keyword, guide, intentNotice, fallbacks }, maxLength = 160) {
+  const lead = asSentence(`${keyword} — ${guide}`);
+  if ([...lead].length > maxLength) return asSentence(keyword);
+
+  const sentenceSources = [intentNotice, ...fallbacks];
+  const sentences = [...new Set(sentenceSources.flatMap((source) => {
+    const complete = completeSentences(source);
+    return complete.length ? complete : [asSentence(source)].filter(Boolean);
+  }))];
+  let description = lead;
+  for (const sentence of sentences) {
+    const candidate = `${description} ${sentence}`;
+    if ([...candidate].length <= maxLength) description = candidate;
+    if ([...description].length >= 90) break;
+  }
+  return description;
+}
+
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/gu, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -443,7 +473,12 @@ function makeArticle({ locale, keyword, index, profile, source, allPagesBySlot }
   const headline = `${keyword}: ${headlineSuffix[locale]}`;
   const quickText = source.quickText;
   const intentNotice = noticeFor(locale, profile);
-  const description = stripTags(`${keyword} — ${copy.guide}. ${intentNotice}`).slice(0, 155);
+  const description = makeMetaDescription({
+    keyword,
+    guide: copy.guide,
+    intentNotice,
+    fallbacks: [copy.note, quickText],
+  });
   const sections = fitBlocks(source, locale, profile, seed);
   const faqs = selectFaqs(source, seed, keyword, intentNotice);
   const stepSemantics = profile.support === "unsupported" ? ["public", "security", "audit"] : ["copy", "process", "verify"];
@@ -453,10 +488,6 @@ function makeArticle({ locale, keyword, index, profile, source, allPagesBySlot }
     .filter(Boolean);
   const relatedSlots = [(index + 1) % 15, (index + 4) % 15, (index + 9) % 15];
   const related = relatedSlots.map((slot) => allPagesBySlot[slot]?.pages?.[locale]).filter(Boolean);
-  const alternates = supportedLocales.map((alternateLocale) => {
-    const alternate = allPagesBySlot[index]?.alternates?.[alternateLocale];
-    return alternate ? `<link rel="alternate" hreflang="${alternateLocale}" href="${alternate}">` : "";
-  }).join("");
   const faqHtml = faqs.map((faq) => `<details><summary>${escapeHtml(faq.question)}</summary><p>${escapeHtml(faq.answer)}</p></details>`).join("");
   const contentHtml = sections.map((section) => `<section><h2 id="${escapeHtml(section.id)}">${escapeHtml(section.heading)}</h2>${section.html}</section>`).join("");
   const schema = {
@@ -471,7 +502,7 @@ function makeArticle({ locale, keyword, index, profile, source, allPagesBySlot }
       { "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) },
     ],
   };
-  const render = (reviewRecap = "") => `<!doctype html><html lang="${locale}" dir="${rtlLocales.has(locale) ? "rtl" : "ltr"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="author" content="Downloader-X Guides"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${canonical}">${alternates}<link rel="alternate" hreflang="x-default" href="${allPagesBySlot[index]?.alternates?.en || canonical}"><meta property="og:type" content="article"><meta property="og:title" content="${escapeHtml(headline)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${imageUrl}"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">${JSON.stringify(schema).replace(/</gu, "\\u003c")}</script><style>${css}</style></head><body><header class="sitebar"><a href="${productBase}/${locale}">Downloader-X</a><nav><a href="${productBase}/${locale}/guides/">Guides</a><a href="${toolUrl}">${escapeHtml(copy.cta)}</a></nav></header><main class="page"><section class="hero"><div class="eyebrow">${escapeHtml(copy.guide)} · ${date}</div><h1>${escapeHtml(headline)}</h1><p>${escapeHtml(description)}</p><a class="cta" href="${toolUrl}">${escapeHtml(copy.cta)}</a></section><article class="article"><section><h2>${escapeHtml(copy.quick)}</h2><p class="lead"><strong>${escapeHtml(keyword)}</strong> — ${escapeHtml(quickText)}</p><div class="notice" data-support="${profile.support}" data-reason="${profile.reason || "public"}">${escapeHtml(intentNotice)}</div></section><figure><img src="../assets/${imageFile}" alt="${escapeHtml(keyword)}" width="1200" height="675" loading="eager" decoding="async"><figcaption>${escapeHtml(keyword)} · Downloader-X Guides</figcaption></figure><section><h2>${escapeHtml(copy.steps)}</h2><ol class="steps">${stepBlocks.map((block) => `<li>${escapeHtml(block)}</li>`).join("")}</ol></section><section><h2>${escapeHtml(copy.focus)}</h2><p><strong>${escapeHtml(keyword)}</strong>. ${escapeHtml(intentNotice)}</p></section>${contentHtml}${reviewRecap}<section class="faq"><h2>${escapeHtml(copy.faq)}</h2>${faqHtml}</section><section><h2>${escapeHtml(copy.related)}</h2><div class="related">${related.map((item) => `<a href="${item.sourceUrl}">${escapeHtml(item.keyword)}</a>`).join("")}</div></section><section class="final"><h2>${escapeHtml(copy.final)}</h2><p>${escapeHtml(intentNotice)}</p><a class="cta" href="${toolUrl}">${escapeHtml(copy.cta)}</a></section></article></main><footer class="footer">Downloader-X Guides · Public or authorized media only</footer></body></html>`;
+  const render = (reviewRecap = "") => `<!doctype html><html lang="${locale}" dir="${rtlLocales.has(locale) ? "rtl" : "ltr"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="author" content="Downloader-X Guides"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${canonical}"><meta property="og:type" content="article"><meta property="og:title" content="${escapeHtml(headline)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${imageUrl}"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">${JSON.stringify(schema).replace(/</gu, "\\u003c")}</script><style>${css}</style></head><body><header class="sitebar"><a href="${productBase}/${locale}">Downloader-X</a><nav><a href="${productBase}/${locale}/guides/">Guides</a><a href="${toolUrl}">${escapeHtml(copy.cta)}</a></nav></header><main class="page"><section class="hero"><div class="eyebrow">${escapeHtml(copy.guide)} · ${date}</div><h1>${escapeHtml(headline)}</h1><p>${escapeHtml(description)}</p><a class="cta" href="${toolUrl}">${escapeHtml(copy.cta)}</a></section><article class="article"><section><h2>${escapeHtml(copy.quick)}</h2><p class="lead"><strong>${escapeHtml(keyword)}</strong> — ${escapeHtml(quickText)}</p><div class="notice" data-support="${profile.support}" data-reason="${profile.reason || "public"}">${escapeHtml(intentNotice)}</div></section><figure><img src="../assets/${imageFile}" alt="${escapeHtml(keyword)}" width="1200" height="675" loading="eager" decoding="async"><figcaption>${escapeHtml(keyword)} · Downloader-X Guides</figcaption></figure><section><h2>${escapeHtml(copy.steps)}</h2><ol class="steps">${stepBlocks.map((block) => `<li>${escapeHtml(block)}</li>`).join("")}</ol></section><section><h2>${escapeHtml(copy.focus)}</h2><p><strong>${escapeHtml(keyword)}</strong>. ${escapeHtml(intentNotice)}</p></section>${contentHtml}${reviewRecap}<section class="faq"><h2>${escapeHtml(copy.faq)}</h2>${faqHtml}</section><section><h2>${escapeHtml(copy.related)}</h2><div class="related">${related.map((item) => `<a href="${item.sourceUrl}">${escapeHtml(item.keyword)}</a>`).join("")}</div></section><section class="final"><h2>${escapeHtml(copy.final)}</h2><p>${escapeHtml(intentNotice)}</p><a class="cta" href="${toolUrl}">${escapeHtml(copy.cta)}</a></section></article></main><footer class="footer">Downloader-X Guides · Public or authorized media only</footer></body></html>`;
   const articleWords = (value) => countWords(value.match(/<article class="article">([\s\S]*?)<\/article>/u)?.[1] || value, locale);
   let html = render();
   let wordCount = articleWords(html);
@@ -499,25 +530,20 @@ function insertHubLink(indexHtml) {
   return `${countedIndex.slice(0, position)}${card}${countedIndex.slice(position)}`;
 }
 
-function updateSitemap(sitemap, pages) {
-  const campaignPattern = new RegExp(`<url><loc>${siteBase.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&")}\\/articles\\/x-(?:core|browser|howto|gif|image|mp4|device|private|audio|quality|safety)-\\d{2}-[a-z]+\\.html<\\/loc>[\\s\\S]*?<\\/url>`, "gu");
-  const hubPattern = new RegExp(`<url><loc>${siteBase.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&")}\\/x-keywords-300\\.html<\\/loc>[\\s\\S]*?<\\/url>`, "gu");
-  const cleanSitemap = sitemap.replace(campaignPattern, "").replace(hubPattern, "");
-  const additions = [
+function buildSourceSitemap(items) {
+  const urls = [
+    `<url><loc>${siteBase}/</loc></url>`,
     `<url><loc>${siteBase}/x-keywords-300.html</loc><lastmod>${date}</lastmod></url>`,
-    ...pages.map((page) => `<url><loc>${page.sourceUrl}</loc><lastmod>${date}</lastmod></url>`),
+    ...items.map((item) => {
+      const lastmod = /^\d{4}-\d{2}-\d{2}$/u.test(item.date || "") ? `<lastmod>${item.date}</lastmod>` : "";
+      return `<url><loc>${item.sourceUrl}</loc>${lastmod}</url>`;
+    }),
   ];
-  return cleanSitemap.replace("</urlset>", `${additions.join("")}</urlset>`);
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.join("")}</urlset>`;
 }
 
-function buildAlternates(keywordMap) {
+function buildPageSlots(keywordMap) {
   return Array.from({ length: 15 }, (_, index) => ({
-    alternates: Object.fromEntries(supportedLocales.map((locale) => {
-      const keyword = keywordMap[locale][index];
-      const profile = classify(keyword);
-      const slug = `x-${profile.id}-${String(index + 1).padStart(2, "0")}-${locale}`;
-      return [locale, `${productBase}/${locale}/guides/${slug}/`];
-    })),
     pages: Object.fromEntries(supportedLocales.map((locale) => {
       const keyword = keywordMap[locale][index];
       const profile = classify(keyword);
@@ -568,7 +594,7 @@ function main() {
 
   const registry = JSON.parse(fs.readFileSync(registryPath, "utf8"));
   const sourceByLocale = Object.fromEntries(supportedLocales.map((locale) => [locale, extractSource(sourceSlugs[locale])]));
-  const slots = buildAlternates(keywordMap);
+  const slots = buildPageSlots(keywordMap);
   const pages = [];
 
   for (const locale of supportedLocales) {
@@ -606,7 +632,7 @@ function main() {
   fs.writeFileSync(campaignPath, `${JSON.stringify(campaign, null, 2)}\n`);
   fs.writeFileSync(hubPath, makeHub(pages));
   fs.writeFileSync(path.join(root, "index.html"), insertHubLink(fs.readFileSync(path.join(root, "index.html"), "utf8")));
-  fs.writeFileSync(path.join(root, "sitemap.xml"), updateSitemap(fs.readFileSync(path.join(root, "sitemap.xml"), "utf8"), pages));
+  fs.writeFileSync(path.join(root, "sitemap.xml"), buildSourceSitemap(items));
 
   process.stdout.write(`Generated ${pages.length} articles and ${pages.length} SVG images.\n`);
 }
