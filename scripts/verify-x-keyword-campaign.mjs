@@ -55,6 +55,7 @@ const canonicalSet = new Set();
 const bodyHashes = new Set();
 const imageHashes = new Set();
 const localeCounts = Object.fromEntries(expectedLocales.map((locale) => [locale, 0]));
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) => match[1]);
 let minimumWords = Number.POSITIVE_INFINITY;
 let maximumWords = 0;
 
@@ -84,6 +85,27 @@ for (const item of manifest.items) {
   if (/(?:href="#"|undefined|>undefined<)/u.test(html)) fail(`${label}: placeholder or undefined value found`);
   if (/youtube|netflix|instagram|facebook|tiktok/iu.test(html)) fail(`${label}: unrelated platform name found`);
 
+  let metaDescription = "";
+  const metaTags = [...html.matchAll(/<meta\b[^>]*>/giu)].map((match) => match[0]);
+  const descriptionTags = metaTags.filter((tag) => /\bname=["']description["']/iu.test(tag));
+  if (descriptionTags.length !== 1) {
+    fail(`${label}: expected one meta description; found ${descriptionTags.length}`);
+  } else {
+    const encodedDescription = descriptionTags[0].match(/\bcontent=(["'])(.*?)\1/iu)?.[2];
+    if (encodedDescription === undefined) {
+      fail(`${label}: meta description content is missing`);
+    } else {
+      if (encodedDescription !== encodedDescription.trim()) fail(`${label}: meta description has leading or trailing whitespace`);
+      metaDescription = stripTags(encodedDescription);
+      const descriptionLength = [...metaDescription].length;
+      if (!metaDescription || descriptionLength > 160) fail(`${label}: meta description length ${descriptionLength} is outside 1-160 characters`);
+      if (!/\p{Sentence_Terminal}$/u.test(metaDescription) || /(?:\.{3}|…)$/u.test(metaDescription)) fail(`${label}: meta description appears clipped or does not end with a complete sentence`);
+    }
+  }
+  const ogDescriptionTags = metaTags.filter((tag) => /\bproperty=["']og:description["']/iu.test(tag));
+  const encodedOgDescription = ogDescriptionTags[0]?.match(/\bcontent=(["'])(.*?)\1/iu)?.[2];
+  if (ogDescriptionTags.length !== 1 || encodedOgDescription === undefined || stripTags(encodedOgDescription) !== metaDescription) fail(`${label}: Open Graph description is missing or differs from the meta description`);
+
   const h1s = [...html.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/giu)];
   if (h1s.length !== 1) fail(`${label}: expected one H1; found ${h1s.length}`);
   if (!stripTags(h1s[0]?.[1] || "").toLocaleLowerCase().includes(item.keyword.toLocaleLowerCase())) fail(`${label}: H1 does not contain the target keyword`);
@@ -103,14 +125,17 @@ for (const item of manifest.items) {
   if (faqCount < 3) fail(`${label}: fewer than three visible FAQ items`);
   const relatedCount = (html.match(/<div class="related">[\s\S]*?<\/div>/u)?.[0].match(/<a /gu) || []).length;
   if (relatedCount !== 3) fail(`${label}: expected three related-guide links; found ${relatedCount}`);
-  const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)"/gu)].map((match) => match[1]);
-  if (alternates.length !== 21 || !expectedLocales.every((locale) => alternates.includes(locale)) || !alternates.includes("x-default")) fail(`${label}: incomplete hreflang cluster`);
+  const alternateLinks = [...html.matchAll(/<link\b(?=[^>]*\brel=["']alternate["'])[^>]*>/giu)].map((match) => match[0]);
+  const hreflangLinks = alternateLinks.filter((tag) => /\bhreflang=["'][^"']+["']/iu.test(tag));
+  if (hreflangLinks.length) fail(`${label}: hreflang requires translation-equivalent pages; found ${hreflangLinks.length} unverified alternate link(s)`);
 
   const schemaRaw = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/u)?.[1];
   try {
     const graph = JSON.parse(schemaRaw)["@graph"];
     const types = new Set(graph.map((entry) => entry["@type"]));
     for (const type of ["Article", "BreadcrumbList", "FAQPage"]) if (!types.has(type)) fail(`${label}: ${type} schema missing`);
+    const articleSchema = graph.find((entry) => entry["@type"] === "Article");
+    if (!articleSchema || articleSchema.description !== metaDescription) fail(`${label}: Article schema description differs from meta description`);
     const faqSchema = graph.find((entry) => entry["@type"] === "FAQPage");
     if (faqSchema.mainEntity.length !== faqCount) fail(`${label}: FAQ schema and visible FAQ counts differ`);
   } catch (error) {
@@ -129,6 +154,10 @@ for (const item of manifest.items) {
 for (const locale of expectedLocales) if (localeCounts[locale] !== 15) fail(`${locale}: expected 15 campaign articles; found ${localeCounts[locale]}`);
 const registryCampaign = registry.items.filter((item) => item.standardVersion === campaignVersion);
 if (registry.count !== 449 || registryCampaign.length !== 300) fail(`Registry expected 449 total / 300 campaign items; found ${registry.count} / ${registryCampaign.length}`);
+if (sitemapUrls.length !== new Set(sitemapUrls).size) fail("Source sitemap contains duplicate URLs");
+if (sitemapUrls.some((url) => url.includes("raw.githubusercontent.com"))) fail("Source sitemap must not contain raw content URLs");
+for (const item of registry.items) if (!sitemapUrls.includes(item.sourceUrl)) fail(`Source sitemap is missing registry URL: ${item.sourceUrl}`);
+if (sitemapUrls.length !== registry.items.length + 2) fail(`Source sitemap expected ${registry.items.length + 2} URLs; found ${sitemapUrls.length}`);
 if ((hub.match(/class="card" data-locale=/gu) || []).length !== 300) fail("Campaign hub does not contain 300 cards");
 if (!sitemap.includes("<loc>https://rn473147-del.github.io/downloader-x-guides/x-keywords-300.html</loc>")) fail("Campaign hub missing from sitemap");
 if ((index.match(/x-keywords-300\.html/gu) || []).length !== 1) fail("Main index must link to the campaign hub exactly once");
