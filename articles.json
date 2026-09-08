@@ -1,6 +1,6 @@
 {
-  "count": 465,
-  "generatedAt": "2026-09-08T14:14:06.297Z",
+  "count": 466,
+  "generatedAt": "2026-09-08T15:09:01.490Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14306,6 +14306,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Cara Memeriksa Rasio Aspek dan Orientasi Video YouTube",
       "wordCount": 1604
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/video-facebook-berhenti-sebelum-selesai-file-parsial/",
+      "category": "FACEBOOK",
+      "date": "2026-09-08",
+      "description": "Panduan memeriksa video Facebook yang berhenti sebelum selesai: bandingkan durasi sumber, status browser, ukuran file, dan pemutaran sebelum mengulang proses.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/facebook-video-guide.svg",
+      "imageAlt": "Video Facebook berhenti sebelum selesai dan pemeriksaan file parsial",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-facebook-berhenti-sebelum-selesai-file-parsial.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "HowTo",
+        "FAQPage"
+      ],
+      "size": 18680,
+      "slug": "video-facebook-berhenti-sebelum-selesai-file-parsial",
+      "sourcePath": "articles/video-facebook-berhenti-sebelum-selesai-file-parsial.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-facebook-berhenti-sebelum-selesai-file-parsial.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video Facebook Berhenti Sebelum Selesai? Periksa File Parsial",
+      "wordCount": 1586
     }
   ],
   "localeCounts": {
@@ -14313,7 +14342,7 @@
     "th": 22,
     "es": 17,
     "ja": 17,
-    "id": 130,
+    "id": 131,
     "zh": 17,
     "ko": 19,
     "vi": 18,
