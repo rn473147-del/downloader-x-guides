@@ -7,122 +7,61 @@
 <meta name="description" content="Panduan memeriksa pilihan unduhan foto Instagram, dimensi file, serta batasan Story dan Highlight yang perlu diketahui sebelum menyimpan.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/cara-download-foto-dan-story-instagram/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Instagram · Foto &amp; Story · batas akses</div><h1>Cara Download Foto dan Story Instagram Publik</h1><p>Kenali foto, carousel, dan Story sebelum menyalin tautan. Gunakan contoh Instagram asli untuk memahami sumber, lalu periksa pilihan media tanpa menganggap semua jenis konten didukung.</p><a class="button" href="https://downloader-x.com/id/instagram-downloader/">Buka Instagram Downloader</a></section>
+<figure class="visual" aria-labelledby="visual-caption"><iframe src="https://www.instagram.com/p/DSDQcenEb09/embed/" title="Postingan NASA Earth tentang awan di sekitar Kepulauan Crozet" width="540" height="700" loading="lazy" allow="fullscreen; encrypted-media" allowfullscreen style="display:block;width:min(100%,540px);height:700px;margin:0 auto 16px;border:0;border-radius:16px;background:#fff"></iframe><figcaption id="visual-caption"><strong>Contoh dari Instagram:</strong> pembuka caption “Cloud Dancer looks good on Earth, doesn't it?” — <strong>NASA Earth (@nasaearth)</strong>. <a href="https://www.instagram.com/p/DSDQcenEb09/" target="_blank" rel="noopener noreferrer">Buka postingan asli di Instagram</a>. Postingan ini dipakai sebagai contoh konteks foto, bukan sebagai Story atau bukti hasil unduhan.</figcaption></figure>
+<article class="article">
 
+<p class="lead">Ingin download foto Instagram, tetapi tautan yang Anda salin ternyata membuka Story atau seluruh carousel? Kenali jenis postingannya sebelum melanjutkan. Satu foto di feed, rangkaian slide, dan Story memiliki cara tampil yang berbeda. Perbedaan itu juga menentukan apa yang perlu diperiksa ketika mencoba menyimpan konten melalui browser.</p>
+<p>Panduan ini membantu Anda memilih tautan foto yang tepat, memahami dimensi gambar, dan mengenali batas Story. Dukungan foto, carousel, Story, serta Highlight melalui Downloader-X tidak dijamin hanya karena akunnya publik. Jika alat tidak menampilkan pilihan media yang sesuai, jangan menganggap konten tersebut berhasil diproses.</p>
+<p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p>
+<nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong><ol><li><a href="#jenis">Bedakan foto, carousel, dan Story</a></li><li><a href="#contoh">Perhatikan contoh postingan Instagram</a></li><li><a href="#langkah">Periksa pilihan foto lewat browser</a></li><li><a href="#story">Pahami batas Story dan Highlight</a></li><li><a href="#kendala">Periksa kualitas dan kendala</a></li><li><a href="#faq">Pertanyaan umum</a></li><li><a href="#lanjutan">Bacaan lanjutan dan langkah berikutnya</a></li></ol></nav>
+<h2 id="jenis">1. Bedakan foto, carousel, dan Story</h2>
+<p>Mulailah dengan membuka konten dari Instagram. Tautan profil hanya membawa Anda ke akun; tautan postingan mengarah ke satu unggahan tertentu. Dalam percakapan, keduanya sering sama-sama disebut “link Instagram”, padahal alat membutuhkan konteks media yang lebih jelas daripada sekadar nama akun.</p>
+<table><thead><tr><th>Jenis konten</th><th>Yang perlu dikenali</th><th>Yang tidak boleh diasumsikan</th></tr></thead><tbody><tr><td>Foto di feed</td><td>Satu postingan dengan gambar sebagai media utama</td><td>Ukuran yang tampil adalah berkas asli kamera</td></tr><tr><td>Carousel</td><td>Beberapa slide dalam satu postingan</td><td>Semua slide akan tersedia setelah satu kali proses</td></tr><tr><td>Story</td><td>Konten sementara pada area Story akun</td><td>Tautan akan terus bisa diakses setelah masa tayang berakhir</td></tr><tr><td>Highlight</td><td>Story yang dipertahankan pada profil</td><td>Semua alat yang menerima tautan Instagram mendukungnya</td></tr></tbody></table>
+<p>Alamat dengan bagian <code>/p/</code> menunjukkan sebuah postingan, tetapi tidak cukup untuk memastikan apakah isinya satu foto, beberapa slide, atau video. Periksa media yang benar-benar terlihat. Jika Anda membutuhkan slide ketiga dari sebuah carousel, catat posisi dan isinya agar nanti tidak keliru memilih hasil.</p>
+<div class="check"><strong>Persiapan singkat:</strong> tentukan konten yang ingin disimpan, pastikan izin penggunaannya, salin tautan dari postingan itu, dan siapkan ruang penyimpanan. Untuk koleksi pribadi, menyimpan tautan sebagai referensi juga dapat menjadi pilihan ketika tidak memerlukan salinan gambar.</div>
+<h2 id="contoh">2. Perhatikan contoh postingan Instagram yang asli</h2>
+<p>Contoh NASA Earth di atas memperlihatkan konteks sebuah postingan tentang awan di sekitar Kepulauan Crozet. Anda dapat mencocokkan akun <strong>@nasaearth</strong>, pembuka caption, dan gambar pada sumber. Ketiga hal ini lebih berguna daripada menebak konten dari kode panjang di alamatnya.</p>
+<p>Gunakan contoh ini untuk memahami pemeriksaan tautan foto. Contoh tersebut adalah postingan Instagram, bukan Story yang sedang tayang. Tidak ada hasil pengunduhan contoh yang diklaim dalam artikel ini. Dimensi gambar pada sematan pun bukan pengukuran terhadap berkas yang mungkin disediakan alat.</p>
+<p>Sematan mempertahankan akses ke postingan sumber. Jika Instagram tidak menampilkan kontennya pada browser Anda, gunakan tautan “Buka postingan asli” di bawah contoh. Ketersediaan sematan dapat berubah mengikuti postingan dan pengaturan akun; halaman artikel tidak mengendalikan media yang disajikan Instagram.</p>
+<div class="note"><strong>Foto publik tetap memiliki konteks.</strong> Nama pembuat dan caption membantu Anda memahami isi gambar. Bila tujuan Anda adalah memakai gambar dalam tugas, presentasi, atau publikasi, periksa ketentuan penggunaannya dan pertahankan kredit yang diperlukan.</div>
+<h2 id="langkah">3. Periksa pilihan foto lewat browser</h2>
+<ol class="steps"><li><strong>Buka foto pada postingan aslinya.</strong> Hindari menyalin alamat dari hasil pencarian gambar atau profil. Untuk carousel, perhatikan slide yang Anda inginkan sebelum membuka menu berbagi.</li><li><strong>Salin tautan postingan.</strong> Gunakan pilihan Salin tautan yang tersedia pada menu Bagikan atau menu postingan. Di laptop, salin alamat ketika halaman postingan tersebut sudah terbuka.</li><li><strong>Buka alat Instagram melalui tombol di atas.</strong> Tempel satu tautan lengkap, pastikan tidak ada teks pesan yang ikut masuk, lalu jalankan proses sesuai tombol yang tersedia.</li><li><strong>Baca hasilnya sebelum memilih.</strong> Jika muncul pilihan gambar, cocokkan dengan postingan dan slide yang dimaksud. Jika hanya ada video, pratinjau, atau pesan kesalahan, itu belum menunjukkan bahwa foto yang Anda perlukan tersedia.</li><li><strong>Gunakan unduhan foto hanya bila disediakan.</strong> Baca jenis media dan keterangan berkas. Jangan memilih MP4 ketika tujuan Anda adalah menyimpan satu foto, dan jangan menganggap gambar pratinjau sebagai tombol unduhan.</li><li><strong>Periksa lokasi penyimpanan.</strong> Bila Anda melanjutkan penyimpanan, buka daftar unduhan browser dan pastikan berkas selesai sebelum mencari gambar pada aplikasi Foto atau Galeri.</li></ol>
+<p>Untuk carousel, jumlah slide di Instagram menjadi pembanding yang sederhana. Jika sumber mempunyai beberapa slide tetapi hasil hanya menampilkan satu gambar, catat perbedaan itu. Mengulang unduhan yang sama tidak membuktikan slide lain tersedia, dan mengganti nama berkas tidak akan mengubah media yang diterima.</p>
+<h2 id="story">4. Pahami batas Story dan Highlight</h2>
+<p>Instagram menjelaskan bahwa foto dan video pada Story hilang dari feed, profil, dan Direct setelah 24 jam, kecuali ditambahkan sebagai Highlight. Rujuk <a href="https://help.instagram.com/1729008150678239/" target="_blank" rel="noopener noreferrer">penjelasan masa tayang Story dari Instagram</a> ketika tautan yang sebelumnya terbuka sudah tidak menampilkan konten.</p>
+<p>Highlight membuat Story tetap dapat ditemukan pada profil sesuai pilihan pemiliknya. Namun, Highlight bukan berkas unduhan, dan keberadaannya tidak membuktikan bahwa Downloader-X dapat memproses tautannya. Jangan menyamakan dukungan Reels dengan dukungan Story hanya karena keduanya mungkin berbentuk video vertikal.</p>
+<div class="rights"><strong>Batas yang perlu diketahui:</strong> dukungan unduhan Story dan Highlight melalui alat ini belum terverifikasi. Panduan ini tidak menawarkan akses ke akun privat, Close Friends, atau Story yang sudah tidak tersedia untuk Anda.</div>
+<p>Untuk Story milik sendiri, periksa arsip di aplikasi Instagram. <a href="https://help.instagram.com/1935507879999791/" target="_blank" rel="noopener noreferrer">Bantuan arsip Story Instagram</a> menjelaskan penyimpanan Story ke arsip dan pengaturannya. Arsip tersebut terkait akun pemilik; alamat publik tidak memberi orang lain akses ke arsip Anda.</p>
+<p>Jika media yang Anda perlukan merupakan karya orang lain, mintalah salinan kepada pembuatnya. Ini juga membantu ketika yang dibutuhkan adalah foto tanpa elemen tampilan Story atau versi dengan detail lebih tinggi. Pemilik dapat memberikan berkas yang tepat sekaligus menjelaskan izin penggunaannya.</p>
+<h2 id="kendala">5. Periksa kualitas gambar dan kendala yang muncul</h2>
+<h3>Gambar terlihat buram setelah diperbesar</h3>
+<p>Perhatikan dimensi piksel melalui informasi berkas apabila gambar sudah tersimpan. Tampilan kecil di layar bisa terlihat tajam, lalu kehilangan detail ketika diperbesar. Kondisi tersebut tidak membuktikan bahwa foto kamera milik pengunggah memang kecil; Anda mungkin melihat varian yang berbeda atau hasil kompresi.</p>
+<h3>Hanya satu slide yang terlihat</h3>
+<p>Kembali ke sumber dan cocokkan urutan media. Jangan langsung menyatakan carousel lengkap jika hasil belum menampilkan semua slide. Jika alat tidak menyediakan pilihan yang Anda perlukan, simpan tautan sebagai catatan atau minta berkas terkait kepada pemilik.</p>
+<h3>Yang tersimpan adalah halaman web</h3>
+<p>Periksa jenis berkas dan buka melalui aplikasi yang sesuai. Halaman HTML bukan foto meskipun namanya diubah menjadi JPG. Kembali ke hasil alat dan gunakan pilihan gambar hanya jika tersedia; jangan menganggap perpindahan tab sebagai tanda unduhan selesai.</p>
+<h3>Instagram meminta login saat membuka sumber</h3>
+<p>Instagram dapat menampilkan permintaan masuk pada situsnya sendiri. Itu berbeda dari menyerahkan kata sandi kepada alat pengunduh. Periksa domain sebelum melakukan apa pun dan gunakan aplikasi atau situs resmi jika perlu mengelola konten akun sendiri.</p>
+<section id="faq"><h2>6. Pertanyaan umum</h2>
+<details><summary>Apakah foto pasti tersedia dalam ukuran asli?</summary><p>Tidak. Dimensi berkas yang tersedia belum tentu sama dengan berkas asli milik pembuat. Gunakan informasi yang benar-benar terlihat dan minta sumber asli kepada pemilik jika membutuhkan kualitas tertentu.</p></details>
+<details><summary>Bisakah Story yang sudah kedaluwarsa dipulihkan melalui tautan?</summary><p>Panduan ini tidak menawarkan pemulihan tersebut. Untuk Story milik sendiri, periksa arsip Instagram jika sebelumnya tersedia. Untuk konten orang lain, tanyakan langsung kepada pemiliknya.</p></details>
+<details><summary>Apakah semua slide carousel bisa diunduh sekaligus?</summary><p>Jangan mengasumsikannya. Periksa jumlah media yang ditampilkan alat dan cocokkan dengan postingan. Dukungan seluruh slide belum dijamin dalam panduan ini.</p></details>
+<details><summary>Apakah sematan di atas merupakan contoh Story?</summary><p>Bukan. Itu postingan NASA Earth yang dipakai untuk mengenali tautan dan konteks foto. Story dibahas secara terpisah karena masa tayang dan aksesnya berbeda.</p></details>
+</section>
+<section class="related" id="lanjutan"><h2>7. Bacaan lanjutan dan langkah berikutnya</h2><p>Jika yang ingin Anda simpan ternyata video pendek, gunakan panduan yang khusus membahas Reels. Langkah pemeriksaan foto dan batas Story tidak perlu diterapkan seolah semua jenis media mempunyai hasil yang sama.</p><a href="https://downloader-x.com/id/guides/cara-download-reels-instagram-tanpa-login/">Cara download Reels Instagram tanpa login</a></section>
+<section class="cta"><h3>Mulai dari postingan yang tepat</h3><p>Siapkan tautan foto publik yang boleh Anda simpan, lalu baca pilihan yang muncul. Jika media yang dibutuhkan tidak tersedia, jangan menganggap proses berhasil.</p><a class="button" href="https://downloader-x.com/id/instagram-downloader/">Periksa tautan di Instagram Downloader-X</a></section>
 
-
-<h1>Cara Download Foto dan Story Instagram Publik</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>Foto dan Story berbeda dari Reels: foto perlu diambil dalam resolusi asli agar tidak pecah, sedangkan Story hanya tersedia 24 jam dan sering memiliki batasan lebih ketat. Artikel ini membahas keduanya lewat browser, tanpa aplikasi, dengan penjelasan apa yang bisa dan tidak bisa dilakukan.</p>
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/instagram-downloader/">Buka alat Instagram Downloader‑X</a></p>
-
-
-<h2>1. Perbedaan Foto, Carousel, dan Story</h2>
-<table>
-<thead>
-<tr>
-<th>Jenis</th>
-<th>Bentuk tautan</th>
-<th>Masa tayang</th>
-<th>Catatan</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Foto tunggal</td>
-<td><code>instagram.com/p/KODE/</code></td>
-<td>Permanen sampai dihapus</td>
-<td>Dimensi mengikuti varian yang tersedia</td>
-</tr>
-<tr>
-<td>Carousel</td>
-<td><code>instagram.com/p/KODE/</code></td>
-<td>Permanen</td>
-<td>Beberapa foto/video dalam satu postingan</td>
-</tr>
-<tr>
-<td>Story</td>
-<td><code>instagram.com/stories/nama/ID/</code></td>
-<td>24 jam</td>
-<td>Sering privat atau hanya untuk teman dekat</td>
-</tr>
-<tr>
-<td>Highlight</td>
-<td><code>instagram.com/stories/highlights/ID/</code></td>
-<td>Sampai dihapus</td>
-<td>Kumpulan Story yang dipertahankan</td>
-</tr>
-</tbody>
-</table>
-<p>Masa tayang Story dan Highlight dijelaskan lebih rinci di <a href="https://downloader-x.com/id/guides/memahami-masa-tayang-story-highlight-instagram-publik/">memahami masa tayang Story dan Highlight Instagram publik</a>.</p>
-
-
-<h2>2. Memeriksa Pilihan Unduhan Foto Instagram</h2>
-<h3>2.1 Salin tautan postingan</h3>
-<p>Ketuk menu titik tiga pada postingan → <strong>Salin tautan</strong>. Untuk carousel, tautan sama untuk semua slide.</p>
-
-
-<h3>2.2 Tempel dan proses</h3>
-<p>Buka halaman Instagram Downloader, tempel, proses. Jika proses berhasil, periksa media yang benar-benar muncul. Dukungan foto dan carousel tidak boleh diasumsikan dari tautan saja.</p>
-
-
-<h3>2.3 Unduh dan periksa resolusi</h3>
-<p>Jika tersedia pilihan unduhan foto, simpan lalu periksa format dan dimensi lewat info file. Resolusi file tidak selalu sama dengan berkas asli milik pengunggah. Jangan menganggap foto kecil berarti pengunggah memakai sumber kecil.</p>
-
-
-<h2>3. Batasan Download Story Instagram</h2>
-
-
-<p>Dukungan unduhan Story dan Highlight melalui Downloader-X belum terverifikasi. Akun publik dan Story yang masih tayang tidak menjamin tautannya dapat diproses. Jika tidak ada pilihan media, jangan menganggap Story dapat diunduh melalui alat. Untuk konten milik sendiri, periksa opsi simpan atau arsip yang tersedia di Instagram.</p>
-
-
-<p>Menyimpan Story orang lain tanpa izin, lalu menyebarkannya, bisa melanggar privasi dan hak cipta meski akunnya publik. Untuk Story milik sendiri, Instagram sudah menyediakan fitur arsip dan unduh di dalam aplikasi.</p>
-<h2>4. Masalah Umum</h2>
-<p><strong>Foto yang terunduh buram.</strong> Bandingkan dimensi dengan yang tampil di Instagram; jika sama, sumbernya memang kecil.</p>
-<p><strong>Hanya satu foto yang terunduh dari carousel.</strong> Periksa apakah alat menampilkan lebih dari satu media; unduh satu per satu bila perlu. Cara membedakan tautan carousel ada di <a href="https://downloader-x.com/id/guides/membedakan-tautan-instagram-reels-postingan-carousel-publik/">panduan Reels, postingan, dan carousel</a>.</p>
-<p><strong>Tautan Story tidak dikenali.</strong> Dukungan format tersebut belum terverifikasi; Story juga mungkin kedaluwarsa atau dibatasi.</p>
-<p><strong>Muncul permintaan login.</strong> Bukan dari Downloader‑X. Waspadai halaman login tiruan; lihat <a href="https://downloader-x.com/id/guides/mengenali-domain-login-instagram-palsu-tautan-publik/">mengenali domain login Instagram palsu</a>.</p>
-<h2>5. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Apakah bisa mendapatkan foto lebih besar dari 1080 px?</h3>
-<p>Dimensi bergantung pada unggahan dan varian yang tersedia. Periksa angka pada file, bukan batas resolusi yang diasumsikan.</p>
-<h3>Bisa download Story akun privat yang mengikuti saya?</h3>
-<p>Tidak. Alat tidak memakai akun Anda dan hanya memproses konten publik.</p>
-<h3>Apakah pemilik akun tahu Story-nya diunduh?</h3>
-<p>Panduan ini tidak menjamin anonimitas atau perilaku notifikasi platform. Minta izin pemilik sebelum menyimpan atau menggunakan kontennya.</p>
-<h3>Format foto yang didapat apa?</h3>
-<p>Umumnya JPG, sesuai yang disediakan Instagram.</p>
-</div>
-
-<h2>6. Penutup</h2>
-<p>Periksa pilihan foto yang benar-benar tersedia setelah proses berhasil. Unduhan Story melalui alat belum terverifikasi. Selalu hormati izin pemilik konten.</p>
-<p>Untuk video dan Reels, kembali ke <a href="https://downloader-x.com/id/guides/cara-download-reels-instagram-tanpa-login/">cara download Reels Instagram tanpa login</a>.</p>
-</article>
-</body>
-</html>
+<p class="foot">Downloader-X tidak berafiliasi dengan Instagram atau Meta. Contoh ditampilkan dari Instagram; hak atas konten tetap mengikuti pemiliknya. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+</article></main>
+<footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Gunakan media publik atau berizin secara bertanggung jawab.</footer>
+</body></html>

@@ -7,87 +7,66 @@
 <meta name="description" content="Cara download Reels dan video Instagram publik tanpa login dan tanpa aplikasi, lewat browser di HP atau laptop. Termasuk cara cek tautan dan hasil unduhan.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/cara-download-reels-instagram-tanpa-login/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Instagram · Reels publik · HP &amp; laptop</div><h1>Cara Download Reels Instagram Tanpa Login dan Tanpa Aplikasi</h1><p>Mulai dari tautan Reels yang benar, gunakan alat melalui browser, lalu temukan berkasnya. Lihat contoh Instagram asli dan pahami batas akses serta kualitas sebelum menyimpan.</p><a class="button" href="https://downloader-x.com/id/instagram-downloader/">Buka Instagram Downloader</a></section>
+<figure class="visual" aria-labelledby="visual-caption"><iframe src="https://www.instagram.com/reel/DHqpK6kgqUt/embed/" title="Reels NASA Johnson tentang pemandangan dari Stasiun Luar Angkasa Internasional" width="540" height="700" loading="lazy" allow="fullscreen; encrypted-media" allowfullscreen style="display:block;width:min(100%,540px);height:700px;margin:0 auto 16px;border:0;border-radius:16px;background:#fff"></iframe><figcaption id="visual-caption"><strong>Contoh dari Instagram:</strong> pembuka caption “POV: You're on the @iss and take a moment to look outside” — <strong>NASA Johnson (@nasajohnson)</strong>. <a href="https://www.instagram.com/reel/DHqpK6kgqUt/" target="_blank" rel="noopener noreferrer">Buka Reels asli di Instagram</a>. Contoh ini membantu mengenali satu tautan video; sematan bukan bukti hasil unduhan.</figcaption></figure>
+<article class="article">
 
+<p class="lead">Cara download Reels Instagram tanpa login dimulai dari satu hal sederhana: gunakan tautan ke Reels yang benar. Tautan profil, halaman audio, dan kiriman percakapan dapat membawa Anda ke tempat berbeda. Membuka postingan aslinya terlebih dahulu membantu menghindari proses pada alamat yang tidak sesuai.</p>
+<p>Panduan ini berfokus pada Reels publik yang boleh Anda simpan melalui browser HP atau laptop. “Tanpa login” berarti Anda tidak perlu menyerahkan akun Instagram kepada Downloader-X untuk mencoba tautan. Instagram tetap dapat membatasi akses ke konten sumber, sehingga postingan publik pun tidak menjamin hasil unduhan.</p>
+<p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p>
+<nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong><ol><li><a href="#persiapan">Siapkan tautan Reels yang tepat</a></li><li><a href="#contoh">Lihat contoh Reels dari Instagram</a></li><li><a href="#langkah">Buka alat dan periksa pilihan video</a></li><li><a href="#perangkat">Temukan berkas di HP atau laptop</a></li><li><a href="#kendala">Kenali kendala dan batas kualitas</a></li><li><a href="#faq">Pertanyaan umum</a></li><li><a href="#lanjutan">Bacaan lanjutan dan langkah berikutnya</a></li></ol></nav>
+<h2 id="persiapan">1. Siapkan tautan Reels yang tepat</h2>
+<p>Buka Reels yang ingin Anda gunakan dan cocokkan nama akun, isi video, serta caption. Bila Anda berpindah dari feed ke profil, pastikan video yang terbuka masih sama. Langkah kecil ini penting ketika kreator mengunggah beberapa klip dengan gambar pembuka yang mirip.</p>
+<div class="check"><strong>Sebelum mulai:</strong><ul><li>Pilih video milik sendiri atau yang pemiliknya mengizinkan penyimpanan.</li><li>Gunakan tautan ke satu Reels, bukan hanya alamat akun.</li><li>Pastikan postingan masih tersedia untuk diakses.</li><li>Siapkan koneksi dan ruang penyimpanan yang mencukupi.</li><li>Ketahui browser yang Anda gunakan agar mudah menemukan daftar unduhannya.</li></ul></div>
+<p>Bagian <code>/reel/</code> pada alamat membantu mengenali jenis tautan. Namun, periksa konten yang terbuka, bukan hanya bentuk alamat. Tautan yang dibagikan juga bisa memuat parameter tambahan. Salin melalui menu postingan agar kode media tidak terpotong atau berubah akibat pengetikan ulang.</p>
+<p>Video publik dan video privat memiliki batas akses yang berbeda. Mengikuti akun privat dengan akun Anda tidak memberikan alat pengunduh akses yang sama. Gunakan sumber yang boleh diakses dan jangan mengirim kata sandi, kode masuk, atau data sesi untuk mencoba membuka konten terbatas.</p>
+<h2 id="contoh">2. Lihat contoh Reels dari Instagram</h2>
+<p>Sematan di atas menampilkan Reels <strong>NASA Johnson (@nasajohnson)</strong> dengan pembuka caption tentang melihat ke luar dari Stasiun Luar Angkasa Internasional. Gunakan contoh ini untuk mencocokkan satu akun, satu caption, dan satu video sebelum menyalin tautan.</p>
+<p>Konten tersebut tetap berasal dari Instagram. Menontonnya di dalam artikel berbeda dari mengunduh salinan video. Contoh dipilih untuk memperlihatkan bentuk sumber yang relevan; artikel ini tidak melaporkan hasil unduhan, ukuran berkas, atau kualitas tertentu untuk Reels tersebut.</p>
+<p>Bila sematan tidak tampil pada browser Anda, buka postingan asli melalui tautan di bawahnya. Akses dan pemutaran tetap mengikuti layanan Instagram. Jika Anda ingin mengikuti langkah penyimpanan, gunakan video Anda sendiri atau pastikan pemiliknya mengizinkan penggunaan tersebut.</p>
+<div class="note"><strong>Perhatikan konteks sebelum melanjutkan.</strong> Caption dan nama akun membantu memastikan video yang dipilih tepat. Jangan mengambil keputusan hanya dari gambar mini, terutama jika sumbernya dikirim bersama beberapa tautan dalam satu pesan.</div>
+<h2 id="langkah">3. Buka alat dan periksa pilihan video</h2>
+<ol class="steps"><li><strong>Salin tautan Reels dari sumber.</strong> Pada postingan, buka menu Bagikan atau menu lainnya lalu cari Salin tautan. Di browser laptop, alamat postingan yang terbuka juga dapat disalin dari bilah alamat.</li><li><strong>Buka Instagram Downloader lewat tombol di atas.</strong> Tempel tautan pada kolom yang disediakan. Gunakan satu alamat dan pastikan caption atau teks percakapan tidak ikut tertempel.</li><li><strong>Jalankan proses sesuai tampilan alat.</strong> Tunggu hasilnya sebelum menekan kembali. Jangan menganggap perpindahan halaman atau pratinjau awal sebagai tanda bahwa file siap disimpan.</li><li><strong>Cocokkan media yang ditampilkan.</strong> Bila muncul informasi atau pratinjau, periksa apakah isinya sesuai dengan Reels pilihan Anda. Hentikan jika hasil berbeda atau alat menampilkan kesalahan.</li><li><strong>Pilih video hanya jika tersedia.</strong> Baca format dan keterangan hasil. Jika pilihan MP4 muncul, gunakan pilihan yang sesuai kebutuhan tanpa mengasumsikan HD, 4K, atau audio tertentu.</li><li><strong>Periksa daftar unduhan browser.</strong> Jika Anda melanjutkan penyimpanan, tunggu status selesai lalu buka berkas. Video yang sedang diputar di tab belum tentu sudah tersimpan pada perangkat.</li></ol>
+<p>Jika hasil menampilkan beberapa media, pastikan Anda memilih video yang dimaksud. Jangan menganggap seluruh postingan sebagai satu file apabila sumber berisi beberapa item. Untuk kebutuhan satu Reels, cocokkan isi dan durasi sebelum menggunakan berkas dalam pekerjaan berikutnya.</p>
+<p>Menekan unduh berulang kali dapat menghasilkan beberapa berkas dengan nama hampir sama. Periksa status proses pertama sebelum mencoba lagi. Jika proses gagal, cari penyebab pada tautan atau pesan yang muncul, bukan dengan mengulang klik tanpa mengetahui apa yang berubah.</p>
+<h2 id="perangkat">4. Temukan berkas di HP atau laptop</h2>
+<h3>Android: periksa menu unduhan browser</h3>
+<p>Di Chrome Android, buka menu browser lalu pilih Download atau Unduhan untuk melihat berkas yang tersimpan. Letak menu dapat berbeda menurut posisi bilah alamat. <a href="https://support.google.com/chrome/answer/95759?co=GENIE.Platform%3DAndroid&amp;hl=id" target="_blank" rel="noopener noreferrer">Bantuan unduhan Chrome Android</a> menjelaskan cara menemukan dan mengelola daftar tersebut.</p>
+<p>Bila berkas dapat dibuka dari daftar unduhan tetapi belum terlihat di galeri, periksa folder perangkat melalui pengelola berkas. Galeri dapat mengelompokkan media menurut album atau folder. Karena itu, tidak muncul di album utama belum cukup untuk menyimpulkan bahwa penyimpanan gagal.</p>
+<h3>iPhone: periksa File sebelum Foto</h3>
+<p>Untuk unduhan lewat Safari, mulai dari daftar unduhan browser atau aplikasi File. Periksa lokasi penyimpanan yang Anda gunakan, kemudian buka videonya. Berkas di File tidak otomatis berarti sudah menjadi bagian dari koleksi Foto.</p>
+<p>Buka menu Bagikan pada berkas apabila Anda ingin memindahkannya ke Foto. Jika pilihan Simpan Video tersedia, gunakan pilihan tersebut. Jika tidak ada, pastikan berkas memang video yang dapat diputar; mengganti akhiran nama menjadi MP4 tidak mengubah isi berkas.</p>
+<h3>Laptop: pastikan folder tujuan</h3>
+<p>Gunakan daftar unduhan browser untuk membuka lokasi berkas. Jika sebelumnya memilih folder sendiri, cari di folder itu. Setelah menemukan video, cocokkan isinya dengan sumber sebelum mengganti nama agar beberapa Reels tidak tertukar.</p>
+<h2 id="kendala">5. Kenali kendala dan batas kualitas</h2>
+<h3>Tautan tidak dikenali atau konten tidak tersedia</h3>
+<p>Salin ulang dari postingan dan coba buka sumbernya. Postingan mungkin sudah dihapus, berubah aksesnya, atau dibatasi oleh Instagram. Tautan yang dapat dibuka pada satu perangkat belum menjamin dapat diproses oleh alat. Jika sumber memang tidak tersedia, jangan meneruskan dengan akun atau tautan yang berbeda tanpa tujuan jelas.</p>
+<h3>Muncul permintaan login</h3>
+<p>Bedakan domain Instagram dengan halaman alat. Instagram dapat meminta login ketika seseorang membuka situsnya, sedangkan panduan ini tidak meminta Anda memberikan kredensial ke Downloader-X. Jangan menyimpulkan semua layar login pasti palsu; periksa alamat dan gunakan kanal resmi untuk mengelola akun.</p>
+<h3>Tidak ada pilihan kualitas HD</h3>
+<p>Gunakan pilihan yang benar-benar disediakan. Kata “Reels” hanya menjelaskan jenis konten, bukan resolusi unduhan. Tampilan tajam pada layar kecil juga bukan bukti 1080p. Jika informasi dimensi tidak tersedia, jangan menambahkan klaim kualitas sendiri.</p>
+<h3>Audio berbeda atau tidak terdengar</h3>
+<p>Periksa tombol bisu dan volume pemutar sebelum menyimpulkan berkas tidak mempunyai suara. Jika audio tetap tidak terdengar, bandingkan dengan sumber dan periksa informasi berkas yang tersedia. Jangan menganggap semua musik pada sumber akan selalu ikut pada hasil atau boleh digunakan ulang.</p>
+<div class="rights"><strong>Gunakan hasil sesuai izin.</strong> Menyimpan video tidak mengalihkan hak atas gambar, musik, atau materi lain di dalamnya. Untuk publikasi ulang, minta izin yang sesuai dan pertahankan kredit yang diperlukan oleh pemilik konten.</div>
+<section id="faq"><h2>6. Pertanyaan umum</h2>
+<details><summary>Benarkah tidak perlu memberikan akun Instagram?</summary><p>Alur di panduan ini menggunakan tautan publik tanpa menyerahkan akun ke alat. Namun, akses sumber dapat dibatasi Instagram dan proses tidak dijamin berhasil untuk setiap tautan.</p></details>
+<details><summary>Apakah bisa memakai Reels dari akun privat yang saya ikuti?</summary><p>Keanggotaan atau izin pada akun Anda tidak diteruskan ke alat. Panduan ini tidak menyediakan akses ke konten privat; gunakan video yang tersedia secara publik dan boleh Anda simpan.</p></details>
+<details><summary>Apakah MP4 otomatis HD dan bersuara?</summary><p>Tidak. MP4 adalah format wadah, bukan jaminan resolusi atau audio. Baca keterangan hasil dan periksa berkas yang tersedia sebelum menyimpulkan kualitasnya.</p></details>
+<details><summary>Mengapa video yang diunduh belum masuk galeri?</summary><p>Mulai dari daftar unduhan browser. Di Android periksa folder perangkat, sedangkan di iPhone bedakan File dan Foto. Jangan mengunduh ulang sebelum memastikan lokasi berkas pertama.</p></details>
+</section>
+<section class="related" id="lanjutan"><h2>7. Bacaan lanjutan dan langkah berikutnya</h2><p>Jika tautan Anda ternyata mengarah ke foto atau Story, gunakan pembahasan khusus agar tidak menganggap semua jenis postingan diproses dengan cara yang sama.</p><a href="https://downloader-x.com/id/guides/cara-download-foto-dan-story-instagram/">Cara download foto dan memahami batas Story Instagram</a></section>
+<section class="cta"><h3>Siapkan satu Reels yang tepat</h3><p>Salin tautan video yang boleh Anda simpan, buka alat, lalu ikuti pilihan yang tersedia. Setelah itu, periksa status unduhan dan lokasi berkas pada perangkat.</p><a class="button" href="https://downloader-x.com/id/instagram-downloader/">Buka Reels dengan Instagram Downloader-X</a></section>
 
-<h1>Cara Download Reels Instagram Tanpa Login dan Tanpa Aplikasi</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>Banyak layanan meminta Anda masuk dengan akun Instagram hanya untuk menyimpan satu Reels. Itu tidak perlu, dan berisiko. Artikel ini menunjukkan cara menyimpan Reels dan video Instagram <strong>publik</strong> lewat browser tanpa login apa pun, di HP maupun laptop. Batasannya jelas: konten dari akun privat, Story yang sudah kedaluwarsa, atau postingan yang dihapus tidak bisa diproses.</p>
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/instagram-downloader/">Download Reels Instagram tanpa login dengan Downloader‑X</a></p>
-
-
-<h2>1. Yang Perlu Dipahami Sebelum Mulai</h2>
-<ul>
-<li><strong>Publik vs privat.</strong> Tautan publik adalah syarat awal, tetapi Instagram masih dapat membatasi akses sehingga pengunduhan tidak selalu berhasil. Akun privat tidak.</li>
-<li><strong>Reels vs postingan video vs carousel.</strong> Tautan Reels berbentuk <code>instagram.com/reel/KODE/</code>. Postingan biasa berbentuk <code>instagram.com/p/KODE/</code>. Carousel bisa berisi campuran foto dan video. Perbedaan lengkapnya ada di <a href="https://downloader-x.com/id/guides/membedakan-tautan-instagram-reels-postingan-carousel-publik/">membedakan tautan Instagram Reels, postingan, dan carousel publik</a>.</li>
-<li><strong>Tidak ada login di Downloader‑X.</strong> Jika suatu halaman mirip Instagram meminta kata sandi saat Anda ingin mengunduh, itu tanda bahaya.</li>
-<li><strong>Kualitas mengikuti unggahan.</strong> Instagram mengompresi ulang video; hasil unduhan tidak akan melebihi kualitas yang tampil di Instagram.</li>
-</ul>
-
-
-<h2>2. Langkah Download Reels</h2>
-<h3>2.1 Salin tautan Reels</h3>
-<p>Di aplikasi Instagram, ketuk ikon <strong>Kirim</strong> (pesawat kertas) atau menu titik tiga pada Reels → <strong>Salin tautan</strong>. Di browser laptop, salin dari bilah alamat saat Reels terbuka.</p>
-
-
-<h3>2.2 Tempel di halaman Instagram Downloader</h3>
-<p>Buka browser → halaman Instagram Downloader → tempel tautan → proses. Tidak ada kolom akun.</p>
-
-
-<h3>2.3 Pilih file dan unduh</h3>
-<p>Jika proses berhasil dan pilihan MP4 tersedia, pilih kualitas lalu unduh. Di Android file masuk galeri lewat folder Download; di iPhone gunakan <strong>Bagikan → Simpan Video</strong> dari daftar unduhan Safari.</p>
-
-
-<h2>3. Memeriksa Hasil</h2>
-<p>Periksa resolusi dan audio lewat info file. Reels umumnya 1080×1920 atau 720×1280 tergantung unggahan. Bandingkan durasi dengan yang tampil di Instagram. Jika audio Reels memakai lagu berlisensi, audio mungkin tidak tersedia pada file yang diterima; hak pakainya tetap milik pemegang lisensi.</p>
-
-
-<h2>4. Masalah Umum</h2>
-<p><strong>Tautan diproses tetapi muncul pesan tidak tersedia.</strong> Kemungkinan akun privat, postingan dihapus, atau dibatasi. Daftar penyebabnya ada di <a href="https://downloader-x.com/id/guides/penyebab-konten-instagram-tidak-tersedia-tautan-publik/">penyebab konten Instagram tidak tersedia dari tautan publik</a>.</p>
-<p><strong>Tautan berisi parameter panjang seperti <code>?igsh=...</code>.</strong> Tidak masalah, tetapi Anda boleh menghapus bagian setelah tanda tanya.</p>
-<p><strong>Yang tersalin adalah tautan profil, bukan Reels.</strong> Buka Reels yang dimaksud, lalu salin dari menu pada Reels itu, bukan dari profil.</p>
-<p><strong>Muncul halaman login saat mengunduh.</strong> Itu bukan Downloader‑X. Tutup halaman tersebut; alat ini tidak pernah meminta akun.</p>
-<h2>5. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Benar-benar tidak perlu login?</h3>
-<p>Anda tidak perlu menyerahkan akun Instagram ke alat. Namun, tautan publik tidak menjamin proses berhasil.</p>
-<h3>Bisa download Reels dari akun privat yang saya ikuti?</h3>
-<p>Tidak. Konten privat hanya bisa dilihat lewat akun yang diberi izin, dan alat tidak memakai akun Anda.</p>
-<h3>Apakah Reels bisa disimpan tanpa musik?</h3>
-<p>Periksa dahulu apakah file memiliki audio. Untuk membisukan, edit di aplikasi pemutar/pengedit video.</p>
-<h3>Bagaimana dengan postingan carousel?</h3>
-<p>Tempel tautan postingan; yang diproses adalah media yang tersedia dari postingan itu. Untuk foto, lihat panduan foto dan Story.</p>
-</div>
-
-<h2>6. Penutup</h2>
-<p>Anda dapat mencoba tautan Reels publik tanpa memberikan akun Instagram: salin tautan, tempel, lalu gunakan pilihan file jika proses berhasil. Hindari layanan mana pun yang meminta kata sandi Instagram Anda.</p>
-<p>Ingin menyimpan foto atau Story? Lanjut ke panduan <a href="https://downloader-x.com/id/guides/cara-download-foto-dan-story-instagram/">cara download foto dan Story Instagram</a>. Untuk memastikan tautan yang Anda pakai valid, lihat <a href="https://downloader-x.com/id/guides/cara-memeriksa-tautan-instagram-reels-publik/">cara memeriksa tautan Instagram Reels publik</a>.</p>
-</article>
-</body>
-</html>
+<p class="foot">Downloader-X tidak berafiliasi dengan Instagram atau Meta. Contoh ditampilkan dari Instagram; hak atas konten tetap mengikuti pemiliknya. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+</article></main>
+<footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Gunakan media publik atau berizin secara bertanggung jawab.</footer>
+</body></html>
