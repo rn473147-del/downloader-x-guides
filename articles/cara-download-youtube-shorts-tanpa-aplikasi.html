@@ -7,109 +7,71 @@
 <meta name="description" content="Cara download YouTube Shorts tanpa aplikasi tambahan: salin tautan Shorts, tempel di browser, pilih kualitas, dan simpan. Termasuk beda tautan Shorts dan video biasa.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/cara-download-youtube-shorts-tanpa-aplikasi/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
-<h1>Cara Download YouTube Shorts Tanpa Aplikasi di HP dan Laptop</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>YouTube Shorts adalah video vertikal pendek dengan tautan berbentuk <code>youtube.com/shorts/ID</code>. Artikel ini menjelaskan cara menyimpannya lewat browser tanpa aplikasi tambahan, di HP maupun laptop, serta apa yang membedakan Shorts dari video biasa saat diunduh. Batasan: hanya Shorts publik yang bisa diproses, dan kualitas mengikuti yang disediakan pengunggah.</p>
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/youtube-downloader/">Download YouTube Shorts dengan Downloader‑X</a></p>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">YouTube Shorts · HP &amp; laptop · tautan video</div>
+    <h1>Cara Download YouTube Shorts Tanpa Aplikasi di HP dan Laptop</h1>
+    <p>Pastikan Shorts yang tepat, salin tautannya, lalu baca pilihan format lewat browser. Lihat contoh Shorts asli dan bedakan pemutar video dengan berkas yang sudah tersimpan.</p>
+    <a class="button" href="https://downloader-x.com/id/youtube-downloader/">Buka YouTube Downloader</a>
+  </section>
+  <figure class="visual" aria-labelledby="visual-caption">
+    <iframe src="https://www.youtube.com/embed/7lJFkmom0o0" title="Goddard Glossary: Deep Field — NASA Goddard" width="360" height="640" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen style="display:block;width:min(100%,360px);height:auto;aspect-ratio:9/16;margin:0 auto 16px;border:0;border-radius:16px;background:#14233b"></iframe>
+    <figcaption id="visual-caption"><strong>Contoh dari YouTube:</strong> “Goddard Glossary: Deep Field” — <strong>NASA Goddard</strong>. <a href="https://www.youtube.com/shorts/7lJFkmom0o0" target="_blank" rel="noopener noreferrer">Buka video asli di YouTube</a>. Contoh ini membantu mengenali satu postingan Shorts sebelum menyalin tautannya. Video ditampilkan melalui pemutar resmi, tanpa menyalin berkasnya ke situs ini.</figcaption>
+  </figure>
+  <article class="article">
+    
+<p class="lead">Sudah menemukan Shorts yang ingin disimpan, tetapi tautan yang tersalin malah membuka video berikutnya? Pada umpan Shorts, satu geseran layar dapat memindahkan Anda ke postingan lain. Karena itu, cara download YouTube Shorts tanpa aplikasi dimulai dari memastikan tautan yang tepat, lalu membaca pilihan berkas yang benar-benar tersedia.</p>
+<p>Panduan ini membahas alur lewat browser di HP dan laptop, dari menyalin satu tautan sampai mengenali lokasi unduhan. “Tanpa aplikasi” berarti tidak memasang pengunduh tambahan. Browser dan aplikasi pengelola berkas tetap digunakan. Siapkan Shorts milik sendiri atau yang Anda mempunyai izin untuk simpan; akses publik bukan jaminan hasil unduhan atau izin mengunggah ulang.</p>
+<p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p><nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong><ol><li><a href="#tautan">Kenali tautan Shorts</a></li><li><a href="#contoh">Lihat contoh dari sumber asli</a></li><li><a href="#langkah">Proses lewat browser</a></li><li><a href="#kualitas">Pahami kualitas dan lokasi berkas</a></li><li><a href="#kendala">Tangani kendala umum</a></li><li><a href="#faq">Pertanyaan umum</a></li><li><a href="#lanjutan">Bacaan lanjutan</a></li></ol></nav>
+<h2 id="tautan">1. Kenali tautan Shorts sebelum mulai</h2>
+<p>Tautan Shorts mengarah ke satu video, sedangkan halaman channel dan playlist berisi kumpulan video. Jangan menyalin alamat channel hanya karena Shorts yang diinginkan muncul di sana. Buka postingannya terlebih dahulu, cocokkan judul dan pembuatnya, kemudian gunakan menu Bagikan pada video tersebut.</p>
+<div class="check"><strong>Tiga hal yang perlu cocok:</strong><ul><li>Video yang sedang terbuka adalah video yang memang ingin disimpan.</li><li>Nama channel sesuai dengan sumber yang Anda kenali.</li><li>Tautan mengarah ke postingan itu, bukan halaman pencarian atau daftar putar.</li></ul></div>
+<table><thead><tr><th>Jenis alamat</th><th>Ciri yang terlihat</th><th>Apa yang perlu diperiksa</th></tr></thead><tbody><tr><td>Shorts</td><td>Memiliki bagian <code>/shorts/</code> pada alamat YouTube.</td><td>Pastikan tidak bergeser ke Shorts berikutnya sebelum menyalin.</td></tr><tr><td>Tautan berbagi pendek</td><td>Menggunakan domain <code>youtu.be</code>.</td><td>Buka untuk melihat video tujuan sebelum memproses.</td></tr><tr><td>Halaman tonton biasa</td><td>Memiliki bagian <code>watch?v=</code>.</td><td>Cocokkan video yang terbuka, bukan hanya bentuk alamat.</td></tr></tbody></table>
+<p>Bentuk alamat yang berbeda tidak otomatis berarti kontennya berbeda. Namun, jangan mengubah alamat dengan menebak kode video. Menyalin tautan dari postingan mengurangi risiko salah karakter dan membuat Anda lebih mudah kembali ke sumber jika hasil alat tidak cocok.</p>
 
+<h2 id="contoh">2. Lihat contoh Shorts dari sumber aslinya</h2>
+<p>Pemutar di atas menampilkan <strong>Goddard Glossary: Deep Field</strong> dari NASA Goddard. Topiknya adalah pengamatan ruang angkasa melalui gambar deep field. Di sini, fungsinya sederhana: memperlihatkan contoh tautan Shorts yang menunjuk ke satu video tertentu, dengan judul serta pembuat yang bisa dikenali.</p>
+<p>Buka tautan sumber di bawah pemutar untuk melihat bentuk halaman Shorts. Ketika mengikuti langkah di panduan ini, gunakan postingan Anda sendiri atau yang boleh disimpan. Contoh yang dapat ditonton di artikel belum membuktikan bahwa alat akan menyediakan format, resolusi, atau audio tertentu untuk video tersebut.</p>
+<div class="note"><strong>Perhatikan video yang aktif.</strong> Jika layar bergeser saat Anda membuka menu berbagi, tutup menu dan cocokkan videonya sekali lagi. Langkah singkat ini lebih berguna daripada mencoba berkali-kali dengan tautan yang ternyata mengarah ke postingan lain.</div>
 
-<h2>1. Mengenal Tautan Shorts</h2>
-<p>Ada tiga bentuk tautan yang sering ditemui:</p>
-<table>
-<thead>
-<tr>
-<th>Bentuk tautan</th>
-<th>Contoh pola</th>
-<th>Bisa dipakai?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Tautan Shorts</td>
-<td><code>youtube.com/shorts/XXXXXXXXXXX</code></td>
-<td>Ya</td>
-</tr>
-<tr>
-<td>Tautan pendek</td>
-<td><code>youtu.be/XXXXXXXXXXX</code></td>
-<td>Ya</td>
-</tr>
-<tr>
-<td>Tautan watch</td>
-<td><code>youtube.com/watch?v=XXXXXXXXXXX</code></td>
-<td>Ya</td>
-</tr>
-</tbody>
-</table>
-<p>Ketiganya menunjuk ke video yang sama karena Shorts pada dasarnya adalah video YouTube vertikal berdurasi pendek. Yang membedakan hanya cara tampilnya. Jika Anda ragu, penjelasan lebih detail ada di <a href="https://downloader-x.com/id/guides/membedakan-tautan-youtube-video-shorts-playlist-publik/">membedakan tautan YouTube video, Shorts, dan playlist publik</a>.</p>
+<h2 id="langkah">3. Salin tautan dan proses lewat browser</h2>
+<ol class="steps"><li><strong>Buka Shorts yang dimaksud.</strong> Hentikan geseran umpan, lalu periksa judul atau keterangan serta nama channel. Anda tidak perlu menyalin komentar, tagar, atau judul bersama tautannya.</li><li><strong>Gunakan Bagikan lalu Salin link.</strong> Jika membuka Shorts di browser laptop, salin alamat halaman video dari bilah alamat. Pilih satu tautan lengkap untuk satu proses.</li><li><strong>Buka YouTube Downloader.</strong> Gunakan tombol alat di bagian atas panduan. Tempel tautan ke kolom yang tersedia dan pastikan tidak ada kalimat pesan yang ikut masuk.</li><li><strong>Jalankan proses dan baca hasilnya.</strong> Tunggu sampai alat menampilkan hasil atau pesan yang jelas. Jika informasi video tersedia, cocokkan dengan sumber sebelum memilih berkas.</li><li><strong>Pilih opsi video yang sesuai.</strong> Baca format, keterangan kualitas, serta informasi audio jika ditampilkan. Jika kebutuhan Anda menonton dengan suara, jangan memilih opsi yang jelas berlabel tanpa audio.</li><li><strong>Periksa status penyimpanan.</strong> Setelah memilih unduh, lihat daftar unduhan browser. Berkas belum tentu tersimpan hanya karena tab baru atau pemutar video terbuka.</li></ol>
+<p>Proses satu Shorts terlebih dahulu sampai Anda mengetahui nama dan lokasi berkasnya. Membuka banyak unduhan bersamaan membuat hasil lebih sulit dicocokkan, terutama jika nama berkasnya generik. Jika ada kegagalan, baca pesan yang muncul sebelum mengulang; menekan tombol terus-menerus tidak memperbaiki tautan sumber yang salah.</p>
 
+<h2 id="kualitas">4. Pahami kualitas, orientasi, dan lokasi berkas</h2>
+<h3>Ukuran vertikal berbeda dari kualitas</h3>
+<p>Video yang memenuhi layar HP belum tentu memiliki resolusi tinggi. Rasio gambar menjelaskan bentuknya, sedangkan resolusi menjelaskan ukuran piksel. Dua video yang sama-sama vertikal dapat memiliki detail berbeda. Karena itu, pilih berdasarkan informasi hasil alat, lalu periksa berkas jika Anda perlu memastikan ukuran gambar yang diterima.</p>
+<p>Jika tidak ada pilihan 1080p, jangan menganggap mengubah alamat Shorts menjadi alamat tonton akan menambah kualitas. Gunakan pilihan yang tersedia. Bila video asli sudah mempunyai bingkai atau ruang kosong, tampilan tersebut mungkin tetap terlihat pada hasil; jangan memotongnya sebelum memastikan apakah bingkai merupakan bagian dari konten.</p>
+<h3>HP dan laptop menyimpan ke lokasi yang dipilih browser</h3>
+<p>Mulailah dari daftar unduhan di browser, kemudian buka berkas yang baru dibuat. Pada laptop, lokasi yang umum adalah folder Downloads, tetapi Anda mungkin memilih folder lain. Pada Android, periksa pengelola berkas jika video belum muncul di galeri. Pada iPhone, berkas di aplikasi File tidak otomatis berarti sudah masuk aplikasi Foto.</p>
+<div class="check"><strong>Setelah berkas tersedia:</strong> cocokkan isi dan durasinya dengan sumber. Putar sebagian video untuk memeriksa gambar serta suara. Jika perangkat menampilkan informasi resolusi, baca lebar dan tinggi pikselnya. Ini merupakan langkah pemeriksaan untuk pembaca, bukan laporan hasil unduhan contoh di atas.</div>
 
-<h2>2. Langkah Download Shorts</h2>
-<h3>2.1 Salin tautan Shorts</h3>
-<p>Di aplikasi YouTube: ketuk <strong>Bagikan</strong> pada Shorts → <strong>Salin link</strong>. Di browser laptop: salin dari bilah alamat.</p>
+<h2 id="kendala">5. Tangani masalah yang paling sering membingungkan</h2>
+<h3>Hasilnya video lain</h3><p>Kembali ke postingan yang dimaksud dan salin ulang tautannya setelah umpan berhenti bergerak. Jangan langsung memilih unduh jika pratinjau atau informasi hasil berbeda. Simpan tautan sumber sementara di catatan agar Anda dapat membandingkan alamat yang dipakai tanpa harus mencari videonya lagi.</p>
+<h3>Pilihan kualitas atau suara tidak sesuai harapan</h3><p>Pilihan dapat berbeda untuk setiap tautan. Periksa keterangan masing-masing opsi dan jangan menyamakan label resolusi dengan keberadaan audio. Jika tidak ada opsi yang sesuai, hentikan proses itu. Artikel ini tidak menjanjikan semua Shorts dapat menghasilkan MP4 dengan gambar dan suara dalam satu berkas.</p>
+<h3>Tautan meminta akses khusus</h3><p>Jika sumber tidak tersedia secara publik, dihapus, atau meminta akses yang tidak Anda miliki, gunakan video lain yang boleh digunakan. Jangan memberikan kata sandi akun kepada alat pengunduh. Mengubah bentuk alamat juga tidak memberikan izin akses ke video yang dibatasi.</p>
+<div class="rights"><strong>Simpan dengan izin.</strong> Menonton melalui pemutar YouTube, menyimpan berkas, dan menerbitkan ulang merupakan tindakan berbeda. Untuk referensi, Anda dapat menyimpan tautan postingan. Untuk memakai ulang rekaman, pastikan izin mencakup video dan unsur audio yang digunakan.</div>
 
+<section id="faq"><h2>6. Pertanyaan umum</h2>
+<details><summary>Apakah perlu memasang aplikasi khusus untuk Shorts?</summary><p>Tidak untuk mengikuti alur browser ini. Anda tetap membutuhkan browser yang dapat membuka alat serta pengelola berkas untuk menemukan hasil penyimpanan. Ketersediaan hasil mengikuti tautan dan pilihan yang muncul.</p></details>
+<details><summary>Apakah mengubah tautan Shorts membuat hasil lebih jernih?</summary><p>Tidak ada dasar untuk menganggap perubahan bentuk alamat meningkatkan resolusi. Cocokkan video tujuan dan pilih kualitas yang memang ditampilkan. Jangan menebak atau mengganti kode videonya.</p></details>
+<details><summary>Mengapa Shorts yang diunduh tidak muncul di galeri?</summary><p>Periksa daftar unduhan browser dan buka berkasnya terlebih dahulu. Folder unduhan dan galeri dapat berbeda. Di iPhone, periksa aplikasi File sebelum menyimpulkan bahwa unduhan gagal.</p></details>
+<details><summary>Apakah perlu menyerahkan akun YouTube untuk menggunakan alat?</summary><p>Alur di panduan ini menggunakan tautan publik, bukan kata sandi akun. Jika sumber meminta akses yang tidak Anda miliki, gunakan video lain yang boleh diakses dan disimpan.</p></details></section>
 
-<h3>2.2 Tempel ke halaman alat</h3>
-<p>Buka halaman YouTube Downloader di browser, tempel tautan, lalu proses.</p>
+<section class="related" id="lanjutan"><h2>7. Periksa tautan, lalu pilih langkah berikutnya</h2><p>Masalah Shorts sering dimulai dari alamat yang tidak sesuai. Jika Anda masih ragu membedakan satu video dengan kumpulan video, lanjutkan ke panduan berikut sebelum memproses ulang.</p><a href="https://downloader-x.com/id/guides/membedakan-tautan-youtube-video-shorts-playlist-publik/">Membedakan tautan YouTube, Shorts, dan playlist publik</a></section>
+<section class="cta"><h3>Mulai dari satu Shorts yang tepat</h3><p>Siapkan tautan video yang boleh Anda simpan, cocokkan sumbernya, lalu baca pilihan hasil alat. Periksa daftar unduhan setelah penyimpanan selesai.</p><a class="button" href="https://downloader-x.com/id/youtube-downloader/">Buka alat unduh YouTube Shorts</a></section>
 
-
-<h3>2.3 Pilih kualitas vertikal</h3>
-<p>Shorts umumnya tersedia dalam resolusi vertikal seperti 720×1280 atau 1080×1920. Pilih sesuai kebutuhan: 720p untuk dikirim lewat chat, 1080p jika ingin diputar di layar besar.</p>
-
-
-<h3>2.4 Unduh dan simpan</h3>
-<p>Di Android file masuk folder Download dan muncul di galeri. Di iPhone buka file dari daftar unduhan Safari lalu <strong>Bagikan → Simpan Video</strong>. Di laptop file masuk folder Downloads.</p>
-
-
-<h2>3. Memeriksa Hasil</h2>
-<p>Buka info file dan pastikan orientasinya vertikal (tinggi lebih besar dari lebar), durasi sama dengan di YouTube, dan ada audio. Jika file berorientasi horizontal dengan bilah hitam di kiri‑kanan, kemungkinan pengunggah mengunggah video landscape yang ditandai sebagai Shorts; itu bukan kesalahan unduhan.</p>
-<h2>4. Masalah Umum</h2>
-<p><strong>Tautan Shorts diproses tetapi hasilnya video lain.</strong> Periksa apakah Anda menyalin saat Shorts sudah bergeser ke video berikutnya. Salin ulang saat video yang benar tampil di layar.</p>
-<p><strong>Tidak ada pilihan 1080p.</strong> Banyak Shorts diunggah dalam 720p. Daftar yang muncul mencerminkan sumber.</p>
-<p><strong>Tidak ada suara pada resolusi tinggi.</strong> Sama seperti video YouTube biasa, resolusi tinggi bisa memakai audio terpisah. Lihat <a href="https://downloader-x.com/id/guides/video-youtube-tidak-ada-suara-setelah-disimpan/">video YouTube tidak ada suara setelah disimpan</a>.</p>
-<p><strong>Shorts memakai musik berlisensi.</strong> Ketersediaan audio dapat berbeda pada file yang diterima; hak penggunaannya tetap milik pemegang lisensi. Jangan memakai ulang untuk konten komersial tanpa izin.</p>
-<h2>5. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Apakah tautan Shorts dan tautan watch menghasilkan file yang sama?</h3>
-<p>Ya, keduanya menunjuk ke video yang sama.</p>
-<h3>Bisa download Shorts tanpa login YouTube?</h3>
-<p>Bisa, selama Shorts tersebut publik.</p>
-<h3>Kenapa hasilnya ada bilah hitam?</h3>
-<p>Video asli mungkin landscape atau memiliki rasio berbeda. File yang diunduh mengikuti video asli.</p>
-<h3>Apakah ada batas jumlah Shorts yang bisa diunduh?</h3>
-<p>Ikuti batas dan pesan yang muncul pada alat. Proses satu per satu agar hasilnya mudah diperiksa.</p>
-</div>
-
-<h2>6. Penutup</h2>
-<p>Mengunduh Shorts sama mudahnya dengan video YouTube biasa: salin tautan <code>shorts/</code>, tempel, pilih kualitas, unduh. Yang penting, pastikan tautan yang disalin memang Shorts yang Anda maksud.</p>
-<p>Untuk konteks format vertikal Shorts, lihat juga <a href="https://downloader-x.com/id/guides/panduan-youtube-shorts-publik-format-vertikal/">panduan YouTube Shorts publik format vertikal</a>.</p>
-</article>
+    <p class="foot">Downloader-X tidak berafiliasi dengan YouTube. Contoh video tetap milik pembuatnya. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+  </article>
+</main>
+<footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Gunakan media publik atau berizin secara bertanggung jawab.</footer>
 </body>
 </html>

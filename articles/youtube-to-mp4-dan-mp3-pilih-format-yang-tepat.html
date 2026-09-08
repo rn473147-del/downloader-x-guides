@@ -7,119 +7,75 @@
 <meta name="description" content="Perbedaan YouTube to MP4 dan YouTube to MP3, kapan memilih masing-masing, dan cara mendapatkan file MP4 dari video YouTube lewat browser dengan Downloader-X.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/youtube-to-mp4-dan-mp3-pilih-format-yang-tepat/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
-<h1>YouTube to MP4 dan MP3: Memilih Format yang Tepat untuk Kebutuhan Anda</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>Pencarian "YouTube to MP4" dan "YouTube to MP3" sering muncul bersamaan, padahal kebutuhannya berbeda: MP4 untuk menonton, MP3 untuk mendengarkan. Artikel ini membantu Anda memilih format yang benar, lalu menunjukkan cara mendapatkan file MP4 dari video YouTube publik lewat browser. Untuk MP3, dijelaskan apa yang tersedia dan apa yang perlu langkah tambahan.</p>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">YouTube · MP4, MP3 &amp; M4A · pilih format</div>
+    <h1>YouTube to MP4 dan MP3: Memilih Format yang Tepat untuk Kebutuhan Anda</h1>
+    <p>Butuh gambar, suara, atau keduanya? Pahami perbedaan format, baca pilihan hasil, dan hindari menganggap setiap tombol audio menghasilkan MP3.</p>
+    <a class="button" href="https://downloader-x.com/id/youtube-downloader/">Buka YouTube Downloader</a>
+  </section>
+  <figure class="visual" aria-labelledby="visual-caption">
+    <iframe src="https://www.youtube.com/embed/RROlja1ob_4" title="2025 Moon Phases - Northern Hemisphere - 4K — NASA Goddard" width="900" height="506" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen style="display:block;width:min(100%,900px);height:auto;aspect-ratio:16/9;margin:0 auto 16px;border:0;border-radius:16px;background:#14233b"></iframe>
+    <figcaption id="visual-caption"><strong>Contoh dari YouTube:</strong> “2025 Moon Phases - Northern Hemisphere - 4K” — <strong>NASA Goddard</strong>. <a href="https://www.youtube.com/watch?v=RROlja1ob_4" target="_blank" rel="noopener noreferrer">Buka video asli di YouTube</a>. Perubahan visual fase Bulan memperlihatkan kapan gambar tetap diperlukan; judul 4K bukan klaim kualitas unduhan. Video ditampilkan melalui pemutar resmi, tanpa menyalin berkasnya ke situs ini.</figcaption>
+  </figure>
+  <article class="article">
+    
+<p class="lead">Sedang mencari YouTube to MP4 atau YouTube to MP3? Tentukan dulu apakah Anda membutuhkan gambar, suara, atau keduanya. Pilihan format yang tepat membuat hasil lebih berguna: materi yang bergantung pada diagram tetap perlu video, sementara rekaman percakapan milik sendiri mungkin cukup disimpan sebagai audio.</p>
+<p>Panduan ini membantu Anda membaca pilihan pada YouTube Downloader tanpa menyamakan nama format dengan jaminan kualitas. Fokusnya adalah memilih hasil yang tersedia untuk satu tautan publik, mengenali perbedaan MP4, MP3, dan M4A, serta memahami apa yang bisa dilakukan jika opsi audio tidak muncul. Gunakan media milik sendiri atau berizin.</p>
+<p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p><nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong><ol><li><a href="#kebutuhan">Tentukan kebutuhan Anda</a></li><li><a href="#contoh">Tonton contoh visual</a></li><li><a href="#format">Bedakan format dan kualitas</a></li><li><a href="#langkah">Pilih hasil lewat alat</a></li><li><a href="#kendala">Pahami batas pilihan audio</a></li><li><a href="#faq">Pertanyaan umum</a></li><li><a href="#lanjutan">Bacaan lanjutan</a></li></ol></nav>
+<h2 id="kebutuhan">1. Pilih format berdasarkan cara Anda memakai konten</h2>
+<p>Mulailah dari kegiatan setelah berkas tersimpan. Untuk mempelajari gerakan, membaca tulisan pada layar, atau melihat perubahan objek, pilih video. Jika informasi yang dibutuhkan seluruhnya disampaikan lewat suara, berkas audio dapat lebih praktis. Jangan memilih audio saja untuk panduan yang sering mengatakan “lihat bagian ini” tanpa menjelaskan gambar tersebut.</p>
+<table><thead><tr><th>Kebutuhan</th><th>Pilihan yang dicari</th><th>Periksa sebelum memilih</th></tr></thead><tbody><tr><td>Menonton dengan gambar dan suara</td><td>MP4 dengan audio</td><td>Keterangan audio pada opsi dan hasil pemutaran berkas.</td></tr><tr><td>Melihat diagram atau demonstrasi</td><td>Video dengan detail yang terbaca</td><td>Ukuran gambar serta kebutuhan layar tujuan.</td></tr><tr><td>Mendengarkan rekaman berizin</td><td>Opsi audio, jika tersedia</td><td>Format sebenarnya, misalnya M4A atau MP3.</td></tr><tr><td>Mengirim melalui aplikasi pesan</td><td>Berkas yang sesuai batas aplikasi</td><td>Ukuran berkas dan apakah gambar tetap diperlukan.</td></tr></tbody></table>
+<div class="note"><strong>Nama MP4 belum menjamin ada suara.</strong> MP4 merupakan wadah media; isinya perlu diperiksa. Sebuah pilihan video dapat memuat gambar dan audio, atau hanya gambar. Baca keterangan pada hasil alat sebelum memilih.</div>
 
+<h2 id="contoh">2. Tonton contoh yang menjelaskan pentingnya gambar</h2>
+<p>Contoh pada pemutar adalah <strong>2025 Moon Phases - Northern Hemisphere - 4K</strong> dari NASA Goddard. Visualisasi fase Bulan dipakai untuk menunjukkan mengapa pilihan video dan audio tidak selalu dapat saling menggantikan. Ketika Anda ingin mengamati perubahan tampilan Bulan, bagian visual merupakan informasi utama.</p>
+<p>Tonton melalui pemutar atau buka video aslinya. Bayangkan kebutuhan Anda: apakah ingin melihat bentuk dan perubahan gambar, atau hanya mendengarkan? Untuk contoh visual seperti ini, menyimpan audio saja tidak mempertahankan semua informasi yang dibutuhkan pembaca.</p>
+<p>Angka 4K merupakan bagian judul sumber. Angka itu tidak menyatakan Downloader-X menyediakan hasil 4K untuk tautan tersebut. Artikel ini menggunakan sematan YouTube sebagai ilustrasi pilihan format, tanpa mengunduh contoh atau mengklaim hasil pengukuran berkasnya.</p>
 
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/youtube-downloader/">YouTube to MP4 dengan Downloader‑X</a></p>
+<h2 id="format">3. Bedakan MP4, MP3, M4A, dan kualitas</h2>
+<h3>MP4: wadah untuk media</h3>
+<p>MP4 sering dipakai untuk video, tetapi ekstensi berkas tidak menjelaskan seluruh isi di dalamnya. Format gambar dan audio yang dikemas dapat berbeda. Penjelasan wadah serta codec tersedia pada <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Containers" target="_blank" rel="noopener noreferrer">dokumentasi format media MDN</a>. Untuk penggunaan sehari-hari, cukup bedakan nama berkas, format video, dan keberadaan audio.</p>
+<h3>MP3 dan M4A: jangan tertukar hanya karena sama-sama audio</h3>
+<p>MP3 adalah format audio. M4A juga umum dipakai untuk berkas audio, tetapi keduanya bukan nama lain untuk isi yang sama. Jika alat menampilkan M4A, sebut hasilnya M4A. Mengganti tulisan <code>.m4a</code> menjadi <code>.mp3</code> hanya mengganti nama, bukan mengonversi isi berkas.</p>
+<h3>Resolusi video bukan kualitas audio</h3>
+<p>Angka seperti 720p atau 1080p berkaitan dengan gambar, bukan tingkat kejernihan suara. Untuk audio, informasi seperti codec dan bitrate lebih relevan, tetapi angka tunggal juga tidak menceritakan kondisi rekaman asli. Suara yang kurang jelas sejak sumbernya tidak otomatis membaik karena nama berkas atau label kualitas diganti.</p>
+<div class="check"><strong>Baca tiga informasi terpisah:</strong><ul><li>Format berkas yang benar-benar ditawarkan.</li><li>Keterangan gambar, seperti resolusi jika tersedia.</li><li>Keterangan audio, termasuk label tanpa suara bila ada.</li></ul></div>
 
+<h2 id="langkah">4. Pilih hasil melalui YouTube Downloader</h2>
+<ol class="steps"><li><strong>Buka satu video publik yang boleh disimpan.</strong> Cocokkan judul dan pembuatnya. Tautan channel atau hasil pencarian bukan pengganti alamat video tertentu.</li><li><strong>Salin tautan dari menu Bagikan.</strong> Gunakan alamat lengkap yang diberikan. Hindari menyalin kalimat pesan, judul, atau beberapa tautan sekaligus ke kolom alat.</li><li><strong>Buka alat lewat tombol di atas.</strong> Tempel tautan ke YouTube Downloader, jalankan proses, dan tunggu hasil atau pesan yang jelas.</li><li><strong>Cocokkan informasi hasil dengan sumber.</strong> Jika alat menampilkan judul atau pratinjau, pastikan isinya sesuai sebelum memilih format. Hentikan jika hasil berbeda.</li><li><strong>Pilih sesuai kebutuhan menonton atau mendengarkan.</strong> Untuk video dengan suara, baca informasi audio. Untuk audio saja, cari opsi audio yang memang tersedia dan periksa formatnya.</li><li><strong>Periksa penyimpanan pada browser.</strong> Setelah memilih unduh, lihat statusnya dan buka berkas yang selesai tersimpan. Memutar pratinjau belum berarti berkas sudah ada di perangkat.</li></ol>
+<p>Jika ukuran diperkirakan terlalu besar untuk kebutuhan Anda, periksa apakah ada pilihan lain. Anda tidak harus memilih resolusi tertinggi untuk setiap video. Sebaliknya, materi dengan tulisan kecil dapat membutuhkan detail lebih tinggi agar tetap terbaca. Sesuaikan pilihan dengan konten dan layar yang akan digunakan.</p>
 
-<h2>1. MP4 atau MP3: Mana yang Anda Butuhkan?</h2>
-<table>
-<thead>
-<tr>
-<th>Kebutuhan</th>
-<th>Format yang tepat</th>
-<th>Alasan</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Menonton offline di HP/laptop</td>
-<td>MP4</td>
-<td>Berisi video dan audio</td>
-</tr>
-<tr>
-<td>Bahan edit video</td>
-<td>MP4 resolusi tertinggi</td>
-<td>Menjaga detail gambar</td>
-</tr>
-<tr>
-<td>Mendengarkan ceramah, podcast, musik</td>
-<td>MP3/M4A</td>
-<td>Ukuran kecil, tanpa gambar</td>
-</tr>
-<tr>
-<td>Dikirim lewat chat</td>
-<td>MP4 720p atau MP3</td>
-<td>Ukuran lebih ringan</td>
-</tr>
-</tbody>
-</table>
-<p>Beberapa hal yang sering disalahpahami:</p>
-<ul>
-<li><strong>MP3 bukan "MP4 tanpa gambar" yang dipotong begitu saja.</strong> Audio YouTube aslinya biasanya AAC (M4A) atau Opus. Menjadikannya MP3 berarti mengonversi ulang, yang bisa sedikit menurunkan kualitas.</li>
-<li><strong>"HD" tidak berlaku untuk audio.</strong> Untuk audio yang menentukan adalah bitrate (misalnya 128 kbps atau 160 kbps).</li>
-<li><strong>Downloader‑X memberikan format yang tersedia dari sumber.</strong> Jika opsi audio saja tidak muncul untuk sebuah video, Anda tetap bisa mengunduh MP4 lalu memisahkan audionya dengan aplikasi pengedit.</li>
-</ul>
+<h2 id="kendala">5. Apa yang dilakukan jika hasilnya tidak sesuai?</h2>
+<h3>Tidak ada pilihan MP3</h3>
+<p>Jangan menganggap tombol audio otomatis menghasilkan MP3. Baca nama format yang ditawarkan. Jika hanya M4A tersedia, itulah pilihan yang dapat Anda pertimbangkan. Bila pemutar tujuan menerima M4A, Anda mungkin tidak memerlukan konversi. Periksa dukungan pemutar tersebut sebelum mengubah berkas.</p>
+<p>Jika tidak ada opsi audio sama sekali, pengunduhan audio melalui alat belum tersedia untuk tautan itu. Untuk rekaman milik sendiri, gunakan berkas asli atau aplikasi penyunting yang memang sudah Anda gunakan untuk mengekspor audio. Artikel ini tidak menjanjikan tombol MP3 untuk semua video dan tidak menyediakan konverter tambahan.</p>
+<h3>MP4 terbuka tetapi tidak terdengar suara</h3>
+<p>Periksa volume perangkat dan pemutar terlebih dahulu, kemudian lihat keterangan opsi yang dipilih. Jika sejak awal berlabel tanpa audio, berkas itu tidak memenuhi kebutuhan menonton dengan suara. Jika keterangan tidak jelas, jangan menyimpulkan dari resolusi saja. Pilih hasil lain hanya bila informasi yang tersedia memang sesuai.</p>
+<h3>Format tidak diterima aplikasi tujuan</h3>
+<p>Periksa jenis berkas yang didukung aplikasi, bukan sekadar namanya. Mengganti ekstensi tidak memperbaiki ketidakcocokan isi. Untuk pekerjaan penyuntingan, simpan salinan asli milik Anda dan gunakan ekspor yang sesuai dari aplikasi yang Anda kenali; hindari mengulang konversi tanpa kebutuhan yang jelas.</p>
+<div class="rights"><strong>Audio mempunyai hak penggunaan sendiri.</strong> Izin menonton video tidak otomatis mencakup penggunaan ulang musik atau narasinya. Pilih rekaman sendiri, materi yang izinnya sesuai, atau simpan tautan sumber sebagai referensi.</div>
 
+<section id="faq"><h2>6. Pertanyaan umum</h2>
+<details><summary>Apakah semua MP4 sudah berisi gambar dan suara?</summary><p>Tidak selalu. Periksa keterangan pada pilihan hasil dan isi berkas yang diterima. MP4 adalah wadah media; ekstensi saja tidak cukup untuk memastikan adanya audio.</p></details>
+<details><summary>Apakah Downloader-X selalu menyediakan MP3?</summary><p>Tidak ada jaminan MP3 untuk setiap tautan. Gunakan nama format yang benar-benar ditampilkan. Jika pilihan audio tidak tersedia, jangan menganggap alat sudah menghasilkan berkas audio.</p></details>
+<details><summary>Bolehkah M4A diubah menjadi MP3 dengan mengganti nama?</summary><p>Tidak. Perubahan nama tidak mengubah format isi. Gunakan M4A jika pemutar Anda mendukungnya; konversi hanya diperlukan bila format tujuan memang menuntutnya.</p></details>
+<details><summary>Apakah judul video 4K berarti unduhannya juga 4K?</summary><p>Tidak. Judul merupakan informasi sumber, sedangkan pilihan unduhan mengikuti hasil alat. Periksa opsi yang tersedia dan jangan menyamakan resolusi sumber dengan resolusi berkas yang diterima.</p></details></section>
 
-<h2>2. Cara Mendapatkan MP4 dari YouTube</h2>
-<h3>2.1 Tempel tautan</h3>
-<p>Salin URL video, tempel di halaman YouTube Downloader, lalu proses.</p>
+<section class="related" id="lanjutan"><h2>7. Pilih format, kemudian tentukan resolusi</h2><p>Setelah memutuskan bahwa Anda membutuhkan video, langkah berikutnya adalah memilih detail gambar yang sesuai dengan layar serta ukuran berkas. Panduan berikut membantu menimbang pilihan tersebut.</p><a href="https://downloader-x.com/id/guides/cara-memilih-kualitas-mp4-video-youtube-publik/">Cara memilih kualitas MP4 untuk video YouTube publik</a></section>
+<section class="cta"><h3>Mulai dari kebutuhan Anda</h3><p>Siapkan tautan video berizin, buka alat, dan baca pilihan yang muncul. Pilih MP4 untuk informasi visual atau opsi audio yang benar-benar tersedia untuk kebutuhan mendengarkan.</p><a class="button" href="https://downloader-x.com/id/youtube-downloader/">Lihat pilihan format YouTube di Downloader-X</a></section>
 
-
-<h3>2.2 Pilih MP4 dan resolusi</h3>
-<p>Pilih baris MP4 dengan resolusi yang diinginkan. Resolusi saja tidak menentukan apakah file memiliki audio. Periksa label video dan audio pada pilihan yang tersedia. Baca <a href="https://downloader-x.com/id/guides/download-video-youtube-1080p-dengan-audio-satu-file/">panduan 1080p dengan audio satu file</a> untuk memahami perbedaan file gabungan dan jalur terpisah.</p>
-
-
-<h3>2.3 Unduh dan periksa</h3>
-<p>Setelah tersimpan, periksa resolusi dan audio lewat info file. Catat angka yang terlihat.</p>
-
-
-<h2>3. Cara Mendapatkan Audio (MP3/M4A)</h2>
-
-
-<p>Periksa daftar format setelah tautan diproses. Jika tersedia pilihan audio, baca format sebenarnya: M4A, MP3, atau format lain. M4A bukan MP3, dan mengganti ekstensi nama file tidak mengonversi isinya.</p><p>Jika pilihan audio tidak muncul, pengunduhan audio melalui alat belum tersedia untuk tautan tersebut. Untuk rekaman milik sendiri, gunakan berkas asli atau aplikasi penyunting yang sudah Anda gunakan untuk mengekspor audio.</p>
-<p>Untuk pemakaian ulang audio, ingat hak cipta tetap milik pemegang lisensi lagu atau pembicara.</p>
-<h2>4. Masalah Umum</h2>
-<p><strong>MP4 720p ada suara tetapi 1080p tidak.</strong> Penjelasan dan solusinya ada di <a href="https://downloader-x.com/id/guides/video-youtube-tidak-ada-suara-setelah-disimpan/">video YouTube tidak ada suara setelah disimpan</a>.</p>
-<p><strong>Ingin kualitas audio setinggi mungkin.</strong> Pilih M4A bila tersedia, karena tidak dikonversi ulang. MP3 lebih universal tetapi hasil konversi.</p>
-<p><strong>Ukuran MP4 terlalu besar.</strong> Turunkan resolusi ke 480p atau 360p untuk sekadar mendengarkan.</p>
-<p><strong>Video berupa siaran langsung.</strong> Tunggu sampai siaran berakhir dan tersedia sebagai replay.</p>
-<h2>5. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Apakah YouTube to MP4 menurunkan kualitas?</h3>
-<p>Resolusi yang sama tidak menjamin kualitas identik. Bitrate, codec, pemrosesan sumber, dan varian yang tersedia dapat memengaruhi hasil. Periksa file yang Anda terima.</p>
-<h3>MP3 atau M4A, mana yang lebih baik?</h3>
-<p>M4A biasanya lebih dekat ke audio asli. MP3 lebih kompatibel dengan pemutar lama.</p>
-<h3>Bisa mengambil audio saja dari video panjang?</h3>
-<p>Bisa, dengan opsi audio jika tersedia atau dengan ekstraksi dari MP4 seperti dijelaskan di bagian audio.</p>
-<h3>Kenapa kualitas audio terdengar berbeda dari YouTube?</h3>
-<p>YouTube memutar audio adaptif sesuai koneksi. File unduhan memakai satu bitrate tetap.</p>
-</div>
-
-<h2>6. Penutup</h2>
-<p>Pilih MP4 untuk menonton dan MP3/M4A untuk mendengarkan. Downloader‑X menyediakan format sesuai yang ada di sumber, dan selalu periksa file yang diterima sebelum menyimpulkan kualitasnya.</p>
-<p>Untuk memilih resolusi MP4 yang tepat, lihat <a href="https://downloader-x.com/id/guides/cara-memilih-kualitas-mp4-video-youtube-publik/">cara memilih kualitas MP4 video YouTube publik</a>.</p>
-</article>
+    <p class="foot">Downloader-X tidak berafiliasi dengan YouTube. Contoh video tetap milik pembuatnya. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+  </article>
+</main>
+<footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Gunakan media publik atau berizin secara bertanggung jawab.</footer>
 </body>
 </html>

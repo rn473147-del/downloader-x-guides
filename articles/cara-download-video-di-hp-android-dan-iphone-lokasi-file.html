@@ -7,129 +7,22 @@
 <meta name="description" content="Panduan download video di HP Android dan iPhone lewat browser, lengkap dengan lokasi file tersimpan, cara memindahkan ke galeri, dan mengelola ruang penyimpanan.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/cara-download-video-di-hp-android-dan-iphone-lokasi-file/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
-<h1>Cara Download Video di HP Android dan iPhone, dan Ke Mana File Tersimpan</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>Pertanyaan paling sering setelah mengunduh video di HP bukan "bagaimana caranya", melainkan "filenya ke mana?". Artikel ini membahas alur unduh video di HP lewat browser, lalu menjelaskan secara spesifik lokasi file di Android dan iPhone, cara memunculkannya di galeri, dan cara mengelola ruang penyimpanan. Berlaku untuk video dari platform mana pun yang didukung Downloader‑X, selama videonya publik.</p>
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/download/">Download video di HP dengan Downloader‑X</a></p>
-
-
-<h2>1. Perbedaan Dasar Android dan iPhone</h2>
-<table>
-<thead>
-<tr>
-<th>Hal</th>
-<th>Android</th>
-<th>iPhone</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Browser umum</td>
-<td>Chrome, Samsung Internet</td>
-<td>Safari</td>
-</tr>
-<tr>
-<td>Lokasi unduhan</td>
-<td><code>Penyimpanan internal/Download</code></td>
-<td>Aplikasi <strong>File</strong> → <em>Unduhan</em> (iCloud Drive atau Di iPhone Saya)</td>
-</tr>
-<tr>
-<td>Muncul di galeri otomatis?</td>
-<td>Biasanya ya (Galeri/Google Foto memindai folder Download)</td>
-<td>Tidak; perlu <strong>Simpan Video</strong></td>
-</tr>
-<tr>
-<td>Cara melihat info file</td>
-<td>Files → tekan lama → Info</td>
-<td>Foto → geser ke atas</td>
-</tr>
-</tbody>
-</table>
-
-
-<h2>2. Alur Unduh di HP (Sama untuk Kedua Sistem)</h2>
-<ol>
-<li>Salin tautan video dari tombol Bagikan.</li>
-<li>Buka browser → halaman unduh Downloader‑X → tempel → proses.</li>
-<li>Pilih kualitas. Untuk hemat ruang, 720p biasanya cukup untuk layar HP.</li>
-<li>Ketuk unduh dan tunggu selesai.</li>
-</ol>
-
-
-<h2>3. Android: Menemukan dan Mengelola File</h2>
-<h3>3.1 Lokasi file</h3>
-<p>Buka aplikasi <strong>Files</strong> (atau <em>File Saya</em> di Samsung) → <strong>Download</strong>. File MP4 ada di sana dengan nama sesuai yang diberikan alat atau browser.</p>
-
-
-<h3>3.2 Memunculkan di galeri</h3>
-<p>Galeri dan Google Foto memindai folder Download secara berkala. Jika belum muncul, buka Google Foto → <strong>Koleksi</strong> → <strong>Download</strong>. Sebagai alternatif, di aplikasi Files ketuk file → <strong>Bagikan</strong> → pilih Galeri.</p>
-<h3>3.3 Mengubah folder tujuan</h3>
-<p>Chrome → menu titik tiga → <strong>Setelan</strong> → <strong>Download</strong> → <em>Lokasi download</em> → aktifkan <em>Tanyakan tempat menyimpan file</em> jika ingin memilih folder setiap kali.</p>
-
-
-<h3>3.4 Mengelola ruang</h3>
-<p>Files → <strong>Bersihkan</strong> menampilkan file besar. Hapus video yang sudah tidak diperlukan, atau pindahkan ke kartu SD bila ada.</p>
-<h2>4. iPhone: Menemukan dan Menyimpan ke Foto</h2>
-<h3>4.1 Lokasi file</h3>
-<p>Safari menyimpan ke aplikasi <strong>File</strong> → <strong>Unduhan</strong>. Secara bawaan folder ini ada di iCloud Drive; bisa diubah di <strong>Pengaturan → Safari → Unduhan</strong> menjadi <em>Di iPhone Saya</em> agar tidak memakai kuota iCloud.</p>
-
-
-<h3>4.2 Menyimpan ke Foto</h3>
-<p>Ketuk file → video terbuka → ikon <strong>Bagikan</strong> → <strong>Simpan Video</strong>. Setelah itu file ada di dua tempat (File dan Foto); hapus salinan di File jika ingin hemat ruang.</p>
-
-
-<h3>4.3 Melihat daftar unduhan Safari</h3>
-<p>Ketuk ikon panah biru di bilah alamat untuk melihat unduhan yang sedang berjalan atau baru selesai.</p>
-<h2>5. Memeriksa Hasil</h2>
-<p>Cek resolusi dan durasi lewat info file. Jika file jauh lebih kecil dari yang diharapkan, unduhan terputus; ulangi dengan koneksi lebih stabil. Panduan pemeriksaan kualitas yang lebih detail ada di <a href="https://downloader-x.com/id/guides/download-tiktok-mp4-cek-kualitas-file/">cara memastikan kualitas file MP4</a> dan berlaku untuk platform lain.</p>
-<h2>6. Masalah Umum</h2>
-<p><strong>Unduhan gagal di tengah jalan.</strong> Ulangi dengan Wi‑Fi. Hapus file parsial yang tertinggal.</p>
-<p><strong>Video tidak bisa diputar.</strong> Pastikan ekstensinya <code>.mp4</code>. Jika berukuran hanya beberapa KB, itu bukan video; ulangi unduhan.</p>
-<p><strong>Muncul di File tetapi tidak di Foto (iPhone).</strong> Belum menekan <em>Simpan Video</em>.</p>
-<p><strong>Chrome Android bilang "Tidak dapat mengunduh".</strong> Periksa ruang penyimpanan dan izin penyimpanan Chrome di Setelan aplikasi.</p>
-<p><strong>Tidak tahu platform mana yang dipakai tautannya.</strong> Tempel saja di halaman unduh umum; alat mengenali sumbernya.</p>
-<h2>7. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Perlu aplikasi khusus di HP?</h3>
-<p>Tidak. Browser bawaan sudah cukup.</p>
-<h3>Kenapa di iPhone lebih banyak langkah?</h3>
-<p>Karena iOS memisahkan aplikasi File dan Foto. Satu ketukan Simpan Video menyelesaikannya.</p>
-<h3>Bisa langsung menyimpan ke kartu SD di Android?</h3>
-<p>Bisa, dengan mengaktifkan pilihan lokasi unduhan di Chrome lalu memilih kartu SD.</p>
-<h3>Apakah video akan otomatis ter-backup ke cloud?</h3>
-<p>Google Foto dan iCloud Foto mungkin mencadangkan video di galeri sesuai pengaturan Anda.</p>
-</div>
-
-<h2>8. Penutup</h2>
-<p>Di Android, file ada di folder Download dan hampir selalu langsung muncul di galeri. Di iPhone, file ada di aplikasi File dan perlu <em>Simpan Video</em> untuk masuk ke Foto. Dengan memahami dua hal ini, tidak ada lagi file "hilang" setelah mengunduh.</p>
-<p>Untuk memulai dari platform tertentu, buka <a href="https://downloader-x.com/id/guides/">daftar panduan Downloader‑X</a>.</p>
-</article>
-</body>
-</html>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Android &amp; iPhone · folder unduhan · galeri</div><h1>Cara Download Video di HP Android & iPhone: Ke Mana File Tersimpan</h1><p>Video tidak terlihat setelah diunduh? Cari dari daftar unduhan ke folder berkas, lalu periksa galeri atau Foto. Pilih langkah sesuai HP tanpa mengulang proses yang sudah selesai.</p><a class="button" href="https://downloader-x.com/id/download/">Buka Downloader-X</a></section>
+<figure class="visual" aria-labelledby="visual-caption"><iframe src="https://www.youtube.com/embed/nr5Pj6GQL2o?rel=0" title="Tour of the Moon in 4K — NASA Goddard" width="960" height="540" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:16px;background:#14233b"></iframe><figcaption id="visual-caption"><strong>Contoh dari YouTube:</strong> “Tour of the Moon in 4K” — <strong>NASA Goddard</strong>. <a href="https://www.youtube.com/watch?v=nr5Pj6GQL2o" target="_blank" rel="noopener noreferrer">Buka video asli di YouTube</a>. Video membantu mengenali sumber sebelum menyalin tautan; pemutar ini bukan hasil unduhan Downloader-X.</figcaption></figure>
+<article class="article"><p class="lead">Sudah menekan unduh, tetapi video tidak terlihat di galeri HP? Jangan buru-buru mengunduh ulang. Ada tiga tempat yang perlu dibedakan: daftar unduhan browser, folder berkas, dan aplikasi galeri. Video dapat berada di salah satunya tanpa langsung muncul pada tampilan album utama.</p><p>Panduan ini berfokus pada lokasi berkas setelah mengunduh melalui browser Android atau iPhone. Nama menu berbeda menurut perangkat dan aplikasi, sehingga gunakan petunjuk yang sesuai dengan layar Anda. Contoh YouTube di atas hanya membantu mengenali video sumber; tidak ada klaim bahwa contoh sudah diunduh atau bahwa semua platform memberi hasil yang sama.</p><p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p>
+<nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong><ol><li><a href="#dasar">Bedakan status unduhan, berkas, dan galeri</a></li><li><a href="#contoh">Kenali video yang ingin ditemukan kembali</a></li><li><a href="#awal">Lakukan penyimpanan satu kali melalui browser</a></li><li><a href="#android">Temukan video di Android</a></li><li><a href="#iphone">Temukan video di File dan periksa Foto</a></li><li><a href="#rapi">Rapikan tanpa kehilangan salinan yang diperlukan</a></li><li><a href="#faq">Pertanyaan umum</a></li><li><a href="#lanjutan">Bacaan lanjutan dan langkah berikutnya</a></li></ol></nav>
+<section id="dasar"><h2>1. Bedakan status unduhan, berkas, dan galeri</h2><p>Daftar unduhan memberi tahu apakah browser sedang memproses, sudah menyelesaikan, atau gagal menyimpan berkas. Folder berkas menunjukkan lokasi penyimpanannya. Galeri atau Foto menyusun koleksi media yang dikenali aplikasi tersebut. Karena fungsinya berbeda, mencari langsung di galeri dapat melewatkan petunjuk yang paling berguna.</p><table><thead><tr><th>Tempat pemeriksaan</th><th>Yang dapat diketahui</th></tr></thead><tbody><tr><td>Unduhan browser</td><td>Status proses dan nama berkas yang diminta.</td></tr><tr><td>Files, File Saya, atau File</td><td>Lokasi serta berkas yang dapat dibuka.</td></tr><tr><td>Galeri atau Foto</td><td>Apakah media sudah tersedia dalam koleksi aplikasi.</td></tr></tbody></table><p>Urutan tersebut berlaku sebagai cara menelusuri masalah, bukan jaminan semua HP memakai menu yang sama. Jika nama berkas terlalu umum, gunakan waktu penyimpanan untuk membedakannya. Dua berkas dengan nama mirip belum tentu berisi video yang sama.</p><div class="note"><strong>Mulai dari statusnya.</strong> Jika unduhan masih berjalan, biarkan proses selesai. Jika gagal, periksa penyebabnya. Jika sudah selesai, cari berkasnya sebelum mencoba mengunduh lagi.</div></section><section id="contoh"><h2>2. Kenali video yang ingin ditemukan kembali</h2><p>“Tour of the Moon in 4K” dari NASA Goddard memperlihatkan perjalanan visual melintasi permukaan Bulan. <a href="https://science.gsfc.nasa.gov/690/multimedia.html" target="_blank" rel="noopener noreferrer">Halaman multimedia NASA Goddard</a> mencantumkan video YouTube tersebut. Judul, kanal, dan tampilan Bulan membantu Anda mengenali sumber yang tepat saat beberapa video terbuka.</p><p>Angka 4K di sini adalah bagian dari judul sumber. Itu bukan keterangan hasil Downloader-X dan tidak berarti berkas yang tersedia nanti mempunyai resolusi yang sama. Untuk mengikuti langkah penyimpanan, pilih media sendiri atau yang pemiliknya mengizinkan Anda simpan.</p><div class="check"><strong>Catat sebelum berpindah halaman:</strong><ul><li>Judul atau isi video yang ingin ditemukan kembali.</li><li>Nama akun sumber agar tidak tertukar dengan unggahan ulang.</li><li>Waktu Anda mulai menyimpan, terutama jika nama berkas tidak deskriptif.</li></ul></div><p>Video contoh dapat ditonton melalui pemutar tanpa dibuat menjadi salinan di artikel. Anda tidak perlu mengunduhnya untuk memahami perbedaan folder dan galeri. Contoh ini berasal dari YouTube; jenis media serta pilihan pada platform lain perlu diperiksa masing-masing.</p></section><section id="awal"><h2>3. Lakukan penyimpanan satu kali melalui browser</h2><ol class="steps"><li><strong>Buka sumber yang benar.</strong> Pastikan yang dipilih satu video publik yang boleh Anda simpan. Salin tautan dari halaman video atau menu Bagikan.</li><li><strong>Tempel tautan ke Downloader-X.</strong> Buka alat dari tombol di atas dan masukkan satu alamat. Tunggu sampai informasi hasil atau pesan kesalahan muncul.</li><li><strong>Pilih opsi yang tersedia.</strong> Perhatikan format, kualitas, dan keterangan audio. Jangan menganggap setiap pilihan menghasilkan jenis berkas yang sama.</li><li><strong>Ikuti dialog browser.</strong> Jika diminta memilih lokasi, ingat folder yang dipilih. Tunggu proses selesai sebelum menutup halaman atau berpindah ke pencarian berkas.</li><li><strong>Buka daftar unduhan.</strong> Cocokkan waktu, nama, dan status. Setelah selesai, buka berkas dari daftar itu agar pencarian tidak dimulai dari folder acak.</li></ol><p>Hindari menekan tombol unduh berulang kali hanya karena album belum berubah. Tindakan itu dapat membuat beberapa salinan tanpa menjelaskan lokasi penyimpanan. Bila Anda sudah memperoleh satu berkas yang benar, lanjutkan ke langkah khusus Android atau iPhone berikut.</p></section><section id="android"><h2>4. Temukan video di Android</h2><h3>Buka daftar Download di Chrome</h3><p>Di Chrome Android, buka menu Lainnya dan cari Download atau Unduhan. Jika bilah alamat berada di bawah, letak aksesnya dapat berbeda. Dari daftar tersebut, cari berkas terbaru lalu buka. Google menjelaskan menu unduhan dan akses aplikasi File pada <a href="https://support.google.com/chrome/answer/95759?co=GENIE.Platform%3DAndroid&amp;hl=id" target="_blank" rel="noopener noreferrer">bantuan Chrome Android</a>.</p><p>Jika memakai browser lain, cari menu unduhan yang setara. Jangan mengikuti posisi tombol Chrome secara persis jika aplikasi yang digunakan berbeda. Nama folder juga dapat mengikuti bahasa perangkat, sehingga Download dan Unduhan mungkin merujuk pada lokasi yang sama.</p><h3>Periksa pengelola berkas dan album perangkat</h3><p>Buka Files, File Saya, atau pengelola berkas bawaan HP. Cari kategori Unduhan atau lokasi yang Anda pilih saat menyimpan. Jika berkas ditemukan, buka dan cocokkan isi videonya terlebih dahulu. Sesudah itu, periksa folder perangkat pada aplikasi galeri, bukan hanya album utama.</p><p>Galeri yang belum menampilkan video tidak otomatis berarti unduhan rusak. Aplikasi tersebut mungkin menyusun folder secara berbeda atau belum mengenali berkas sebagai media yang dapat ditampilkan. Gunakan berkas yang bisa dibuka sebagai titik pemeriksaan, kemudian lihat pilihan pengelolaan yang tersedia pada HP Anda.</p></section><section id="iphone"><h2>5. Temukan video di File dan periksa Foto</h2><h3>Cari unduhan Safari</h3><p>Apple menyarankan membuka aplikasi File, memilih Telusuri, lalu memeriksa iCloud Drive dan folder Downloads. Tombol unduhan di dekat kolom pencarian Safari juga dapat menampilkan berkas yang baru disimpan. Jika Anda menggunakan lokasi unduhan lain, cari di lokasi tersebut. Rujuk <a href="https://support.apple.com/en-hk/102440" target="_blank" rel="noopener noreferrer">panduan menemukan unduhan dari Apple</a> untuk urutan dasarnya.</p><p>Jika File tidak tampak di layar utama, gunakan pencarian aplikasi pada iPhone. Di dalam File, periksa lokasi penyimpanan sebelum mencari nama berkas. Berkas di iCloud Drive dan berkas pada penyimpanan lokal dapat terlihat pada bagian berbeda.</p><h3>Masukkan ke Foto jika opsinya tersedia</h3><p>Buka video dari File lalu periksa menu Bagikan. Jika pilihan Simpan Video tersedia, gunakan pilihan tersebut dan lihat Foto. Bila pilihan tidak muncul, pastikan berkas yang dibuka memang video yang dapat diputar; nama berakhiran MP4 saja tidak membuktikan isi berkasnya benar.</p><p>Setelah menyimpan ke Foto, jangan segera menghapus salinan di File. Buka dahulu video pada tempat yang ingin dipertahankan. Periksa juga pengaturan pencadangan Anda karena berkas lokal, iCloud Drive, dan iCloud Foto mempunyai fungsi berbeda. Jangan menganggap satu salinan sudah dicadangkan hanya karena tampil di aplikasi.</p></section><section id="rapi"><h2>6. Rapikan tanpa kehilangan salinan yang diperlukan</h2><p>Jika menemukan beberapa unduhan bernama mirip, buka satu per satu sebelum menghapus. Pertahankan salinan yang isinya benar dan dapat diputar. Ganti nama menjadi lebih mudah dikenali bila perlu, tetapi jangan mengganti ekstensi untuk mencoba memperbaiki berkas yang tidak dapat dibuka.</p><p>Jika proses gagal, periksa ruang kosong dan pesan browser. Ukuran yang kecil belum cukup untuk menyimpulkan video rusak, karena durasi dan isi media juga memengaruhi ukuran. Sebaliknya, berkas besar belum membuktikan bahwa seluruh video sudah selesai tersimpan.</p><div class="rights"><strong>Hapus hanya yang sudah Anda periksa.</strong> Pastikan salinan yang dibutuhkan tersedia sebelum membersihkan duplikat. Untuk koleksi yang tersinkronisasi, pahami bahwa tindakan hapus dapat berdampak pada perangkat lain sesuai pengaturan layanan Anda.</div></section><section id="faq"><h2>7. Pertanyaan umum</h2><details><summary>Apakah video pasti langsung masuk galeri Android?</summary><p>Tidak selalu. Cari melalui daftar unduhan dan pengelola berkas terlebih dahulu. Tampilan galeri bergantung pada aplikasi, folder, dan jenis media yang dikenali.</p></details><details><summary>Mengapa iPhone menyimpan ke File, bukan Foto?</summary><p>Unduhan browser dan koleksi Foto dikelola terpisah. Cari berkas di File, buka, lalu periksa Simpan Video pada menu Bagikan jika tersedia.</p></details><details><summary>Bolehkah langsung menghapus salinan lama untuk menghemat ruang?</summary><p>Periksa isinya dan pastikan salinan yang ingin dipertahankan dapat dibuka terlebih dahulu. Jangan membersihkan seluruh folder hanya karena beberapa nama terlihat mirip.</p></details><details><summary>Apakah mengganti nama menjadi MP4 membuat berkas bisa diputar?</summary><p>Tidak. Mengganti nama tidak mengubah isi atau format media. Periksa jenis berkas, status unduhan, dan sumbernya sebelum mencoba lagi.</p></details></section>
+<section class="related" id="lanjutan"><h2>8. Bacaan lanjutan dan langkah berikutnya</h2><p>Lokasi berkas sudah ditemukan, tetapi masih ragu cara membaca kualitasnya? Panduan berikut membahas perbedaan label format dan informasi media menggunakan konteks TikTok.</p><a href="https://downloader-x.com/id/guides/download-tiktok-mp4-cek-kualitas-file/">Mengenali format MP4 dan memeriksa kualitas video TikTok</a></section>
+<section class="cta"><h3>Unduh sekali, lalu cari dari tempat yang tepat</h3><p>Gunakan satu tautan yang boleh disimpan. Setelah browser selesai, buka berkas dari daftar unduhan dan lanjutkan ke galeri atau Foto sesuai pilihan perangkat Anda.</p><a class="button" href="https://downloader-x.com/id/download/">Buka alat unduh video Downloader-X</a></section>
+<p class="foot">Video contoh ditampilkan melalui pemutar platform asal. Tidak ada berkas video yang disalin untuk artikel ini. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+</article></main><footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Panduan praktis untuk media yang boleh Anda gunakan.</footer>
+</body></html>
