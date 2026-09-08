@@ -1,6 +1,6 @@
 {
-  "count": 464,
-  "generatedAt": "2026-09-08T13:24:13.390Z",
+  "count": 465,
+  "generatedAt": "2026-09-08T14:14:06.297Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14277,6 +14277,35 @@
       "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-tiktok-tersimpan-tidak-muncul-di-galeri.html",
       "title": "Video TikTok Tersimpan tetapi Tidak Muncul di Galeri HP",
       "wordCount": 1330
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/memeriksa-rasio-aspek-orientasi-video-youtube/",
+      "category": "YOUTUBE",
+      "date": "2026-09-08",
+      "description": "Panduan memeriksa rasio aspek dan orientasi video YouTube publik sebelum mengelola file, agar tampilan horizontal, vertikal, atau persegi tidak salah dipahami.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Cara memeriksa rasio aspek dan orientasi video YouTube",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/memeriksa-rasio-aspek-orientasi-video-youtube.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "HowTo",
+        "FAQPage"
+      ],
+      "size": 18523,
+      "slug": "memeriksa-rasio-aspek-orientasi-video-youtube",
+      "sourcePath": "articles/memeriksa-rasio-aspek-orientasi-video-youtube.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/memeriksa-rasio-aspek-orientasi-video-youtube.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Cara Memeriksa Rasio Aspek dan Orientasi Video YouTube",
+      "wordCount": 1604
     }
   ],
   "localeCounts": {
@@ -14284,7 +14313,7 @@
     "th": 22,
     "es": 17,
     "ja": 17,
-    "id": 129,
+    "id": 130,
     "zh": 17,
     "ko": 19,
     "vi": 18,
