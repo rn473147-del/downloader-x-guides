@@ -7,101 +7,113 @@
 <meta name="description" content="Panduan simpan video TikTok ke galeri Android dan iPhone lewat browser. Tanpa install aplikasi, tanpa login, dan tahu di mana file tersimpan.">
 
 <style>
-/* Scope: hanya untuk konten artikel, tidak mengubah tema situs. Ganti nilai --dx-* dengan warna brand Downloader-X. */
-.dx-article{--dx-brand:#1e3a8a;--dx-accent:#0b63c6;--dx-text:#1f2937;--dx-muted:#4b5563;--dx-warn-bg:#fff7ed;--dx-warn-border:#f59e0b;--dx-box-bg:#f3f4f6;
- color:var(--dx-text);line-height:1.7;font-size:1.05rem;max-width:760px;margin:0 auto}
-.dx-article h1{color:var(--dx-brand);font-size:1.9rem;line-height:1.3}
-.dx-article h2{color:var(--dx-brand);font-size:1.4rem;margin-top:2rem;border-bottom:2px solid var(--dx-brand);padding-bottom:.25rem}
-.dx-article h3{color:var(--dx-brand);font-size:1.15rem;margin-top:1.25rem}
-.dx-article a{color:var(--dx-accent);text-decoration:underline;text-underline-offset:2px}
-.dx-article a:hover{text-decoration-thickness:2px}
-.dx-article figure{margin:1.25rem 0}
-.dx-article figure img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
-.dx-article figcaption{font-size:.9rem;color:var(--dx-muted);margin-top:.35rem}
-.dx-article .dx-example{background:var(--dx-box-bg);border-left:4px solid var(--dx-brand);padding:1rem 1.25rem;border-radius:6px;margin:1.25rem 0}
-.dx-article .dx-warning{background:var(--dx-warn-bg);border:1px solid var(--dx-warn-border);padding:.9rem 1rem;border-radius:6px;margin:1.25rem 0}
-.dx-article table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
-.dx-article th,.dx-article td{border:1px solid #d1d5db;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.dx-article th{background:var(--dx-box-bg)}
-.dx-article code{background:var(--dx-box-bg);padding:.1rem .3rem;border-radius:4px;font-size:.92em}
-.dx-article blockquote{border-left:3px solid #d1d5db;margin:1rem 0;padding:.25rem 1rem;color:var(--dx-muted)}
-.dx-article .dx-meta{font-size:.9rem;color:var(--dx-muted);margin-bottom:1.5rem}
-</style>
+    :root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual svg{display:block;width:100%;height:auto;max-height:560px}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}}
+  </style>
 
 <link rel="canonical" href="https://downloader-x.com/id/guides/cara-simpan-video-tiktok-ke-galeri-hp-tanpa-aplikasi/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 </head>
-<body>
-<article class="dx-article">
-<p class="dx-meta">Diperbarui: 2026-09-08</p>
-<h1>Cara Simpan Video TikTok ke Galeri HP Tanpa Aplikasi dan Tanpa Login</h1>
-<p>Gunakan konten milik sendiri atau yang Anda punya izin untuk simpan. Tautan publik tidak menjamin unduhan berhasil; pilihan format dan kualitas bergantung pada hasil proses saat digunakan.</p>
-<p>Panduan ini untuk Anda yang ingin menyimpan video TikTok publik langsung ke galeri HP, tanpa memasang aplikasi tambahan dan tanpa memasukkan akun apa pun. Semua langkah dilakukan lewat browser bawaan HP, baik Android maupun iPhone. Batasan yang perlu diketahui sejak awal: hanya video yang bisa dilihat secara publik yang dapat diproses, dan kualitas file mengikuti apa yang disediakan TikTok untuk video tersebut.</p>
-<p>Mulai dari sini: <a href="https://downloader-x.com/id/tiktok-downloader/">Simpan video TikTok ke galeri dengan Downloader‑X</a></p>
+<body data-guide-layout="reference">
+  <header class="sitebar"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/id/guides/">Semua panduan</a><a href="https://downloader-x.com/id/">Downloader-X Indonesia</a></nav></header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">TikTok · Android &amp; iPhone · galeri HP</div>
+      <h1>Cara Simpan Video TikTok ke Galeri HP Tanpa Aplikasi dan Tanpa Login</h1>
+      <p>Salin tautan video, buka alat lewat browser, lalu temukan berkasnya di HP. Panduan ini menjelaskan perbedaan folder unduhan dan galeri, dengan satu contoh TikTok asli yang bisa ditonton langsung.</p>
+      <a class="button" href="https://downloader-x.com/id/tiktok-downloader/">Buka TikTok Downloader</a>
+    </section>
 
+    <figure class="visual" aria-labelledby="visual-caption">
+      <iframe src="https://www.tiktok.com/player/v1/7063907897960320261?controls=1&amp;description=1&amp;music_info=1&amp;autoplay=0&amp;rel=0" title="Video TikTok Joesgarden tentang menyiram tanaman dalam pot" width="360" height="640" loading="lazy" allow="fullscreen" allowfullscreen style="display:block;width:min(100%,360px);height:auto;aspect-ratio:9/16;margin:0 auto 16px;border:0;border-radius:16px;background:#14233b"></iframe>
+      <figcaption id="visual-caption"><strong>Contoh dari TikTok:</strong> “#howto water your potted plants like a pro!” — <strong>Joesgarden (@joesgarden)</strong>. <a href="https://www.tiktok.com/@joesgarden/video/7063907897960320261" target="_blank" rel="noopener noreferrer">Buka postingan asli di TikTok</a>. Pemutar resmi ini memperlihatkan postingan yang dipakai sebagai contoh pemilihan tautan; video tidak disalin ke situs ini.</figcaption>
+    </figure>
 
-<h2>1. Yang Perlu Disiapkan</h2>
-<ul>
-<li><strong>HP Android atau iPhone</strong> dengan browser bawaan (Chrome, Samsung Internet, atau Safari). Tidak perlu aplikasi lain.</li>
-<li><strong>Tautan video TikTok publik.</strong> Video dari akun privat, video yang dibatasi umur, atau video yang sudah dihapus tidak bisa diproses.</li>
-<li><strong>Ruang penyimpanan yang cukup.</strong> Video TikTok umumnya berukuran beberapa MB, tetapi video panjang bisa lebih besar.</li>
-<li><strong>Koneksi internet yang stabil</strong>, karena file diunduh langsung dari server ke HP Anda.</li>
-</ul>
-<p>Anda tidak perlu login ke TikTok maupun ke Downloader‑X. Alat ini hanya membaca tautan yang Anda tempel. Jika ada situs lain yang meminta kata sandi TikTok untuk "mengunduh", sebaiknya hindari.</p>
+    <article class="article">
+      <p class="lead">Ingin simpan video TikTok ke galeri HP, tetapi setelah menekan unduh justru tidak menemukan videonya? Periksa tempat penyimpanan terlebih dahulu. Folder unduhan browser dan koleksi di aplikasi Galeri atau Foto adalah dua tempat yang berbeda. Berkas bisa sudah tersimpan meskipun belum muncul di album yang Anda buka.</p>
+      <p>Panduan ini berfokus pada satu kebutuhan: menyimpan video TikTok milik sendiri atau yang diizinkan pemiliknya, lalu menemukannya kembali di Android atau iPhone. Anda dapat membuka Downloader-X melalui browser tanpa memasang aplikasi pengunduh tambahan. Gunakan tautan publik yang dapat diakses, dan ikuti pilihan yang benar-benar muncul; tidak setiap postingan menyediakan hasil atau kualitas yang sama.</p>
+      <p class="foot">Disusun dengan bantuan Codex (AI) · Diperbarui 8 September 2026</p>
 
+      <nav class="toc" aria-label="Daftar isi"><strong>Isi panduan</strong>
+        <ol>
+          <li><a href="#persiapan">Siapkan tautan dan ruang penyimpanan</a></li>
+          <li><a href="#contoh">Kenali postingan melalui contoh asli</a></li>
+          <li><a href="#langkah">Salin tautan dan buka alat</a></li>
+          <li><a href="#galeri">Temukan video di Android atau iPhone</a></li>
+          <li><a href="#kendala">Atasi kendala yang paling umum</a></li>
+          <li><a href="#faq">Pertanyaan umum</a></li>
+          <li><a href="#lanjutan">Bacaan lanjutan dan langkah berikutnya</a></li>
+        </ol>
+      </nav>
 
-<h2>2. Langkah Simpan Video TikTok ke Galeri</h2>
-<h3>2.1 Salin tautan video dari aplikasi TikTok</h3>
-<p>Buka video yang ingin disimpan, ketuk ikon <strong>Bagikan</strong> (panah), lalu pilih <strong>Salin tautan</strong>. Tautan yang tersalin biasanya berbentuk <code>https://vt.tiktok.com/...</code> (tautan pendek) atau <code>https://www.tiktok.com/@nama/video/...</code>. Keduanya bisa dipakai.</p>
+      <h2 id="persiapan">1. Siapkan tautan dan ruang penyimpanan</h2>
+      <p>Mulailah dari satu postingan video yang jelas. Halaman profil berisi banyak unggahan, sedangkan halaman tagar atau suara mengumpulkan konten dari beberapa akun. Keduanya bukan pengganti tautan ke video tertentu. Jika teman mengirim tautan, buka dahulu dan cocokkan akun serta isi postingannya sebelum menempelkannya ke alat.</p>
+      <div class="check"><strong>Siap sebelum mulai:</strong>
+        <ul>
+          <li>Gunakan video milik sendiri atau pastikan Anda mempunyai izin menyimpannya.</li>
+          <li>Siapkan tautan langsung ke postingan video publik yang dimaksud.</li>
+          <li>Pastikan koneksi stabil dan ruang kosong HP mencukupi untuk berkas baru.</li>
+          <li>Kenali aplikasi pengelola berkas di HP, seperti Files, File Saya, atau File.</li>
+        </ul>
+      </div>
+      <p>Istilah “tanpa aplikasi” di sini berarti tanpa memasang aplikasi pengunduh tambahan. Browser dan pengelola berkas bawaan HP tetap digunakan. Anda juga tidak perlu menyerahkan kata sandi TikTok untuk menempelkan tautan. Jika postingan tidak dapat diakses secara publik, pilih konten lain yang memang boleh digunakan.</p>
 
+      <h2 id="contoh">2. Kenali postingan melalui contoh asli</h2>
+      <p>Video Joesgarden pada pemutar di atas membahas cara menyiram tanaman dalam pot. Contoh ini membantu Anda mengenali tiga hal sebelum menyalin tautan: nama akun, caption yang sesuai, dan satu postingan video yang spesifik. Ketiganya memudahkan pemeriksaan ketika beberapa tab TikTok terbuka sekaligus.</p>
+      <p>Putar contoh tersebut atau buka postingan aslinya melalui tautan di bawah pemutar. Perhatikan bahwa menonton video yang disematkan berbeda dari menyimpan berkas ke HP. Pemutar mengambil konten melalui TikTok dan tetap menampilkan konteks kreatornya. Artikel ini tidak menyatakan bahwa video contoh sudah diunduh atau bahwa hasilnya memiliki resolusi tertentu.</p>
+      <div class="note"><strong>Gunakan contoh untuk memahami tautan:</strong> saat mengikuti langkah unduh, pilih video Anda sendiri atau video yang pemiliknya mengizinkan penyimpanan. Tersedianya pemutar di sebuah artikel tidak memberikan izin untuk mengunggah ulang karya kreator.</div>
 
-<h3>2.2 Buka halaman alat di browser dan tempel tautan</h3>
-<p>Buka browser, masuk ke halaman TikTok Downloader di Downloader‑X, tekan lama kolom tautan, lalu pilih <strong>Tempel</strong>. Tekan tombol proses di sebelah kolom.</p>
+      <h2 id="langkah">3. Salin tautan video dan buka alat lewat browser</h2>
+      <ol class="steps">
+        <li><strong>Buka postingan yang ingin disimpan.</strong> Cocokkan nama akun dan isi videonya. Pastikan Anda berada pada postingan tertentu, bukan halaman profil, pencarian, atau daftar video.</li>
+        <li><strong>Salin tautan dari menu Bagikan.</strong> Cari pilihan Salin tautan pada postingan. Jika membukanya di browser, Anda juga dapat menyalin alamat postingan dari bilah alamat. Hindari mengetik ulang alamat yang panjang.</li>
+        <li><strong>Buka TikTok Downloader di browser HP.</strong> Gunakan tombol alat di bagian atas panduan ini. Tempel satu tautan ke kolom yang tersedia, periksa kembali alamatnya, lalu tekan tombol proses.</li>
+        <li><strong>Cocokkan hasil yang ditampilkan.</strong> Bila alat menampilkan informasi atau pratinjau, pastikan hasilnya sesuai dengan video yang Anda pilih. Jangan meneruskan jika isi yang muncul berbeda atau alat masih menampilkan pesan kesalahan.</li>
+        <li><strong>Pilih berkas video yang tersedia.</strong> Jika ada pilihan MP4, baca keterangan di dekatnya sebelum menekan unduh. Pilihan kualitas mengikuti hasil yang tersedia untuk tautan tersebut; label HD saja bukan bukti resolusi berkas.</li>
+        <li><strong>Periksa unduhan dari browser.</strong> Tunggu sampai browser menyatakan unduhan selesai sebelum mencari videonya di galeri. Membuka pratinjau atau halaman baru belum berarti berkas telah tersimpan.</li>
+      </ol>
+      <p>Jangan menekan tombol unduh berulang kali ketika proses yang sama masih berjalan. Periksa statusnya terlebih dahulu agar folder tidak dipenuhi salinan dengan nama hampir sama. Bila browser menampilkan kegagalan, baca pesannya dan kembali ke tautan sumber untuk memastikan postingan masih tersedia.</p>
 
+      <h2 id="galeri">4. Temukan video di Android atau iPhone</h2>
+      <h3>Android: mulai dari daftar unduhan</h3>
+      <p>Di Chrome Android, buka menu browser lalu pilih <strong>Download</strong> atau <strong>Unduhan</strong>. Dari sana Anda dapat mencari berkas yang baru disimpan dan membukanya. Letak menu dapat berbeda menurut posisi bilah alamat. Langkah dasarnya dijelaskan dalam <a href="https://support.google.com/chrome/answer/95759?co=GENIE.Platform%3DAndroid&amp;hl=id" target="_blank" rel="noopener noreferrer">bantuan unduhan Chrome untuk Android</a>.</p>
+      <p>Setelah berkas dapat dibuka, periksa album Unduhan atau folder perangkat pada aplikasi galeri yang Anda gunakan. Nama album bergantung pada merek HP dan aplikasinya. Jika belum terlihat di sana, gunakan pengelola berkas untuk menemukan lokasi penyimpanannya; jangan langsung menyimpulkan bahwa unduhan gagal hanya karena album utama belum menampilkannya.</p>
+      <h3>iPhone: bedakan File dan Foto</h3>
+      <p>Setelah mengunduh melalui Safari, buka tombol unduhan di dekat kolom pencarian atau cari berkas melalui aplikasi <strong>File</strong>. Apple menjelaskan lokasi umumnya pada <a href="https://support.apple.com/en-hk/102440" target="_blank" rel="noopener noreferrer">panduan menemukan unduhan di iPhone</a>: buka Telusuri, periksa iCloud Drive, lalu folder Downloads. Lokasi yang Anda pilih dalam pengaturan dapat berbeda.</p>
+      <p>Jika video tersimpan di File, itu belum berarti video sudah masuk ke Foto. Buka berkas dan periksa menu Bagikan. Bila pilihan <strong>Simpan Video</strong> tersedia, gunakan pilihan tersebut lalu periksa aplikasi Foto. Jika pilihan itu tidak muncul, periksa dahulu apakah berkas benar-benar video dan dapat diputar; jangan sekadar mengganti namanya menjadi MP4.</p>
+      <div class="check"><strong>Pemeriksaan singkat:</strong> buka berkas, cocokkan isi dan durasinya, lalu putar sebagian video. Untuk kualitas, gunakan informasi yang terlihat pada berkas atau pemutar. Jangan menganggap semua video otomatis HD, tanpa watermark, atau memiliki suara.</div>
 
-<h3>2.3 Pilih format file yang ditawarkan</h3>
-<p>Setelah beberapa detik, halaman menampilkan informasi video dan pilihan file. Pilih format MP4. Jika tersedia lebih dari satu kualitas, pilihan yang muncul mengikuti apa yang tersedia dari sumber, jadi daftarnya bisa berbeda antar video.</p>
+      <h2 id="kendala">5. Atasi kendala tanpa mengulang dari awal</h2>
+      <h3>Tautan tidak dikenali</h3>
+      <p>Salin ulang melalui postingan asli dan pastikan tidak ada teks pesan yang ikut tertempel. Jika Anda menerima tautan pendek, buka terlebih dahulu di browser dan pastikan pengalihannya menuju video yang benar. Jangan gunakan alamat halaman profil untuk meminta satu video tertentu.</p>
+      <h3>Yang terbuka adalah pemutar, bukan berkas tersimpan</h3>
+      <p>Memutar video di tab browser dan mengunduhnya adalah tindakan berbeda. Periksa daftar unduhan untuk melihat apakah ada berkas baru. Jika belum ada, kembali ke hasil alat dan baca pilihan yang tersedia. Jangan menganggap proses berhasil hanya karena Anda dapat menonton pratinjau.</p>
+      <h3>Video sudah ada di berkas, tetapi belum ada di galeri</h3>
+      <p>Gunakan langkah sesuai perangkat pada bagian sebelumnya. Di Android, periksa folder dan album perangkat. Di iPhone, periksa File terlebih dahulu. Mengetahui lokasi berkas membantu Anda menghindari unduhan berulang yang menghabiskan ruang tanpa menyelesaikan masalah tampilan galeri.</p>
+      <h3>Postingan tidak tersedia atau bukan video biasa</h3>
+      <p>Periksa apakah postingan masih dapat dibuka dari TikTok. Konten yang dihapus, privat, atau dibatasi tidak perlu dicoba berulang kali. Postingan foto juga berbeda dari video; jangan mengharapkan setiap tautan menghasilkan MP4. Gunakan jenis postingan yang sesuai dengan tujuan Anda.</p>
+      <div class="rights"><strong>Hormati pilihan kreator.</strong> TikTok menyediakan pilihan Simpan video melalui menu Bagikan ketika kreator mengizinkannya, sebagaimana dijelaskan dalam <a href="https://support.tiktok.com/en/using-tiktok/exploring-videos/download-content" target="_blank" rel="noopener noreferrer">bantuan unduhan TikTok</a>. Jika penyimpanan tidak diizinkan, simpan tautannya sebagai referensi atau minta izin kepada pemiliknya. Jangan mengunggah ulang video hanya karena dapat ditonton publik.</div>
 
+      <section id="faq">
+        <h2>6. Pertanyaan umum</h2>
+        <details><summary>Apakah harus memasang aplikasi pengunduh tambahan?</summary><p>Tidak untuk mengikuti alur melalui browser ini. Anda menggunakan browser HP dan pengelola berkas yang sudah tersedia. Pilihan penyimpanan tetap mengikuti perangkat serta hasil yang ditampilkan alat.</p></details>
+        <details><summary>Mengapa video tidak langsung muncul di galeri?</summary><p>Browser menyimpan berkas ke lokasi unduhan, sedangkan galeri menampilkan koleksi media. Periksa daftar unduhan dan buka berkasnya terlebih dahulu. Pada iPhone, File dan Foto merupakan aplikasi yang berbeda.</p></details>
+        <details><summary>Apakah hasilnya pasti tanpa watermark dan berkualitas HD?</summary><p>Tidak ada jaminan untuk setiap tautan. Baca pilihan yang tersedia dan periksa berkas yang diterima. Pemutar TikTok di artikel ini merupakan contoh sumber, bukan bukti kualitas hasil unduhan.</p></details>
+        <details><summary>Apakah saya perlu memasukkan akun TikTok?</summary><p>Alur yang dijelaskan di sini menggunakan tautan postingan publik, bukan kata sandi akun. Jika konten meminta akses khusus, jangan mengirim kredensial kepada alat pengunduh dan pilih konten yang boleh diakses.</p></details>
+      </section>
 
-<h3>2.4 Simpan ke galeri: Android</h3>
-<p>Ketuk tombol unduh. Chrome menyimpan file ke folder <strong>Download</strong>. Aplikasi Galeri atau Google Foto biasanya memindai folder ini otomatis, sehingga video muncul di album <em>Download</em> dalam beberapa detik. Jika belum muncul, buka aplikasi <strong>Files</strong> → <strong>Download</strong>, ketuk file, lalu putar.</p>
-
-
-<h3>2.5 Simpan ke galeri: iPhone</h3>
-<p>Di Safari, ketuk tombol unduh. Ikon panah biru muncul di bilah alamat; ketuk untuk membuka daftar unduhan, lalu ketuk file. Video terbuka di pratinjau. Ketuk ikon <strong>Bagikan</strong> → <strong>Simpan Video</strong> agar masuk ke aplikasi Foto. Tanpa langkah terakhir ini, file hanya tersimpan di aplikasi <strong>File</strong> → <strong>Unduhan</strong>, bukan di galeri.</p>
-
-
-<h2>3. Hasil yang Bisa Anda Periksa</h2>
-<p>Setelah tersimpan, buka video di galeri dan periksa hal berikut:</p>
-<ul>
-<li><strong>Ada suara?</strong> Putar beberapa detik. Video TikTok biasa umumnya sudah menyatukan video dan audio dalam satu file MP4.</li>
-<li><strong>Resolusi?</strong> Di Android, buka <strong>Files</strong> → tekan lama file → <strong>Info</strong>. Di iPhone, buka aplikasi Foto → geser ke atas untuk melihat detail. Angka yang tertulis di sana adalah kualitas file yang benar‑benar Anda terima.</li>
-<li><strong>Ukuran file</strong> wajar terhadap durasi. File beberapa KB untuk video 30 detik menandakan unduhan gagal atau terputus.</li>
-</ul>
-
-
-<p>Tulis hanya angka yang Anda lihat. Jika sumber tersedia dalam resolusi lebih tinggi tetapi file yang diunduh lebih rendah, itulah kualitas yang tersedia lewat alat ini untuk video tersebut.</p>
-<h2>4. Masalah Umum dan Cara Mengatasinya</h2>
-<p><strong>Video tidak muncul di galeri padahal unduhan selesai.</strong> Di Android, galeri kadang butuh beberapa saat memindai folder Download; buka aplikasi Files dan putar dari sana. Di iPhone, pastikan sudah menekan <em>Simpan Video</em> dari share sheet.</p>
-<p><strong>Tautan tidak dikenali.</strong> Pastikan tautan disalin dari tombol Bagikan, bukan diketik ulang. Tautan pendek <code>vt.tiktok.com</code> diterima, tetapi kalau bermasalah coba buka tautan itu di browser dan salin URL panjang yang muncul. Penjelasan lengkap ada di <a href="https://downloader-x.com/id/guides/memeriksa-pengalihan-tautan-pendek-tiktok/">panduan memeriksa pengalihan tautan pendek TikTok</a>.</p>
-<p><strong>Muncul pesan video tidak tersedia.</strong> Video mungkin privat, dihapus, atau dibatasi wilayah. Alat tidak bisa mengambil apa yang tidak bisa dilihat publik.</p>
-<p><strong>Postingan berupa foto, bukan video.</strong> Postingan mode foto TikTok berbeda dari video dan mungkin tidak menghasilkan file MP4.</p>
-<p><strong>Safari tidak menyimpan, malah memutar video di tab baru.</strong> Tekan lama video yang sedang diputar, atau kembali ke halaman alat dan gunakan tombol unduh; pastikan Safari tidak dalam mode "Buka di tab" untuk file video.</p>
-<h2>5. Pertanyaan yang Sering Diajukan</h2>
-<div class="dx-faq">
-<h3>Apakah harus login TikTok untuk menyimpan video?</h3>
-<p>Tidak. Anda hanya menempel tautan video publik. Tidak ada kolom akun atau kata sandi di halaman alat.</p>
-<h3>Apakah ada watermark di file yang tersimpan?</h3>
-<p>Tergantung file yang tersedia dari sumber. Bahasan khusus watermark ada di panduan terpisah yang ditautkan di bagian penutup.</p>
-<h3>Kenapa di iPhone videonya masuk ke aplikasi File, bukan Foto?</h3>
-<p>Safari menyimpan unduhan ke aplikasi File. Anda perlu membuka file itu dan memilih Simpan Video agar masuk ke Foto.</p>
-<h3>Apakah bisa menyimpan video dari akun privat?</h3>
-<p>Tidak. Alat ini hanya memproses tautan yang bisa dibuka publik tanpa login.</p>
-</div>
-
-<h2>6. Penutup dan Bacaan Lanjutan</h2>
-<p>Menyimpan video TikTok ke galeri lewat browser cukup dengan salin tautan, tempel, pilih format, lalu unduh. Perbedaan utama Android dan iPhone ada di langkah terakhir: Android langsung masuk galeri lewat folder Download, sementara iPhone perlu tombol <em>Simpan Video</em>.</p>
-<p>Jika yang Anda cari adalah cara menghilangkan watermark, lanjutkan ke <a href="https://downloader-x.com/id/guides/cara-download-video-tiktok-gratis-tanpa-watermark/">cara download video TikTok gratis tanpa watermark</a>. Untuk platform lain, lihat <a href="https://downloader-x.com/id/guides/">daftar panduan Downloader‑X</a>.</p>
-</article>
+      <section class="related" id="lanjutan">
+        <h2>7. Bacaan lanjutan dan langkah berikutnya</h2>
+        <p>Jika masalahnya muncul sebelum pilihan unduhan tampil, periksa tautannya lebih dahulu. Panduan berikut membantu membedakan alamat pendek yang mengarah ke postingan dengan tujuan lain.</p>
+        <a href="https://downloader-x.com/id/guides/memeriksa-pengalihan-tautan-pendek-tiktok/">Memeriksa pengalihan tautan pendek TikTok</a>
+      </section>
+      <section class="cta">
+        <h3>Siapkan satu tautan, lalu ikuti hasil yang tersedia</h3>
+        <p>Buka video yang boleh Anda simpan, salin tautannya, dan gunakan alat lewat browser. Setelah itu, periksa daftar unduhan sebelum mencari berkas di galeri HP.</p>
+        <a class="button" href="https://downloader-x.com/id/tiktok-downloader/">Simpan video TikTok dengan Downloader-X</a>
+      </section>
+      <p class="foot">Downloader-X tidak berafiliasi dengan TikTok. Video contoh ditampilkan melalui pemutar resmi TikTok dan tetap milik kreatornya. Gunakan media milik sendiri atau yang Anda berhak simpan.</p>
+    </article>
+  </main>
+  <footer class="footer"><a href="https://downloader-x.com/id/guides/">Downloader-X Guides</a> · Gunakan media publik atau berizin secara bertanggung jawab.</footer>
 </body>
 </html>
