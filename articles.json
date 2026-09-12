@@ -1,6 +1,6 @@
 {
-  "count": 468,
-  "generatedAt": "2026-09-12T11:47:27.860Z",
+  "count": 469,
+  "generatedAt": "2026-09-12T14:56:15.678Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14391,12 +14391,40 @@
       "standardVersion": "2026-09-v2",
       "title": "คัดลอกวิดีโอ YouTube ไปแฟลชไดรฟ์แล้วไฟล์ครบไหม? ตรวจด้วย SHA-256",
       "wordCount": 2026
+    },
+    {
+      "canonical": "https://downloader-x.com/en/guides/youtube-published-date-vs-file-date/",
+      "category": "YOUTUBE",
+      "date": "2026-09-12",
+      "description": "Learn why a saved video’s local file date may differ from its YouTube publication date, and record the source, version, and file history without mixing them up.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "YouTube publication date and local file date guide",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-published-date-vs-file-date.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 22993,
+      "slug": "youtube-published-date-vs-file-date",
+      "sourcePath": "articles/youtube-published-date-vs-file-date.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-published-date-vs-file-date.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Why a Saved YouTube Video Shows a Different Date",
+      "wordCount": 1978
     }
   ],
   "localeCounts": {
     "ar": 17,
     "de": 17,
-    "en": 18,
+    "en": 19,
     "es": 17,
     "fa": 17,
     "fil": 19,
@@ -14416,7 +14444,7 @@
     "vi": 18,
     "zh": 17
   },
-  "sourceCommit": "6c42feee0da47705e6ad5d3a91aebff175d52e94",
+  "sourceCommit": "f6be42aff34329118a6c446584e5c11f2d76fc68",
   "standardVersion": "2026-09-x-keywords-v1",
   "version": 2
 }
