@@ -1,6 +1,6 @@
 {
-  "count": 469,
-  "generatedAt": "2026-09-12T14:56:15.678Z",
+  "count": 470,
+  "generatedAt": "2026-09-12T23:19:11.186Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14419,13 +14419,41 @@
       "standardVersion": "2026-09-v2",
       "title": "Why a Saved YouTube Video Shows a Different Date",
       "wordCount": 1978
+    },
+    {
+      "canonical": "https://downloader-x.com/es/guides/conservar-capitulos-marcas-tiempo-video-youtube/",
+      "category": "YOUTUBE",
+      "date": "2026-09-13",
+      "description": "Aprende a registrar capítulos y marcas de tiempo de un video público de YouTube junto al archivo autorizado, sin confundir la navegación de la página con el contenido del video.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Guía para conservar capítulos y marcas de tiempo de YouTube",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "es",
+      "parentHub": "https://downloader-x.com/es/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/conservar-capitulos-marcas-tiempo-video-youtube.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "es",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 22475,
+      "slug": "conservar-capitulos-marcas-tiempo-video-youtube",
+      "sourcePath": "articles/conservar-capitulos-marcas-tiempo-video-youtube.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/conservar-capitulos-marcas-tiempo-video-youtube.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Cómo conservar capítulos y marcas de tiempo de un video de YouTube",
+      "wordCount": 1915
     }
   ],
   "localeCounts": {
     "ar": 17,
     "de": 17,
     "en": 19,
-    "es": 17,
+    "es": 18,
     "fa": 17,
     "fil": 19,
     "fr": 17,
@@ -14444,7 +14472,7 @@
     "vi": 18,
     "zh": 17
   },
-  "sourceCommit": "f6be42aff34329118a6c446584e5c11f2d76fc68",
+  "sourceCommit": "3bd4755275c2d4d3b4973b74487a259216f3f196",
   "standardVersion": "2026-09-x-keywords-v1",
   "version": 2
 }
