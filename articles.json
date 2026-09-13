@@ -1,6 +1,6 @@
 {
-  "count": 470,
-  "generatedAt": "2026-09-12T23:19:11.186Z",
+  "count": 471,
+  "generatedAt": "2026-09-13T03:52:05.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14447,6 +14447,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Cómo conservar capítulos y marcas de tiempo de un video de YouTube",
       "wordCount": 1915
+    },
+    {
+      "canonical": "https://downloader-x.com/ja/guides/youtube-video-file-name-folder-organization-ja/",
+      "category": "YOUTUBE",
+      "date": "2026-09-13",
+      "description": "保存したYouTube動画を後から見つけやすくするために、ファイル名の付け方、フォルダー分け、出典URLの記録、重複確認を日本語で解説します。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "保存したYouTube動画のファイル名とフォルダーを整理するガイド",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ja",
+      "parentHub": "https://downloader-x.com/ja/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-file-name-folder-organization-ja.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ja",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 19429,
+      "slug": "youtube-video-file-name-folder-organization-ja",
+      "sourcePath": "articles/youtube-video-file-name-folder-organization-ja.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-file-name-folder-organization-ja.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存したYouTube動画を見失わないファイル名とフォルダー整理術",
+      "wordCount": 1995
     }
   ],
   "localeCounts": {
@@ -14460,7 +14488,7 @@
     "hi": 17,
     "id": 132,
     "it": 17,
-    "ja": 17,
+    "ja": 18,
     "km": 1,
     "ko": 19,
     "ms": 17,
@@ -14472,7 +14500,7 @@
     "vi": 18,
     "zh": 17
   },
-  "sourceCommit": "3bd4755275c2d4d3b4973b74487a259216f3f196",
+  "sourceCommit": "9c6fb4b780933d379fa5c2079ffb0fb8e47c8700",
   "standardVersion": "2026-09-x-keywords-v1",
   "version": 2
 }
