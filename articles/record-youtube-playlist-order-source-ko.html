@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>저장한 YouTube 영상의 재생목록 순서와 출처를 기록하는 방법 | Downloader-X</title>
+<meta name="description" content="허가받은 공개 YouTube 영상을 재생목록에서 저장할 때 원래 순서, 재생목록 URL, 영상 출처와 확인 날짜를 함께 기록하는 실용적인 방법을 안내합니다.">
+<meta name="author" content="Downloader-X Guides">
+<style>
+:root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:16px;background:#14233b}.visual figcaption{padding:.8rem .35rem .2rem;color:#64748b;font-size:.92rem}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}code{padding:.12rem .35rem;border-radius:5px;background:#eef2f7;font-size:.92em}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta h3,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}table{font-size:.92rem}}
+</style>
+<link rel="canonical" href="https://downloader-x.com/ko/guides/record-youtube-playlist-order-source-ko/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+</head>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/ko/guides/">Downloader-X 가이드</a><nav><a href="https://downloader-x.com/ko/guides/">전체 가이드</a><a href="https://downloader-x.com/ko/">Downloader-X 한국어</a></nav></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">YouTube · 재생목록 · 출처 기록</div>
+    <h1>저장한 YouTube 영상의 재생목록 순서와 출처를 기록하는 방법</h1>
+    <p>재생목록 안의 공개 영상 한 편을 허가에 따라 보관할 때, 파일만 남기면 나중에 원래 순서와 맥락을 잃기 쉽습니다. 영상 URL, 재생목록 URL, 확인 당시 위치와 제작자를 함께 기록하는 방법을 정리합니다.</p>
+    <a class="button" href="https://downloader-x.com/ko/youtube-downloader/">YouTube Downloader 열기</a>
+  </section>
+  <figure class="visual" aria-labelledby="visual-caption">
+    <iframe src="https://www.youtube.com/embed/_aDeRFqZVgA" title="Introducing: NASA's Earth System Observatory — NASA Goddard" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption id="visual-caption"><strong>YouTube 실제 예시:</strong> “Introducing: NASA's Earth System Observatory” — <strong>NASA Goddard</strong>. <a href="https://www.youtube.com/watch?v=_aDeRFqZVgA" target="_blank" rel="noopener noreferrer">YouTube에서 원본 영상 열기</a>. 이 공식 임베드는 출처 기록 예시일 뿐이며 Downloader-X의 다운로드 결과를 보여 주거나 보장하지 않습니다.</figcaption>
+  </figure>
+  <article class="article">
+    <p class="lead">재생목록은 여러 영상을 한 흐름으로 묶지만, 로컬 파일 하나에는 그 목록의 제목이나 몇 번째 영상이었는지가 자동으로 남지 않을 수 있습니다. 시간이 지나 목록이 재정렬되거나 영상이 삭제되면 파일 이름만으로 원래 위치를 되찾기 더 어려워집니다.</p>
+    <p>이 글은 본인 소유이거나 저장 허가를 받은 공개 영상의 기록 방법을 다룹니다. 저장이 필요한 경우 <a href="https://downloader-x.com/ko/youtube-downloader/">한국어 YouTube Downloader</a>에서 실제로 표시되는 선택지만 확인하세요. 재생목록 전체 저장, 특정 형식, 화질, 음성 포함 여부 또는 모든 링크의 성공을 가정하지 않습니다.</p>
+    <p class="foot">Codex(AI)의 도움을 받아 작성 · 2026년 9월 13일 업데이트</p>
+    <nav class="toc" aria-label="목차"><strong>목차</strong><ol><li><a href="#why">재생목록 맥락이 사라지는 이유</a></li><li><a href="#fields">기록할 항목 정하기</a></li><li><a href="#url">영상 URL과 목록 URL 구분하기</a></li><li><a href="#steps">9단계 기록 절차</a></li><li><a href="#changes">목록 변경에 대비하기</a></li><li><a href="#organize">파일과 기록표 연결하기</a></li><li><a href="#faq">자주 묻는 질문</a></li><li><a href="#related">관련 가이드</a></li></ol></nav>
+
+    <h2 id="why">1. 재생목록에서 가져온 영상은 왜 맥락을 잃기 쉬운가</h2>
+    <p>YouTube의 영상 페이지에는 영상 자체 정보와 재생목록 맥락이 함께 보일 수 있습니다. 그러나 로컬 파일로 이동하면 보통 파일 이름, 크기, 수정 날짜 같은 장치 정보가 중심이 됩니다. “어떤 강의 묶음의 몇 번째였는지”, “목록을 만든 채널이 누구인지”, “확인 당시 앞뒤에 어떤 영상이 있었는지”는 따로 적지 않으면 빠질 수 있습니다.</p>
+    <p>또한 재생목록은 고정된 책 목차와 다릅니다. 목록 소유자는 순서를 바꾸거나 항목을 추가·삭제할 수 있고, 영상 공개 범위도 달라질 수 있습니다. YouTube 고객센터의 <a href="https://support.google.com/youtube/answer/57792?co=GENIE.Platform%3DDesktop&amp;hl=ko" target="_blank" rel="noopener noreferrer">재생목록 만들기 및 관리 안내</a>에서도 목록 안의 영상 순서를 변경할 수 있다고 설명합니다. 따라서 “7번째 영상”이라는 숫자만 남기지 말고, 확인 날짜와 고유 영상 URL을 함께 보관해야 합니다.</p>
+    <div class="check"><strong>이런 경우에 출처 기록이 특히 유용합니다.</strong><ul><li>수업, 연구 또는 프로젝트용 목록에서 허가받은 자료를 정리할 때</li><li>비슷한 제목의 영상이 많아 제작자와 위치를 구분해야 할 때</li><li>여러 기기 사이에서 파일을 옮겨도 원본 페이지로 돌아가야 할 때</li><li>목록이 바뀐 뒤 당시의 순서와 현재 순서를 비교해야 할 때</li><li>사용 허가, 출처 표기 또는 검토 날짜를 함께 관리해야 할 때</li></ul></div>
+
+    <h2 id="fields">2. 파일보다 먼저 기록표의 최소 항목을 정한다</h2>
+    <p>복잡한 데이터베이스는 필요하지 않습니다. 메모 앱이나 표 계산 문서에 한 영상당 한 행을 만들고, 확인한 사실만 입력하면 됩니다. 가장 중요한 것은 같은 항목을 모든 영상에 일관되게 쓰는 것입니다. 제목만 복사하면 동명의 영상과 구분하기 어렵고, URL만 남기면 목록 안의 역할을 설명하기 어렵습니다.</p>
+    <table><thead><tr><th>기록 항목</th><th>무엇을 적는가</th><th>이유</th></tr></thead><tbody><tr><td>영상 제목</td><td>확인 당시 화면에 표시된 제목</td><td>내용을 빠르게 식별</td></tr><tr><td>제작자</td><td>영상 페이지의 채널명</td><td>비슷한 제목과 출처 구분</td></tr><tr><td>영상 URL</td><td>개별 영상으로 돌아갈 수 있는 주소</td><td>목록이 바뀌어도 원본 식별</td></tr><tr><td>재생목록 제목과 URL</td><td>목록 화면에서 확인한 이름과 주소</td><td>영상이 속했던 묶음 기록</td></tr><tr><td>확인 당시 순서</td><td>예: 7/24, 확인 날짜 포함</td><td>순서 변경 가능성을 명시</td></tr><tr><td>권리 메모</td><td>본인 영상, 허가 출처, 적용 조건</td><td>나중의 사용 범위 판단</td></tr><tr><td>로컬 파일명</td><td>저장 후 실제 장치에 표시된 이름</td><td>기록표와 파일 연결</td></tr></tbody></table>
+    <p>순서는 반드시 “확인 당시” 값으로 표시합니다. 총 항목 수 역시 변할 수 있으므로 <code>2026-09-13 · 7/24</code>처럼 날짜와 함께 쓰는 편이 정확합니다. 게시 날짜와 목록에서의 순서는 서로 다른 정보이며, 파일의 수정 날짜를 게시 날짜로 대신 사용해서도 안 됩니다.</p>
+    <div class="note"><strong>한 줄 요약을 추가하세요.</strong> “지구 관측 위성 소개, 목록의 개요 부분”처럼 자신이 이해한 역할을 짧게 적으면, 제목이 바뀌거나 목록 항목이 늘어도 왜 이 영상을 기록했는지 알 수 있습니다. 요약은 원문을 길게 복제하지 말고 사실 중심으로 직접 작성합니다.</div>
+
+    <h2 id="url">3. 개별 영상 URL과 재생목록 URL을 별도 칸에 보관한다</h2>
+    <p>재생목록에서 영상을 열면 주소에 영상 식별 정보와 목록 식별 정보가 함께 보일 수 있습니다. 하지만 주소 구조를 외워서 새 링크를 만들거나 일부 매개변수를 임의로 지우는 것은 안전한 기록 방식이 아닙니다. 현재 화면에서 공유 기능으로 개별 영상 주소를 복사하고, 별도의 재생목록 화면에서 목록 주소를 복사해 각각 저장하세요.</p>
+    <h3>영상 URL은 항목의 신원표 역할을 한다</h3>
+    <p>영상 제목과 목록 위치는 달라질 수 있지만, 기록 당시의 개별 URL은 어떤 항목을 확인했는지 되짚는 핵심 단서입니다. 링크를 붙여 넣은 뒤 다시 열어 제목과 채널이 맞는지 확인합니다. 검색 결과 페이지, 채널 홈, 짧게 잘린 메시지 미리보기 주소를 영상 원본 주소로 착각하지 마세요.</p>
+    <h3>재생목록 URL은 맥락의 출처다</h3>
+    <p>목록 주소는 영상 파일을 대신하지 않습니다. 그 영상이 어떤 학습 흐름이나 큐레이션 안에 있었는지 설명하는 출처입니다. 동일한 영상이 여러 재생목록에 들어갈 수 있으므로, 필요한 맥락마다 목록 제목과 URL을 별도 행 또는 메모로 추가할 수 있습니다.</p>
+    <p>위 NASA 영상처럼 공식 제공자가 명확한 과학 콘텐츠는 제목, 채널, 공식 기관 페이지를 함께 확인하기 좋습니다. 다만 임베드에서 재생되는지 여부와 로컬 저장 결과는 서로 다른 검사입니다. 플레이어가 보인다는 이유만으로 파일 형식이나 저장 가능성을 판단하지 않습니다.</p>
+
+    <h2 id="steps">4. 공개 영상 한 편을 9단계로 기록한다</h2>
+    <ol class="steps">
+      <li><strong>재생목록 화면을 먼저 연다.</strong> 목록 제목, 목록을 제공한 채널, 공개 상태와 항목 수를 화면에서 확인합니다. 검색 결과나 누군가 보낸 캡처만으로 목록을 추정하지 않습니다.</li>
+      <li><strong>저장 및 이용 권리를 확인한다.</strong> 본인이 만든 영상인지, 제작자가 허가했는지, 또는 적용되는 라이선스가 허용하는지 점검합니다. 공개 링크는 재배포 허가와 같은 뜻이 아닙니다.</li>
+      <li><strong>확인 날짜와 목록 정보를 적는다.</strong> 재생목록 제목과 URL, 확인 날짜를 기록합니다. 목록이 나중에 바뀔 수 있다는 전제에서 현재 상태의 관찰 기록으로 남깁니다.</li>
+      <li><strong>대상 영상을 목록 안에서 연다.</strong> 제목, 채널, 설명의 출처를 확인하고 목록에서 보이는 현재 순서와 총 항목 수를 적습니다. 자동 재생으로 다음 영상으로 넘어가지 않았는지 확인합니다.</li>
+      <li><strong>개별 영상 URL을 따로 복사한다.</strong> 영상의 공유 메뉴 또는 현재 영상 페이지에서 주소를 복사합니다. 기록표의 영상 URL 칸과 재생목록 URL 칸을 분리합니다.</li>
+      <li><strong>링크를 다시 열어 교차 확인한다.</strong> 복사한 영상 URL이 같은 제목과 채널로 열리는지 확인합니다. 목록 URL도 다시 열어 목록 제목이 맞는지 확인하되, 순서가 이미 변했다면 새 상태를 덮어쓰지 말고 새 날짜로 기록합니다.</li>
+      <li><strong>필요할 때만 도구의 실제 결과를 확인한다.</strong> 이 글의 도구 링크에서 권한이 있는 공개 영상 URL 한 개를 사용하고, 화면에 실제로 나타난 선택지만 살펴봅니다. 표시되지 않은 화질, 음성, 형식이나 일괄 처리 기능을 가정하지 않습니다.</li>
+      <li><strong>로컬 파일명을 기록과 연결한다.</strong> 다운로드가 끝난 뒤 실제 파일명을 기록표에 추가합니다. 확장자를 임의로 바꾸지 말고, 파일을 열어 의도한 영상인지 확인합니다.</li>
+      <li><strong>세 위치에서 다시 찾는 연습을 한다.</strong> 로컬 파일명으로 파일을 찾고, 영상 URL로 원본을 열고, 목록 URL로 당시 맥락을 확인합니다. 셋 중 하나라도 연결되지 않으면 기록을 보완합니다.</li>
+    </ol>
+
+    <h2 id="changes">5. 순서 변경, 삭제, 비공개 전환에 대비한다</h2>
+    <p>목록을 다시 방문했을 때 영상 위치가 달라져도 이전 기록을 “틀린 값”으로 지우지 마세요. 그 값은 특정 날짜에 관찰한 상태입니다. 새 열에 현재 위치와 새 확인 날짜를 추가하면 변화 이력이 남습니다. 예를 들어 <code>09-13: 7/24</code>, <code>10-02: 9/27</code>처럼 적을 수 있습니다.</p>
+    <h3>영상이 목록에서 사라진 경우</h3>
+    <p>개별 영상 URL이 여전히 열리는지 먼저 확인합니다. 영상은 공개 상태지만 목록에서만 빠졌을 수 있고, 비공개·삭제·접근 제한 상태로 바뀌었을 수도 있습니다. 확인할 수 없는 이유를 추측하지 말고 “목록에서 보이지 않음”, “개별 페이지 접근 불가”처럼 관찰한 결과만 적습니다.</p>
+    <h3>목록 제목이나 제작자가 바뀐 경우</h3>
+    <p>기존 값을 덮어쓰지 말고 과거 값과 현재 값을 날짜별로 나눕니다. 채널 표시명이 바뀌어도 원래 기록은 당시 출처를 설명합니다. 필요한 경우 공식 기관 페이지나 제작자가 제공한 설명 링크를 보조 출처로 추가하되, 신뢰할 수 없는 재업로드 페이지를 원출처로 바꾸지 않습니다.</p>
+    <h3>자동 정렬과 수동 순서를 혼동하지 않는다</h3>
+    <p>목록 화면이 최근 추가, 인기 또는 콘텐츠 유형 필터처럼 다른 보기를 제공하면 화면에 나타나는 순서가 달라질 수 있습니다. 기록할 때 어떤 보기를 사용했는지 적고, 필터가 켜져 있는지 확인합니다. 숫자만 저장하면 보기 방식의 차이를 나중에 설명하기 어렵습니다.</p>
+    <div class="check"><strong>변경 기록 규칙:</strong><ul><li>과거 행을 삭제하지 않고 새 날짜로 상태 추가</li><li>확인할 수 없는 사유는 단정하지 않기</li><li>영상 URL과 목록 URL을 각각 다시 열기</li><li>현재 정렬 또는 필터 상태를 짧게 메모</li><li>로컬 파일을 공개 상태 변화의 증거로 사용하지 않기</li></ul></div>
+
+    <h2 id="organize">6. 파일명, 폴더, 기록표를 하나의 체계로 연결한다</h2>
+    <p>파일명에는 모든 정보를 넣기보다 기록표의 한 행을 찾을 수 있는 짧은 식별자를 넣습니다. 예를 들어 <code>NASA-ESO-07_2026-09-13</code>처럼 제작자 약어, 당시 순서, 확인 날짜를 조합할 수 있습니다. 이 이름은 공식 제목을 대체하지 않으며, 기록표에는 전체 제목과 URL을 그대로 별도 보관합니다.</p>
+    <p>재생목록별 폴더를 만들 때도 지나치게 깊은 구조는 피합니다. <code>Video / YouTube / 프로젝트명</code> 정도로 시작하고, 여러 목록에 동시에 속하는 영상은 파일을 여러 번 복사하기보다 기록표에서 관련 목록을 여러 개 연결하는 편이 중복을 줄일 수 있습니다. 단, 백업과 중복 파일은 목적이 다르므로 백업 정책은 별도로 관리하세요.</p>
+    <h3>파일을 이동한 뒤 확인할 것</h3>
+    <p>다른 기기나 외장 저장소로 옮긴 후에는 기록표의 경로를 갱신하고 파일 크기와 재생 내용을 확인합니다. 이동 날짜는 YouTube 게시 날짜가 아닙니다. 원본 페이지의 게시 정보, 목록 확인 날짜, 로컬 파일 수정 날짜를 서로 다른 열로 두면 시간 정보가 섞이지 않습니다.</p>
+    <h3>기록표를 공유할 때</h3>
+    <p>팀과 기록을 공유하더라도 영상 이용 권한이 자동으로 넓어지지는 않습니다. 개인 계정 정보, 비공개 링크, 내부 메모가 포함되어 있는지 확인하고 필요한 행만 공유합니다. 공개 자료 목록이라도 저작권과 개인정보를 다시 검토해야 합니다.</p>
+    <div class="rights"><strong>공개 재생목록과 공개 영상은 자유 이용 허가가 아닙니다.</strong> 본인 소유, 명시적 허가 또는 적용되는 라이선스가 확인된 미디어만 저장하고 사용하세요. 출처를 적는 것만으로 복제, 편집, 재게시 또는 상업적 이용 권리가 생기지 않습니다. 비공개, 회원 전용 또는 제한된 영상의 접근 통제를 우회하지 마세요.</div>
+
+    <section id="faq"><h2>7. 자주 묻는 질문</h2>
+      <details><summary>재생목록의 몇 번째 영상인지 파일명에 꼭 넣어야 하나요?</summary><p>필수는 아니지만 목록 순서가 중요한 학습 자료라면 유용합니다. 다만 숫자만 쓰지 말고 확인 날짜와 영상 URL을 기록표에 함께 남기세요. 목록이 재정렬되면 같은 영상의 위치가 달라질 수 있습니다.</p></details>
+      <details><summary>영상 URL 하나만 저장하면 재생목록 URL은 필요 없나요?</summary><p>개별 영상의 신원을 찾는 데는 영상 URL이 핵심입니다. 하지만 왜 그 영상을 선택했는지, 어떤 시리즈나 수업 흐름에 있었는지를 보존하려면 재생목록 제목과 URL도 별도로 남기는 편이 좋습니다.</p></details>
+      <details><summary>재생목록 순서가 바뀌면 기존 기록을 수정해야 하나요?</summary><p>기존 값을 지우기보다 새 확인 날짜와 현재 순서를 추가하세요. 과거 기록은 그 날짜에 관찰한 상태이고, 새 기록은 목록의 변화를 보여 줍니다.</p></details>
+      <details><summary>위 NASA 영상이 재생되면 같은 방식으로 다운로드된다는 뜻인가요?</summary><p>아닙니다. 위 영상은 YouTube 공식 임베드 플레이어에서 재생되는 예시입니다. Downloader-X의 처리 결과, 파일 형식, 화질, 음성 또는 저장 가능성을 검증하지 않습니다.</p></details>
+      <details><summary>재생목록 전체를 한 번에 저장하는 방법을 설명하는 글인가요?</summary><p>아닙니다. 이 글은 허가받은 공개 영상 한 편을 다룰 때 목록의 순서와 출처를 잃지 않도록 기록하는 방법입니다. 도구 페이지에서는 실제로 표시되는 기능과 결과만 확인해야 합니다.</p></details>
+    </section>
+
+    <section class="related" id="related"><h2>8. 저장 전에 영상·음성·파일 선택을 따로 확인한다</h2><p>재생목록 맥락을 기록한 뒤에는 도구 화면의 실제 선택지를 보고 영상과 음성, 한 파일 표시를 구분해야 합니다. 해상도 숫자만으로 파일 구성을 추측하지 않는 방법은 다음 한국어 가이드에서 확인할 수 있습니다.</p><a href="https://downloader-x.com/ko/guides/youtube-720p-1080p-video-audio-one-file-ko/">YouTube 영상·음성·한 파일 선택을 확인하는 가이드</a></section>
+    <section class="cta"><h3>권한이 있는 공개 영상 한 편부터 기록하기</h3><p>영상 URL과 재생목록 URL을 각각 준비하고, 확인 날짜와 현재 순서를 먼저 적으세요. 그런 다음 도구가 실제로 보여 주는 선택지만 확인하고 로컬 파일명을 기록표에 연결합니다.</p><a class="button" href="https://downloader-x.com/ko/youtube-downloader/">YouTube Downloader에서 확인하기</a></section>
+    <p class="foot">Downloader-X는 YouTube 또는 Google과 제휴하지 않습니다. 임베드 미디어의 권리는 원 제공자에게 있습니다. 공개되었고 사용 허가가 확인된 미디어만 책임 있게 다루세요.</p>
+  </article>
+</main>
+<footer class="footer"><a href="https://downloader-x.com/ko/guides/">Downloader-X 가이드</a> · 공개 또는 허가된 미디어만 이용하세요.</footer>
+</body>
+</html>
