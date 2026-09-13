@@ -1,6 +1,6 @@
 {
-  "count": 471,
-  "generatedAt": "2026-09-13T03:52:05.000Z",
+  "count": 472,
+  "generatedAt": "2026-09-13T07:27:12.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14475,6 +14475,34 @@
       "standardVersion": "2026-09-v2",
       "title": "保存したYouTube動画を見失わないファイル名とフォルダー整理術",
       "wordCount": 1995
+    },
+    {
+      "canonical": "https://downloader-x.com/zh/guides/youtube-video-cannot-seek-check-file-completeness-zh/",
+      "category": "YOUTUBE",
+      "date": "2026-09-13",
+      "description": "本指南说明保存的YouTube视频无法拖动进度条时，如何检查下载是否结束、文件是否完整、播放器差异与复制中断，并安全记录排查结果。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "检查保存的 YouTube 视频无法拖动进度条与文件完整性的指南",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "zh",
+      "parentHub": "https://downloader-x.com/zh/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-cannot-seek-check-file-completeness-zh.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "zh",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 19215,
+      "slug": "youtube-video-cannot-seek-check-file-completeness-zh",
+      "sourcePath": "articles/youtube-video-cannot-seek-check-file-completeness-zh.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-cannot-seek-check-file-completeness-zh.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存的YouTube视频无法拖动进度条？先检查文件是否完整",
+      "wordCount": 2000
     }
   ],
   "localeCounts": {
@@ -14498,9 +14526,9 @@
     "th": 23,
     "tr": 17,
     "vi": 18,
-    "zh": 17
+    "zh": 18
   },
-  "sourceCommit": "9c6fb4b780933d379fa5c2079ffb0fb8e47c8700",
+  "sourceCommit": "1ec547fb5b33271a2d2b6b82a7008e6b977f9b28",
   "standardVersion": "2026-09-x-keywords-v1",
   "version": 2
 }
