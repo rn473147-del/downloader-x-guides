@@ -1,6 +1,6 @@
 {
-  "count": 474,
-  "generatedAt": "2026-09-13T14:59:46.000Z",
+  "count": 475,
+  "generatedAt": "2026-09-13T23:21:24.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14559,6 +14559,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Cách kiểm tra dung lượng trống trước khi lưu video YouTube trên điện thoại",
       "wordCount": 1986
+    },
+    {
+      "canonical": "https://downloader-x.com/fil/guides/suriin-file-extension-na-save-youtube-video-fil/",
+      "category": "YOUTUBE",
+      "date": "2026-09-14",
+      "description": "Praktikal na gabay sa pagsuri ng pangalan, extension, laki, lokasyon at playback ng awtorisadong YouTube video bago ito ilipat o ibahagi.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Pagsuri sa file extension ng na-save na YouTube video bago ibahagi",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fil",
+      "parentHub": "https://downloader-x.com/fil/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/suriin-file-extension-na-save-youtube-video-fil.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fil",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 19031,
+      "slug": "suriin-file-extension-na-save-youtube-video-fil",
+      "sourcePath": "articles/suriin-file-extension-na-save-youtube-video-fil.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/suriin-file-extension-na-save-youtube-video-fil.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Paano Suriin ang File Extension ng Na-save na YouTube Video Bago Ito Ibahagi",
+      "wordCount": 1620
     }
   ],
   "localeCounts": {
@@ -14567,7 +14595,7 @@
     "en": 19,
     "es": 18,
     "fa": 17,
-    "fil": 19,
+    "fil": 20,
     "fr": 17,
     "hi": 17,
     "id": 132,
@@ -14584,7 +14612,7 @@
     "vi": 19,
     "zh": 18
   },
-  "sourceCommit": "40e8f8a6d8204c523430aa3324b51b4572d64b99",
+  "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
   "standardVersion": "2026-09-x-keywords-v1",
   "version": 2
 }
