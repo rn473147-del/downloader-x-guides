@@ -1,6 +1,6 @@
 {
-  "count": 478,
-  "generatedAt": "2026-09-14T11:34:02.000Z",
+  "count": 479,
+  "generatedAt": "2026-09-14T14:51:08.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14671,6 +14671,34 @@
       "standardVersion": "2026-09-v2",
       "title": "چگونه فایل‌های ظاهراً تکراری ویدیوی YouTube را پیش از حذف مقایسه کنیم",
       "wordCount": 1901
+    },
+    {
+      "canonical": "https://downloader-x.com/fr/guides/video-youtube-image-son-decalage-apres-transfert-fr/",
+      "category": "YOUTUBE",
+      "date": "2026-09-14",
+      "description": "Guide pour déterminer si le décalage entre l’image et le son d’une vidéo YouTube enregistrée vient du fichier, du transfert, du lecteur ou de l’appareil.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Diagnostiquer un décalage entre l’image et le son d’une vidéo YouTube transférée",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fr",
+      "parentHub": "https://downloader-x.com/fr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-image-son-decalage-apres-transfert-fr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fr",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21244,
+      "slug": "video-youtube-image-son-decalage-apres-transfert-fr",
+      "sourcePath": "articles/video-youtube-image-son-decalage-apres-transfert-fr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-image-son-decalage-apres-transfert-fr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Image et son décalés après le transfert d’une vidéo YouTube : que vérifier ?",
+      "wordCount": 1852
     }
   ],
   "localeCounts": {
@@ -14680,7 +14708,7 @@
     "es": 18,
     "fa": 18,
     "fil": 20,
-    "fr": 17,
+    "fr": 18,
     "hi": 18,
     "id": 132,
     "it": 17,
