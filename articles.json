@@ -1,6 +1,6 @@
 {
-  "count": 479,
-  "generatedAt": "2026-09-14T14:51:08.000Z",
+  "count": 480,
+  "generatedAt": "2026-09-14T23:11:14.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14699,11 +14699,39 @@
       "standardVersion": "2026-09-v2",
       "title": "Image et son décalés après le transfert d’une vidéo YouTube : que vérifier ?",
       "wordCount": 1852
+    },
+    {
+      "canonical": "https://downloader-x.com/de/guides/youtube-video-datei-zu-gross-usb-stick-de/",
+      "category": "YOUTUBE",
+      "date": "2026-09-15",
+      "description": "Prüfen Sie sicher, warum eine gespeicherte YouTube-Videodatei trotz freien Speichers nicht auf einen USB-Stick kopiert wird: Dateigröße, FAT32, Pfad und Übertragung.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Prüfen, warum eine YouTube-Videodatei zu groß für einen USB-Stick ist",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "de",
+      "parentHub": "https://downloader-x.com/de/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-datei-zu-gross-usb-stick-de.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "de",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 20442,
+      "slug": "youtube-video-datei-zu-gross-usb-stick-de",
+      "sourcePath": "articles/youtube-video-datei-zu-gross-usb-stick-de.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-datei-zu-gross-usb-stick-de.html",
+      "standardVersion": "2026-09-v2",
+      "title": "YouTube-Videodatei zu groß für den USB-Stick? Ursachen sicher prüfen",
+      "wordCount": 1533
     }
   ],
   "localeCounts": {
     "ar": 18,
-    "de": 17,
+    "de": 18,
     "en": 19,
     "es": 18,
     "fa": 18,
