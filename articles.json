@@ -1,6 +1,6 @@
 {
-  "count": 477,
-  "generatedAt": "2026-09-14T07:25:04.000Z",
+  "count": 478,
+  "generatedAt": "2026-09-14T11:34:02.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14643,6 +14643,34 @@
       "standardVersion": "2026-09-v2",
       "title": "كيفية إنشاء نسخة عمل من فيديو YouTube مصرح به دون استبدال الملف الأصلي",
       "wordCount": 1531
+    },
+    {
+      "canonical": "https://downloader-x.com/fa/guides/compare-duplicate-youtube-video-files-before-delete-fa/",
+      "category": "YOUTUBE",
+      "date": "2026-09-14",
+      "description": "راهنمای فارسی برای مقایسه نام، مسیر، حجم، مدت و محتوای فایل‌های ظاهراً تکراری ویدیوی YouTube پیش از حذف، بدون به خطر انداختن نسخه مرجع.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "مقایسه فایل‌های ظاهراً تکراری ویدیوی YouTube پیش از حذف",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fa",
+      "parentHub": "https://downloader-x.com/fa/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/compare-duplicate-youtube-video-files-before-delete-fa.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fa",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 27444,
+      "slug": "compare-duplicate-youtube-video-files-before-delete-fa",
+      "sourcePath": "articles/compare-duplicate-youtube-video-files-before-delete-fa.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/compare-duplicate-youtube-video-files-before-delete-fa.html",
+      "standardVersion": "2026-09-v2",
+      "title": "چگونه فایل‌های ظاهراً تکراری ویدیوی YouTube را پیش از حذف مقایسه کنیم",
+      "wordCount": 1901
     }
   ],
   "localeCounts": {
@@ -14650,7 +14678,7 @@
     "de": 17,
     "en": 19,
     "es": 18,
-    "fa": 17,
+    "fa": 18,
     "fil": 20,
     "fr": 17,
     "hi": 18,
