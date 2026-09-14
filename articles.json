@@ -1,6 +1,6 @@
 {
-  "count": 475,
-  "generatedAt": "2026-09-13T23:21:24.000Z",
+  "count": 476,
+  "generatedAt": "2026-09-14T03:43:01.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14587,6 +14587,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Paano Suriin ang File Extension ng Na-save na YouTube Video Bago Ito Ibahagi",
       "wordCount": 1620
+    },
+    {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-cloud-share-permission-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-14",
+      "description": "सहेजे गए अधिकृत YouTube वीडियो को क्लाउड पर रखने से पहले मालिकाना हक, लिंक एक्सेस, दर्शक भूमिका और स्रोत रिकॉर्ड जाँचने की व्यावहारिक हिंदी गाइड।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो की क्लाउड शेयरिंग अनुमति जाँचने की हिंदी गाइड",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-cloud-share-permission-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 33092,
+      "slug": "youtube-video-cloud-share-permission-hi",
+      "sourcePath": "articles/youtube-video-cloud-share-permission-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-cloud-share-permission-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजे गए YouTube वीडियो को क्लाउड पर रखने से पहले शेयरिंग अनुमति कैसे जाँचें",
+      "wordCount": 1857
     }
   ],
   "localeCounts": {
@@ -14597,7 +14625,7 @@
     "fa": 17,
     "fil": 20,
     "fr": 17,
-    "hi": 17,
+    "hi": 18,
     "id": 132,
     "it": 17,
     "ja": 18,
