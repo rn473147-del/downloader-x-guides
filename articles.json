@@ -1,6 +1,6 @@
 {
-  "count": 482,
-  "generatedAt": "2026-09-15T07:16:36.000Z",
+  "count": 483,
+  "generatedAt": "2026-09-15T11:34:35.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14783,6 +14783,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Vídeo do YouTube salvo sem legendas? Como preservar idioma e contexto",
       "wordCount": 1800
+    },
+    {
+      "canonical": "https://downloader-x.com/ru/guides/youtube-video-no-thumbnail-gallery-check-ru/",
+      "category": "YOUTUBE",
+      "date": "2026-09-15",
+      "description": "Что делать, если сохранённое видео YouTube открывается, но отображается без миниатюры в галерее: проверка файла, медиатеки, формата и переноса.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Проверка видео YouTube без миниатюры в галерее",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ru",
+      "parentHub": "https://downloader-x.com/ru/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-no-thumbnail-gallery-check-ru.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ru",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 31636,
+      "slug": "youtube-video-no-thumbnail-gallery-check-ru",
+      "sourcePath": "articles/youtube-video-no-thumbnail-gallery-check-ru.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-no-thumbnail-gallery-check-ru.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Сохранённое видео YouTube не показывает миниатюру в галерее: что проверить",
+      "wordCount": 1587
     }
   ],
   "localeCounts": {
@@ -14802,7 +14830,7 @@
     "ms": 17,
     "nl": 17,
     "pt": 18,
-    "ru": 17,
+    "ru": 18,
     "th": 23,
     "tr": 17,
     "vi": 19,
