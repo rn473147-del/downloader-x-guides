@@ -1,6 +1,6 @@
 {
-  "count": 483,
-  "generatedAt": "2026-09-15T11:34:35.000Z",
+  "count": 484,
+  "generatedAt": "2026-09-15T14:50:11.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -12819,6 +12819,35 @@
       "wordCount": 476
     },
     {
+      "canonical": "https://downloader-x.com/tr/guides/youtube-video-telefonda-yan-donuyor-kontrol-tr/",
+      "category": "YOUTUBE",
+      "date": "2026-09-15",
+      "description": "Kaydedilen YouTube videosu telefonda yan, ters veya farklı yönde görünüyorsa dosyayı değiştirmeden oynatıcı, ekran döndürme ve yön metadatasını güvenle kontrol edin.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Kaydedilen YouTube videosu telefonda yan dönüyorsa güvenli kontrol adımları",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "tr",
+      "parentHub": "https://downloader-x.com/tr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-telefonda-yan-donuyor-kontrol-tr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "tr",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 22040,
+      "slug": "youtube-video-telefonda-yan-donuyor-kontrol-tr",
+      "sourcePath": "articles/youtube-video-telefonda-yan-donuyor-kontrol-tr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-telefonda-yan-donuyor-kontrol-tr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Kaydedilen YouTube videosu telefonda yan dönüyor: ne kontrol edilmeli?",
+      "wordCount": 1553
+    },
+    {
       "canonical": "https://downloader-x.com/vi/guides/tai-video-x-twitter-hd-moi-thiet-bi/",
       "category": "X",
       "date": "2026-08-30",
@@ -14832,7 +14861,7 @@
     "pt": 18,
     "ru": 18,
     "th": 23,
-    "tr": 17,
+    "tr": 18,
     "vi": 19,
     "zh": 18
   },
