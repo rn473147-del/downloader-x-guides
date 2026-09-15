@@ -1,6 +1,6 @@
 {
-  "count": 480,
-  "generatedAt": "2026-09-14T23:11:14.000Z",
+  "count": 481,
+  "generatedAt": "2026-09-15T03:39:22.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14727,6 +14727,34 @@
       "standardVersion": "2026-09-v2",
       "title": "YouTube-Videodatei zu groß für den USB-Stick? Ursachen sicher prüfen",
       "wordCount": 1533
+    },
+    {
+      "canonical": "https://downloader-x.com/it/guides/video-youtube-schermo-nero-smart-tv-compatibilita-it/",
+      "category": "YOUTUBE",
+      "date": "2026-09-15",
+      "description": "Guida per capire perché un video YouTube salvato mostra lo schermo nero sulla Smart TV: file incompleto, contenitore, codec, porta USB e limiti del televisore.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Controllare un video YouTube con schermo nero sulla Smart TV",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "it",
+      "parentHub": "https://downloader-x.com/it/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-schermo-nero-smart-tv-compatibilita-it.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "it",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 20459,
+      "slug": "video-youtube-schermo-nero-smart-tv-compatibilita-it",
+      "sourcePath": "articles/video-youtube-schermo-nero-smart-tv-compatibilita-it.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-schermo-nero-smart-tv-compatibilita-it.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube salvato con schermo nero sulla Smart TV: cosa controllare",
+      "wordCount": 1866
     }
   ],
   "localeCounts": {
@@ -14739,7 +14767,7 @@
     "fr": 18,
     "hi": 18,
     "id": 132,
-    "it": 17,
+    "it": 18,
     "ja": 18,
     "km": 1,
     "ko": 20,
