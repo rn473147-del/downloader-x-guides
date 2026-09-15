@@ -1,6 +1,6 @@
 {
-  "count": 481,
-  "generatedAt": "2026-09-15T03:39:22.000Z",
+  "count": 482,
+  "generatedAt": "2026-09-15T07:16:36.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14755,6 +14755,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Video YouTube salvato con schermo nero sulla Smart TV: cosa controllare",
       "wordCount": 1866
+    },
+    {
+      "canonical": "https://downloader-x.com/pt/guides/video-youtube-salvo-sem-legendas-preservar-contexto-pt/",
+      "category": "YOUTUBE",
+      "date": "2026-09-15",
+      "description": "Entenda por que as legendas vistas no YouTube podem não acompanhar o vídeo salvo e aprenda a registrar idioma, fonte e contexto antes de arquivar o arquivo.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Preservar idioma e contexto quando um vídeo do YouTube é salvo sem legendas",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "pt",
+      "parentHub": "https://downloader-x.com/pt/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-salvo-sem-legendas-preservar-contexto-pt.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "pt",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 20466,
+      "slug": "video-youtube-salvo-sem-legendas-preservar-contexto-pt",
+      "sourcePath": "articles/video-youtube-salvo-sem-legendas-preservar-contexto-pt.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-salvo-sem-legendas-preservar-contexto-pt.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Vídeo do YouTube salvo sem legendas? Como preservar idioma e contexto",
+      "wordCount": 1800
     }
   ],
   "localeCounts": {
@@ -14773,7 +14801,7 @@
     "ko": 20,
     "ms": 17,
     "nl": 17,
-    "pt": 17,
+    "pt": 18,
     "ru": 17,
     "th": 23,
     "tr": 17,
