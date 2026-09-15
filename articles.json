@@ -1,6 +1,6 @@
 {
-  "count": 484,
-  "generatedAt": "2026-09-15T14:50:11.000Z",
+  "count": 485,
+  "generatedAt": "2026-09-15T23:11:39.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -9984,6 +9984,35 @@
       "wordCount": 501
     },
     {
+      "canonical": "https://downloader-x.com/ms/guides/video-youtube-tersangkut-selepas-pindah-kad-sd-ms/",
+      "category": "YOUTUBE",
+      "date": "2026-09-16",
+      "description": "Panduan menyemak video YouTube yang mula tersangkut selepas dipindah ke kad SD: bandingkan fail asal, storan dalaman, pemindahan dan pemain tanpa menimpa fail.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Video YouTube tersangkut selepas dipindah ke kad SD",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ms",
+      "parentHub": "https://downloader-x.com/ms/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-tersangkut-selepas-pindah-kad-sd-ms.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ms",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20260,
+      "slug": "video-youtube-tersangkut-selepas-pindah-kad-sd-ms",
+      "sourcePath": "articles/video-youtube-tersangkut-selepas-pindah-kad-sd-ms.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-tersangkut-selepas-pindah-kad-sd-ms.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube tersangkut selepas dipindah ke kad SD: apa perlu diperiksa?",
+      "wordCount": 1631
+    },
+    {
       "canonical": "https://downloader-x.com/nl/guides/x-audio-11-nl/",
       "category": "X",
       "date": "2026-09-04",
@@ -14856,7 +14885,7 @@
     "ja": 18,
     "km": 1,
     "ko": 20,
-    "ms": 17,
+    "ms": 18,
     "nl": 17,
     "pt": 18,
     "ru": 18,
