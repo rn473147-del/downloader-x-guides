@@ -1,6 +1,6 @@
 {
-  "count": 485,
-  "generatedAt": "2026-09-15T23:11:39.000Z",
+  "count": 486,
+  "generatedAt": "2026-09-16T03:39:07.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -10551,6 +10551,35 @@
       "wordCount": 534
     },
     {
+      "canonical": "https://downloader-x.com/nl/guides/youtube-video-0-bytes-na-kopieren-controleren-nl/",
+      "category": "YOUTUBE",
+      "date": "2026-09-16",
+      "description": "Stappenplan voor een opgeslagen YouTube-video die na kopiëren 0 bytes toont: controleer bronbestand, overdracht, opslag en herstel zonder het origineel te overschrijven.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Opgeslagen YouTube-video is 0 bytes na het kopiëren",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "nl",
+      "parentHub": "https://downloader-x.com/nl/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-0-bytes-na-kopieren-controleren-nl.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "nl",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20041,
+      "slug": "youtube-video-0-bytes-na-kopieren-controleren-nl",
+      "sourcePath": "articles/youtube-video-0-bytes-na-kopieren-controleren-nl.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-0-bytes-na-kopieren-controleren-nl.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Opgeslagen YouTube-video is 0 bytes na het kopiëren: wat controleer je?",
+      "wordCount": 1812
+    },
+    {
       "canonical": "https://downloader-x.com/pt/guides/baixar-videos-x-twitter-hd-qualquer-dispositivo/",
       "category": "X",
       "date": "2026-08-30",
@@ -14886,7 +14915,7 @@
     "km": 1,
     "ko": 20,
     "ms": 18,
-    "nl": 17,
+    "nl": 18,
     "pt": 18,
     "ru": 18,
     "th": 23,
