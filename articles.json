@@ -1,6 +1,6 @@
 {
-  "count": 488,
-  "generatedAt": "2026-09-16T11:35:22.000Z",
+  "count": 489,
+  "generatedAt": "2026-09-16T14:48:14.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14566,6 +14566,35 @@
       "wordCount": 1978
     },
     {
+      "canonical": "https://downloader-x.com/en/guides/why-edited-youtube-video-file-is-larger-en/",
+      "category": "YOUTUBE",
+      "date": "2026-09-16",
+      "description": "A practical guide to checking why an authorized YouTube video file becomes larger after editing or export, including duration, resolution, frame rate, bitrate, codec, audio, and duplicate files.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Guide to checking why an edited YouTube video file is larger than the original",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/why-edited-youtube-video-file-is-larger-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19397,
+      "slug": "why-edited-youtube-video-file-is-larger-en",
+      "sourcePath": "articles/why-edited-youtube-video-file-is-larger-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/why-edited-youtube-video-file-is-larger-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Why Is an Edited YouTube Video File Larger Than the Original?",
+      "wordCount": 1851
+    },
+    {
       "canonical": "https://downloader-x.com/es/guides/conservar-capitulos-marcas-tiempo-video-youtube/",
       "category": "YOUTUBE",
       "date": "2026-09-13",
@@ -14961,7 +14990,7 @@
   "localeCounts": {
     "ar": 18,
     "de": 18,
-    "en": 19,
+    "en": 20,
     "es": 18,
     "fa": 18,
     "fil": 20,
