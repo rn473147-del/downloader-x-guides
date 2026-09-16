@@ -1,6 +1,6 @@
 {
-  "count": 487,
-  "generatedAt": "2026-09-16T07:20:35.000Z",
+  "count": 488,
+  "generatedAt": "2026-09-16T11:35:22.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14509,6 +14509,35 @@
       "wordCount": 2026
     },
     {
+      "canonical": "https://downloader-x.com/th/guides/youtube-video-cannot-rename-delete-usb-permissions-th/",
+      "category": "YOUTUBE",
+      "date": "2026-09-16",
+      "description": "คู่มือตรวจไฟล์วิดีโอ YouTube ที่ลบ เปลี่ยนชื่อ หรือย้ายไม่ได้หลังคัดลอกลงแฟลชไดรฟ์ แยกสิทธิ์ไฟล์ โหมดอ่านอย่างเดียว พื้นที่จัดเก็บ และปัญหาตัวไฟล์อย่างปลอดภัย",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "คู่มือตรวจไฟล์วิดีโอ YouTube ที่ลบหรือเปลี่ยนชื่อไม่ได้ในแฟลชไดรฟ์",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "th",
+      "parentHub": "https://downloader-x.com/th/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-cannot-rename-delete-usb-permissions-th.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "th",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 32394,
+      "slug": "youtube-video-cannot-rename-delete-usb-permissions-th",
+      "sourcePath": "articles/youtube-video-cannot-rename-delete-usb-permissions-th.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-cannot-rename-delete-usb-permissions-th.html",
+      "standardVersion": "2026-09-v2",
+      "title": "ไฟล์วิดีโอ YouTube ลบหรือเปลี่ยนชื่อไม่ได้หลังย้ายลงแฟลชไดรฟ์: ตรวจอะไรบ้าง",
+      "wordCount": 1998
+    },
+    {
       "canonical": "https://downloader-x.com/en/guides/youtube-published-date-vs-file-date/",
       "category": "YOUTUBE",
       "date": "2026-09-12",
@@ -14947,7 +14976,7 @@
     "nl": 18,
     "pt": 18,
     "ru": 18,
-    "th": 23,
+    "th": 24,
     "tr": 18,
     "vi": 19,
     "zh": 18
