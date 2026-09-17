@@ -1,6 +1,6 @@
 {
-  "count": 493,
-  "generatedAt": "2026-09-17T11:38:25.746Z",
+  "count": 494,
+  "generatedAt": "2026-09-17T14:56:44.563Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14851,6 +14851,35 @@
       "wordCount": 1986
     },
     {
+      "canonical": "https://downloader-x.com/vi/guides/video-youtube-khung-hinh-xanh-tim-van-co-tieng-vi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-17",
+      "description": "Cách kiểm tra video YouTube đã lưu bị khung hình xanh hoặc tím nhưng vẫn có tiếng bằng cách tách lỗi tệp, trình phát, bộ giải mã, bản sao và màn hình thiết bị.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Kiểm tra video YouTube có khung hình xanh hoặc tím nhưng vẫn có tiếng",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "vi",
+      "parentHub": "https://downloader-x.com/vi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-khung-hinh-xanh-tim-van-co-tieng-vi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "vi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20776,
+      "slug": "video-youtube-khung-hinh-xanh-tim-van-co-tieng-vi",
+      "sourcePath": "articles/video-youtube-khung-hinh-xanh-tim-van-co-tieng-vi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-khung-hinh-xanh-tim-van-co-tieng-vi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube đã lưu hiện khung hình xanh hoặc tím nhưng vẫn có tiếng: kiểm tra gì?",
+      "wordCount": 1992
+    },
+    {
       "canonical": "https://downloader-x.com/fil/guides/suriin-file-extension-na-save-youtube-video-fil/",
       "category": "YOUTUBE",
       "date": "2026-09-14",
@@ -15123,7 +15152,7 @@
     "ru": 18,
     "th": 24,
     "tr": 18,
-    "vi": 19,
+    "vi": 20,
     "zh": 19
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
