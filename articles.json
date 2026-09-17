@@ -1,6 +1,6 @@
 {
-  "count": 491,
-  "generatedAt": "2026-09-17T03:51:09.000Z",
+  "count": 492,
+  "generatedAt": "2026-09-17T07:26:47.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14737,6 +14737,35 @@
       "wordCount": 2000
     },
     {
+      "canonical": "https://downloader-x.com/zh/guides/youtube-video-wrong-date-gallery-organize-zh/",
+      "category": "YOUTUBE",
+      "date": "2026-09-17",
+      "description": "保存的YouTube视频在相册或文件管理器中日期不对、排序混乱时，如何区分发布时间、保存时间、复制时间和应用导入时间，并安全整理文件。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "检查保存的YouTube视频在相册中日期不对并整理顺序的指南",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "zh",
+      "parentHub": "https://downloader-x.com/zh/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-wrong-date-gallery-organize-zh.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "zh",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21482,
+      "slug": "youtube-video-wrong-date-gallery-organize-zh",
+      "sourcePath": "articles/youtube-video-wrong-date-gallery-organize-zh.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-wrong-date-gallery-organize-zh.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存的YouTube视频在相册里日期不对？如何检查与整理",
+      "wordCount": 1991
+    },
+    {
       "canonical": "https://downloader-x.com/ko/guides/record-youtube-playlist-order-source-ko/",
       "category": "YOUTUBE",
       "date": "2026-09-13",
@@ -15066,7 +15095,7 @@
     "th": 24,
     "tr": 18,
     "vi": 19,
-    "zh": 18
+    "zh": 19
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
   "standardVersion": "2026-09-x-keywords-v1",
