@@ -1,6 +1,6 @@
 {
-  "count": 494,
-  "generatedAt": "2026-09-17T14:56:44.563Z",
+  "count": 495,
+  "generatedAt": "2026-09-17T23:23:20.182Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14908,6 +14908,35 @@
       "wordCount": 1620
     },
     {
+      "canonical": "https://downloader-x.com/fil/guides/youtube-video-basag-putol-putol-tunog-suriin-fil/",
+      "category": "YOUTUBE",
+      "date": "2026-09-18",
+      "description": "Hakbang-hakbang na pagsusuri kung ang basag o putol-putol na tunog ng na-save na YouTube video ay mula sa file, player, Bluetooth, speaker, paglipat o pag-export.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Pagsuri sa basag o putol-putol na tunog ng na-save na YouTube video",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fil",
+      "parentHub": "https://downloader-x.com/fil/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-basag-putol-putol-tunog-suriin-fil.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fil",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20584,
+      "slug": "youtube-video-basag-putol-putol-tunog-suriin-fil",
+      "sourcePath": "articles/youtube-video-basag-putol-putol-tunog-suriin-fil.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-basag-putol-putol-tunog-suriin-fil.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Basag o Putol-putol ang Tunog ng Na-save na YouTube Video: Ano ang Dapat Suriin?",
+      "wordCount": 1945
+    },
+    {
       "canonical": "https://downloader-x.com/hi/guides/youtube-video-cloud-share-permission-hi/",
       "category": "YOUTUBE",
       "date": "2026-09-14",
@@ -15138,7 +15167,7 @@
     "en": 20,
     "es": 19,
     "fa": 18,
-    "fil": 20,
+    "fil": 21,
     "fr": 18,
     "hi": 18,
     "id": 133,
