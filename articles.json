@@ -1,6 +1,6 @@
 {
-  "count": 498,
-  "generatedAt": "2026-09-18T11:43:15.907Z",
+  "count": 499,
+  "generatedAt": "2026-09-18T14:54:55.665Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15135,6 +15135,34 @@
       "wordCount": 1852
     },
     {
+      "canonical": "https://downloader-x.com/fr/guides/video-youtube-lue-trop-vite-trop-lentement-fr/",
+      "category": "YOUTUBE",
+      "date": "2026-09-18",
+      "description": "Guide pour comprendre pourquoi une vidéo YouTube enregistrée se lit trop vite ou trop lentement, en séparant le réglage du lecteur, le fichier, le transfert et l’export.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Vérifier une vidéo YouTube enregistrée lue trop vite ou trop lentement",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fr",
+      "parentHub": "https://downloader-x.com/fr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-lue-trop-vite-trop-lentement-fr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fr",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 20926,
+      "slug": "video-youtube-lue-trop-vite-trop-lentement-fr",
+      "sourcePath": "articles/video-youtube-lue-trop-vite-trop-lentement-fr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-lue-trop-vite-trop-lentement-fr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Une vidéo YouTube enregistrée se lit trop vite ou trop lentement : que vérifier ?",
+      "wordCount": 1909
+    },
+    {
       "canonical": "https://downloader-x.com/de/guides/youtube-video-datei-zu-gross-usb-stick-de/",
       "category": "YOUTUBE",
       "date": "2026-09-15",
@@ -15254,7 +15282,7 @@
     "es": 19,
     "fa": 19,
     "fil": 21,
-    "fr": 18,
+    "fr": 19,
     "hi": 19,
     "id": 133,
     "it": 18,
