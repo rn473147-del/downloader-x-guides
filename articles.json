@@ -1,6 +1,6 @@
 {
-  "count": 499,
-  "generatedAt": "2026-09-18T14:54:55.665Z",
+  "count": 500,
+  "generatedAt": "2026-09-18T23:21:23.712Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15191,6 +15191,34 @@
       "wordCount": 1533
     },
     {
+      "canonical": "https://downloader-x.com/de/guides/youtube-video-nicht-ins-schnittprogramm-importierbar-de/",
+      "category": "YOUTUBE",
+      "date": "2026-09-19",
+      "description": "Prüfanleitung für ein gespeichertes YouTube-Video, das abspielbar ist, sich aber nicht in ein Schnittprogramm importieren lässt: Datei, Container, Codec, Speicherort und Projekt.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Prüfen, warum ein gespeichertes YouTube-Video nicht ins Schnittprogramm importiert werden kann",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "de",
+      "parentHub": "https://downloader-x.com/de/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-nicht-ins-schnittprogramm-importierbar-de.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "de",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 22020,
+      "slug": "youtube-video-nicht-ins-schnittprogramm-importierbar-de",
+      "sourcePath": "articles/youtube-video-nicht-ins-schnittprogramm-importierbar-de.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-nicht-ins-schnittprogramm-importierbar-de.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Gespeichertes YouTube-Video lässt sich nicht ins Schnittprogramm importieren: Was prüfen?",
+      "wordCount": 1797
+    },
+    {
       "canonical": "https://downloader-x.com/it/guides/video-youtube-schermo-nero-smart-tv-compatibilita-it/",
       "category": "YOUTUBE",
       "date": "2026-09-15",
@@ -15277,7 +15305,7 @@
   ],
   "localeCounts": {
     "ar": 19,
-    "de": 18,
+    "de": 19,
     "en": 20,
     "es": 19,
     "fa": 19,
