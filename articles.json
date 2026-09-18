@@ -1,6 +1,6 @@
 {
-  "count": 495,
-  "generatedAt": "2026-09-17T23:23:20.182Z",
+  "count": 496,
+  "generatedAt": "2026-09-18T03:49:03.489Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -14965,6 +14965,35 @@
       "wordCount": 1857
     },
     {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-duration-00-00-check-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-18",
+      "description": "सहेजे गए YouTube वीडियो की अवधि 00:00 या खाली दिखने पर फ़ाइल, कॉपी, प्लेयर, गैलरी इंडेक्स और अधूरे ट्रांसफ़र को क्रम से जाँचने की व्यावहारिक गाइड।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो की 00:00 अवधि की जाँच",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-duration-00-00-check-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 29867,
+      "slug": "youtube-video-duration-00-00-check-hi",
+      "sourcePath": "articles/youtube-video-duration-00-00-check-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-duration-00-00-check-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजे गए YouTube वीडियो की अवधि 00:00 दिखे तो क्या जाँचें?",
+      "wordCount": 1997
+    },
+    {
       "canonical": "https://downloader-x.com/ar/guides/youtube-video-working-copy-protect-original-ar/",
       "category": "YOUTUBE",
       "date": "2026-09-14",
@@ -15169,7 +15198,7 @@
     "fa": 18,
     "fil": 21,
     "fr": 18,
-    "hi": 18,
+    "hi": 19,
     "id": 133,
     "it": 18,
     "ja": 19,
