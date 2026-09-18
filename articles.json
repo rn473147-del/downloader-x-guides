@@ -1,6 +1,6 @@
 {
-  "count": 496,
-  "generatedAt": "2026-09-18T03:49:03.489Z",
+  "count": 497,
+  "generatedAt": "2026-09-18T07:22:09.484Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15022,6 +15022,35 @@
       "wordCount": 1531
     },
     {
+      "canonical": "https://downloader-x.com/ar/guides/youtube-video-freezes-frame-audio-continues-ar/",
+      "category": "YOUTUBE",
+      "date": "2026-09-18",
+      "description": "دليل عربي لفحص فيديو YouTube محفوظ تتوقف صورته بينما يستمر الصوت، مع عزل مشكلة الملف والمشغّل والجهاز والنسخة المنقولة أو المصدّرة.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "فحص تجمد صورة فيديو YouTube مع استمرار الصوت",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ar",
+      "parentHub": "https://downloader-x.com/ar/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-freezes-frame-audio-continues-ar.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ar",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 24306,
+      "slug": "youtube-video-freezes-frame-audio-continues-ar",
+      "sourcePath": "articles/youtube-video-freezes-frame-audio-continues-ar.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-freezes-frame-audio-continues-ar.html",
+      "standardVersion": "2026-09-v2",
+      "title": "يتوقف فيديو YouTube المحفوظ على صورة ثابتة بينما يستمر الصوت: ماذا تفحص؟",
+      "wordCount": 1547
+    },
+    {
       "canonical": "https://downloader-x.com/fa/guides/compare-duplicate-youtube-video-files-before-delete-fa/",
       "category": "YOUTUBE",
       "date": "2026-09-14",
@@ -15191,7 +15220,7 @@
     }
   ],
   "localeCounts": {
-    "ar": 18,
+    "ar": 19,
     "de": 18,
     "en": 20,
     "es": 19,
