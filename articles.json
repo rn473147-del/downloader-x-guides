@@ -1,6 +1,6 @@
 {
-  "count": 502,
-  "generatedAt": "2026-09-19T07:26:29.615Z",
+  "count": 503,
+  "generatedAt": "2026-09-19T11:38:42.367Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15357,6 +15357,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Vídeo do YouTube salvo termina antes do original: o que verificar?",
       "wordCount": 1897
+    },
+    {
+      "canonical": "https://downloader-x.com/ru/guides/youtube-video-ne-perematyvaetsya-vpered-ru/",
+      "category": "YOUTUBE",
+      "date": "2026-09-19",
+      "description": "Пошаговая проверка сохранённого видео YouTube, которое воспроизводится с начала, но не перематывается вперёд: файл, перенос, индекс, плеер и целостность.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Проверка сохранённого видео YouTube, которое не перематывается вперёд",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ru",
+      "parentHub": "https://downloader-x.com/ru/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-ne-perematyvaetsya-vpered-ru.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ru",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 29197,
+      "slug": "youtube-video-ne-perematyvaetsya-vpered-ru",
+      "sourcePath": "articles/youtube-video-ne-perematyvaetsya-vpered-ru.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-ne-perematyvaetsya-vpered-ru.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Сохранённое видео YouTube не перематывается вперёд: что проверить?",
+      "wordCount": 1557
     }
   ],
   "localeCounts": {
@@ -15376,7 +15404,7 @@
     "ms": 18,
     "nl": 18,
     "pt": 19,
-    "ru": 18,
+    "ru": 19,
     "th": 24,
     "tr": 18,
     "vi": 20,
