@@ -1,6 +1,6 @@
 {
-  "count": 500,
-  "generatedAt": "2026-09-18T23:24:22.811Z",
+  "count": 501,
+  "generatedAt": "2026-09-19T03:50:51.162Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15301,6 +15301,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Сохранённое видео YouTube не показывает миниатюру в галерее: что проверить",
       "wordCount": 1587
+    },
+    {
+      "canonical": "https://downloader-x.com/it/guides/sottotitoli-non-compaiono-video-youtube-salvato-it/",
+      "category": "YOUTUBE",
+      "date": "2026-09-19",
+      "description": "Guida per capire perché i sottotitoli visibili su YouTube non compaiono nel video salvato: tracce separate, testo impresso, player, file e autorizzazioni.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Controllare perché i sottotitoli non compaiono nel video YouTube salvato",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "it",
+      "parentHub": "https://downloader-x.com/it/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/sottotitoli-non-compaiono-video-youtube-salvato-it.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "it",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21144,
+      "slug": "sottotitoli-non-compaiono-video-youtube-salvato-it",
+      "sourcePath": "articles/sottotitoli-non-compaiono-video-youtube-salvato-it.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/sottotitoli-non-compaiono-video-youtube-salvato-it.html",
+      "standardVersion": "2026-09-v2",
+      "title": "I sottotitoli non compaiono nel video YouTube salvato: cosa controllare?",
+      "wordCount": 1982
     }
   ],
   "localeCounts": {
@@ -15313,7 +15341,7 @@
     "fr": 19,
     "hi": 19,
     "id": 133,
-    "it": 18,
+    "it": 19,
     "ja": 19,
     "km": 1,
     "ko": 21,
