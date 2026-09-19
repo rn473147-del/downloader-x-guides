@@ -1,6 +1,6 @@
 {
-  "count": 504,
-  "generatedAt": "2026-09-19T15:00:40.814Z",
+  "count": 505,
+  "generatedAt": "2026-09-19T23:16:49.128Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -9475,6 +9475,34 @@
       "wordCount": 1143
     },
     {
+      "canonical": "https://downloader-x.com/ms/guides/video-youtube-bermula-di-tengah-bahagian-awal-hilang-ms/",
+      "category": "YOUTUBE",
+      "date": "2026-09-20",
+      "description": "Panduan memeriksa video YouTube yang disimpan tetapi bermula di tengah atau kehilangan bahagian awal: semak sambung main, versi sumber, pemindahan, tempoh dan integriti fail.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa video YouTube yang disimpan tetapi bermula di tengah atau kehilangan bahagian awal",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ms",
+      "parentHub": "https://downloader-x.com/ms/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-bermula-di-tengah-bahagian-awal-hilang-ms.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ms",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 19758,
+      "slug": "video-youtube-bermula-di-tengah-bahagian-awal-hilang-ms",
+      "sourcePath": "articles/video-youtube-bermula-di-tengah-bahagian-awal-hilang-ms.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-bermula-di-tengah-bahagian-awal-hilang-ms.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube yang disimpan bermula di tengah dan bahagian awal hilang: apa perlu diperiksa?",
+      "wordCount": 1630
+    },
+    {
       "canonical": "https://downloader-x.com/ms/guides/x-audio-11-ms/",
       "category": "X",
       "date": "2026-09-04",
@@ -15429,7 +15457,7 @@
     "ja": 19,
     "km": 1,
     "ko": 21,
-    "ms": 18,
+    "ms": 19,
     "nl": 18,
     "pt": 19,
     "ru": 19,
