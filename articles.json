@@ -1,6 +1,6 @@
 {
-  "count": 509,
-  "generatedAt": "2026-09-20T15:01:03.017Z",
+  "count": 510,
+  "generatedAt": "2026-09-20T23:20:29.168Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15553,13 +15553,41 @@
       "standardVersion": "2026-09-v2",
       "title": "Why Does a Saved YouTube Video Look Blocky in Fast-Motion Scenes?",
       "wordCount": 1965
+    },
+    {
+      "canonical": "https://downloader-x.com/es/guides/video-youtube-guardado-barras-negras-pantalla-es/",
+      "category": "YOUTUBE",
+      "date": "2026-09-21",
+      "description": "Guía para identificar por qué un video de YouTube guardado muestra barras negras: distingue encuadre original, relación de aspecto, reproductor, pantalla y exportación.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Comprobar barras negras en un video de YouTube guardado",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "es",
+      "parentHub": "https://downloader-x.com/es/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-guardado-barras-negras-pantalla-es.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "es",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21913,
+      "slug": "video-youtube-guardado-barras-negras-pantalla-es",
+      "sourcePath": "articles/video-youtube-guardado-barras-negras-pantalla-es.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-guardado-barras-negras-pantalla-es.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video de YouTube guardado muestra barras negras: qué revisar antes de recortarlo",
+      "wordCount": 1850
     }
   ],
   "localeCounts": {
     "ar": 19,
     "de": 19,
     "en": 21,
-    "es": 19,
+    "es": 20,
     "fa": 19,
     "fil": 21,
     "fr": 19,
