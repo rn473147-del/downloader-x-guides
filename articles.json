@@ -1,6 +1,6 @@
 {
-  "count": 508,
-  "generatedAt": "2026-09-20T11:45:19.564Z",
+  "count": 509,
+  "generatedAt": "2026-09-20T15:01:03.017Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15525,12 +15525,40 @@
       "standardVersion": "2026-09-v2",
       "title": "วิดีโอ YouTube ที่บันทึกไว้ภาพกระตุกแต่เสียงปกติ: ควรตรวจอะไรบ้าง",
       "wordCount": 2000
+    },
+    {
+      "canonical": "https://downloader-x.com/en/guides/youtube-video-blocky-fast-motion-scenes-en/",
+      "category": "YOUTUBE",
+      "date": "2026-09-20",
+      "description": "A practical guide to checking a saved YouTube video that looks blocky or pixelated during motion: compare the source, file, player, scaling, bitrate, codec, and transfers.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Checking blocky motion in a saved YouTube video",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-blocky-fast-motion-scenes-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21991,
+      "slug": "youtube-video-blocky-fast-motion-scenes-en",
+      "sourcePath": "articles/youtube-video-blocky-fast-motion-scenes-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-blocky-fast-motion-scenes-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Why Does a Saved YouTube Video Look Blocky in Fast-Motion Scenes?",
+      "wordCount": 1965
     }
   ],
   "localeCounts": {
     "ar": 19,
     "de": 19,
-    "en": 20,
+    "en": 21,
     "es": 19,
     "fa": 19,
     "fil": 21,
