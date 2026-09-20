@@ -1,6 +1,6 @@
 {
-  "count": 505,
-  "generatedAt": "2026-09-19T23:16:49.128Z",
+  "count": 506,
+  "generatedAt": "2026-09-20T03:47:19.785Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15441,6 +15441,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Сохранённое видео YouTube не перематывается вперёд: что проверить?",
       "wordCount": 1681
+    },
+    {
+      "canonical": "https://downloader-x.com/nl/guides/youtube-video-gedraaid-ondersteboven-controleren-nl/",
+      "category": "YOUTUBE",
+      "date": "2026-09-20",
+      "description": "Controleer waarom een opgeslagen YouTube-video op zijn kant of ondersteboven staat: vergelijk bron, speler, rotatiemetadata, overdracht en export zonder het origineel te overschrijven.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Controleren waarom een opgeslagen YouTube-video gedraaid of ondersteboven staat",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "nl",
+      "parentHub": "https://downloader-x.com/nl/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-gedraaid-ondersteboven-controleren-nl.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "nl",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 22069,
+      "slug": "youtube-video-gedraaid-ondersteboven-controleren-nl",
+      "sourcePath": "articles/youtube-video-gedraaid-ondersteboven-controleren-nl.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-gedraaid-ondersteboven-controleren-nl.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Opgeslagen YouTube-video staat gedraaid of ondersteboven: wat controleer je?",
+      "wordCount": 1874
     }
   ],
   "localeCounts": {
@@ -15458,7 +15486,7 @@
     "km": 1,
     "ko": 21,
     "ms": 19,
-    "nl": 18,
+    "nl": 19,
     "pt": 19,
     "ru": 19,
     "th": 24,
