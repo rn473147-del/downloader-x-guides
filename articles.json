@@ -1,6 +1,6 @@
 {
-  "count": 507,
-  "generatedAt": "2026-09-20T07:20:00.320Z",
+  "count": 508,
+  "generatedAt": "2026-09-20T11:45:19.564Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15497,6 +15497,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Video YouTube tersimpan bersuara di speaker tetapi hening lewat Bluetooth: apa yang perlu dicek?",
       "wordCount": 1637
+    },
+    {
+      "canonical": "https://downloader-x.com/th/guides/youtube-video-picture-stutters-audio-normal-th/",
+      "category": "YOUTUBE",
+      "date": "2026-09-20",
+      "description": "คู่มือตรวจวิดีโอ YouTube ที่บันทึกไว้แล้วภาพกระตุกแต่เสียงปกติ แยกปัญหาไฟล์ ตัวเล่น อุปกรณ์ อัตราเฟรม พื้นที่จัดเก็บ และการถ่ายโอนอย่างเป็นขั้นตอน",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "ตรวจวิดีโอ YouTube ที่บันทึกไว้แล้วภาพกระตุกแต่เสียงปกติ",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "th",
+      "parentHub": "https://downloader-x.com/th/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-picture-stutters-audio-normal-th.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "th",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 35781,
+      "slug": "youtube-video-picture-stutters-audio-normal-th",
+      "sourcePath": "articles/youtube-video-picture-stutters-audio-normal-th.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-picture-stutters-audio-normal-th.html",
+      "standardVersion": "2026-09-v2",
+      "title": "วิดีโอ YouTube ที่บันทึกไว้ภาพกระตุกแต่เสียงปกติ: ควรตรวจอะไรบ้าง",
+      "wordCount": 2000
     }
   ],
   "localeCounts": {
@@ -15517,7 +15545,7 @@
     "nl": 19,
     "pt": 19,
     "ru": 19,
-    "th": 24,
+    "th": 25,
     "tr": 19,
     "vi": 20,
     "zh": 19
