@@ -1,6 +1,6 @@
 {
-  "count": 506,
-  "generatedAt": "2026-09-20T03:47:19.785Z",
+  "count": 507,
+  "generatedAt": "2026-09-20T07:20:00.320Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15469,6 +15469,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Opgeslagen YouTube-video staat gedraaid of ondersteboven: wat controleer je?",
       "wordCount": 1874
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/video-youtube-suara-speaker-hening-bluetooth-id/",
+      "category": "YOUTUBE",
+      "date": "2026-09-20",
+      "description": "Panduan memeriksa video YouTube tersimpan yang bersuara dari speaker perangkat tetapi hening lewat Bluetooth: pisahkan file, pemutar, keluaran audio, koneksi, dan codec.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa video YouTube tersimpan yang bersuara di speaker tetapi hening lewat Bluetooth",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-suara-speaker-hening-bluetooth-id.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21220,
+      "slug": "video-youtube-suara-speaker-hening-bluetooth-id",
+      "sourcePath": "articles/video-youtube-suara-speaker-hening-bluetooth-id.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-suara-speaker-hening-bluetooth-id.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube tersimpan bersuara di speaker tetapi hening lewat Bluetooth: apa yang perlu dicek?",
+      "wordCount": 1637
     }
   ],
   "localeCounts": {
@@ -15480,7 +15508,7 @@
     "fil": 21,
     "fr": 19,
     "hi": 19,
-    "id": 133,
+    "id": 134,
     "it": 19,
     "ja": 19,
     "km": 1,
