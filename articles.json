@@ -1,6 +1,6 @@
 {
-  "count": 510,
-  "generatedAt": "2026-09-20T23:20:29.168Z",
+  "count": 511,
+  "generatedAt": "2026-09-21T03:49:33.909Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15581,6 +15581,34 @@
       "standardVersion": "2026-09-v2",
       "title": "Video de YouTube guardado muestra barras negras: qué revisar antes de recortarlo",
       "wordCount": 1850
+    },
+    {
+      "canonical": "https://downloader-x.com/ja/guides/youtube-video-opening-silent-audio-starts-later-ja/",
+      "category": "YOUTUBE",
+      "date": "2026-09-21",
+      "description": "保存したYouTube動画の冒頭だけ音が出ず途中から聞こえる場合に、元動画、ファイル、再生アプリ、音声出力、編集・書き出しを順番に切り分ける方法を解説します。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "保存したYouTube動画の冒頭だけ無音になる原因を確認する",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ja",
+      "parentHub": "https://downloader-x.com/ja/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-opening-silent-audio-starts-later-ja.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ja",
+      "schemaTypes": [
+        "Article",
+        "FAQPage"
+      ],
+      "size": 21614,
+      "slug": "youtube-video-opening-silent-audio-starts-later-ja",
+      "sourcePath": "articles/youtube-video-opening-silent-audio-starts-later-ja.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-opening-silent-audio-starts-later-ja.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存したYouTube動画の冒頭だけ無音で途中から音が出るときの確認方法",
+      "wordCount": 1999
     }
   ],
   "localeCounts": {
@@ -15594,7 +15622,7 @@
     "hi": 19,
     "id": 134,
     "it": 19,
-    "ja": 19,
+    "ja": 20,
     "km": 1,
     "ko": 21,
     "ms": 19,
