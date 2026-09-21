@@ -1,6 +1,6 @@
 {
-  "count": 511,
-  "generatedAt": "2026-09-21T03:49:33.909Z",
+  "count": 512,
+  "generatedAt": "2026-09-21T07:26:50.420Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15609,6 +15609,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存したYouTube動画の冒頭だけ無音で途中から音が出るときの確認方法",
       "wordCount": 1999
+    },
+    {
+      "canonical": "https://downloader-x.com/zh/guides/youtube-video-volume-too-low-check-zh/",
+      "category": "YOUTUBE",
+      "date": "2026-09-21",
+      "description": "保存的YouTube视频声音明显偏小，但其他文件正常时，如何安全比较原视频、文件、播放器、系统音量、输出设备和编辑副本，并记录可靠结论。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "保存的YouTube视频声音偏小时逐项比较原视频、播放器和输出设备",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "zh",
+      "parentHub": "https://downloader-x.com/zh/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-volume-too-low-check-zh.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "zh",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21205,
+      "slug": "youtube-video-volume-too-low-check-zh",
+      "sourcePath": "articles/youtube-video-volume-too-low-check-zh.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-volume-too-low-check-zh.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存的YouTube视频声音比其他文件小？如何逐项排查",
+      "wordCount": 2000
     }
   ],
   "localeCounts": {
@@ -15632,7 +15661,7 @@
     "th": 25,
     "tr": 19,
     "vi": 20,
-    "zh": 19
+    "zh": 20
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
   "standardVersion": "2026-09-x-keywords-v1",
