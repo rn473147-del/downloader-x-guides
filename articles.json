@@ -1,6 +1,6 @@
 {
-  "count": 512,
-  "generatedAt": "2026-09-21T07:26:50.420Z",
+  "count": 513,
+  "generatedAt": "2026-09-21T11:41:12.472Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15638,6 +15638,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存的YouTube视频声音比其他文件小？如何逐项排查",
       "wordCount": 2000
+    },
+    {
+      "canonical": "https://downloader-x.com/ko/guides/youtube-video-opens-in-browser-instead-player-ko/",
+      "category": "YOUTUBE",
+      "date": "2026-09-21",
+      "description": "저장한 YouTube 영상이 동영상 앱이나 갤러리 대신 브라우저에서 열릴 때 파일 형식, 저장 위치, 기본 앱, 다운로드 기록과 복사본을 안전하게 구분하는 방법입니다.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "저장한 YouTube 영상이 브라우저에서 열릴 때 파일과 기본 앱을 확인하는 방법",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ko",
+      "parentHub": "https://downloader-x.com/ko/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-opens-in-browser-instead-player-ko.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ko",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 26324,
+      "slug": "youtube-video-opens-in-browser-instead-player-ko",
+      "sourcePath": "articles/youtube-video-opens-in-browser-instead-player-ko.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-opens-in-browser-instead-player-ko.html",
+      "standardVersion": "2026-09-v2",
+      "title": "저장한 YouTube 영상이 동영상 앱 대신 브라우저에서 열릴 때 확인할 항목",
+      "wordCount": 1893
     }
   ],
   "localeCounts": {
@@ -15653,7 +15682,7 @@
     "it": 19,
     "ja": 20,
     "km": 1,
-    "ko": 21,
+    "ko": 22,
     "ms": 19,
     "nl": 19,
     "pt": 19,
