@@ -1,6 +1,6 @@
 {
-  "count": 515,
-  "generatedAt": "2026-09-22T03:45:24.931Z",
+  "count": 516,
+  "generatedAt": "2026-09-22T07:28:54.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15725,6 +15725,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Naputol ang Gilid ng Na-save na YouTube Video sa Fullscreen: Ano ang Dapat Suriin?",
       "wordCount": 1795
+    },
+    {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-picture-plays-no-sound-check-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-22",
+      "description": "सहेजे गए YouTube वीडियो में चित्र चलने पर भी आवाज़ न आए तो स्रोत, audio track, mute, output device, player support और transfer copy को क्रम से जाँचने की गाइड।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो में चित्र चलने लेकिन आवाज़ न आने की क्रमवार जाँच",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-picture-plays-no-sound-check-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 29051,
+      "slug": "youtube-video-picture-plays-no-sound-check-hi",
+      "sourcePath": "articles/youtube-video-picture-plays-no-sound-check-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-picture-plays-no-sound-check-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजे गए YouTube वीडियो में चित्र चलता है लेकिन आवाज़ नहीं आती: क्या जाँचें?",
+      "wordCount": 1958
     }
   ],
   "localeCounts": {
@@ -15735,7 +15764,7 @@
     "fa": 19,
     "fil": 22,
     "fr": 19,
-    "hi": 19,
+    "hi": 20,
     "id": 134,
     "it": 19,
     "ja": 20,
