@@ -1,6 +1,6 @@
 {
-  "count": 514,
-  "generatedAt": "2026-09-21T14:59:27.760Z",
+  "count": 515,
+  "generatedAt": "2026-09-22T03:45:24.931Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15696,6 +15696,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Video YouTube đã lưu không gửi được qua ứng dụng nhắn tin: nên kiểm tra gì trước khi nén?",
       "wordCount": 1993
+    },
+    {
+      "canonical": "https://downloader-x.com/fil/guides/youtube-video-naputol-gilid-fullscreen-suriin-fil/",
+      "category": "YOUTUBE",
+      "date": "2026-09-22",
+      "description": "Gabay sa pagsuri kung bakit nawawala ang mga gilid ng na-save na YouTube video sa fullscreen: player zoom, fit o fill, screen ratio, rotation, TV overscan, at exported copy.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Na-save na YouTube video na napuputol ang gilid sa fullscreen habang sinusuri ang Fit, Fill at Zoom",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fil",
+      "parentHub": "https://downloader-x.com/fil/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-naputol-gilid-fullscreen-suriin-fil.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fil",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21412,
+      "slug": "youtube-video-naputol-gilid-fullscreen-suriin-fil",
+      "sourcePath": "articles/youtube-video-naputol-gilid-fullscreen-suriin-fil.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-naputol-gilid-fullscreen-suriin-fil.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Naputol ang Gilid ng Na-save na YouTube Video sa Fullscreen: Ano ang Dapat Suriin?",
+      "wordCount": 1795
     }
   ],
   "localeCounts": {
@@ -15704,7 +15733,7 @@
     "en": 21,
     "es": 20,
     "fa": 19,
-    "fil": 21,
+    "fil": 22,
     "fr": 19,
     "hi": 19,
     "id": 134,
