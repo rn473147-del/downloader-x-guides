@@ -1,6 +1,6 @@
 {
-  "count": 517,
-  "generatedAt": "2026-09-22T11:43:15.000Z",
+  "count": 518,
+  "generatedAt": "2026-09-22T14:59:31.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15783,6 +15783,35 @@
       "standardVersion": "2026-09-v2",
       "title": "صوت فيديو YouTube المحفوظ يتردد أو يبدو مزدوجاً: ماذا تفحص؟",
       "wordCount": 1771
+    },
+    {
+      "canonical": "https://downloader-x.com/fa/guides/youtube-video-wrong-audio-language-track-check-fa/",
+      "category": "YOUTUBE",
+      "date": "2026-09-22",
+      "description": "راهنمای فارسی برای بررسی ویدیوی ذخیره‌شده YouTube که با زبان صوتی یا مسیر صدای متفاوت پخش می‌شود؛ با مقایسه منبع، فایل، پخش‌کننده، دستگاه و خروجی ویرایش.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "بررسی زبان و مسیر صوتی متفاوت در ویدیوی ذخیره‌شده YouTube",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fa",
+      "parentHub": "https://downloader-x.com/fa/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-wrong-audio-language-track-check-fa.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fa",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 25853,
+      "slug": "youtube-video-wrong-audio-language-track-check-fa",
+      "sourcePath": "articles/youtube-video-wrong-audio-language-track-check-fa.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-wrong-audio-language-track-check-fa.html",
+      "standardVersion": "2026-09-v2",
+      "title": "صدای ویدیوی ذخیره‌شده YouTube به زبان دیگری پخش می‌شود: چه چیزهایی را بررسی کنیم؟",
+      "wordCount": 1911
     }
   ],
   "localeCounts": {
@@ -15790,7 +15819,7 @@
     "de": 19,
     "en": 21,
     "es": 20,
-    "fa": 19,
+    "fa": 20,
     "fil": 22,
     "fr": 19,
     "hi": 20,
