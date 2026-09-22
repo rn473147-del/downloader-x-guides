@@ -1,6 +1,6 @@
 {
-  "count": 518,
-  "generatedAt": "2026-09-22T14:59:31.000Z",
+  "count": 519,
+  "generatedAt": "2026-09-22T23:21:06.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15812,6 +15812,35 @@
       "standardVersion": "2026-09-v2",
       "title": "صدای ویدیوی ذخیره‌شده YouTube به زبان دیگری پخش می‌شود: چه چیزهایی را بررسی کنیم؟",
       "wordCount": 1911
+    },
+    {
+      "canonical": "https://downloader-x.com/fr/guides/video-youtube-image-figee-son-continue-fr/",
+      "category": "YOUTUBE",
+      "date": "2026-09-23",
+      "description": "Guide français pour vérifier une vidéo YouTube enregistrée dont l’image reste figée tandis que le son continue, sans écraser l’original ni confondre fichier, lecteur et export.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Vérification d’une vidéo YouTube enregistrée avec image figée et son qui continue",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fr",
+      "parentHub": "https://downloader-x.com/fr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-image-figee-son-continue-fr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fr",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20758,
+      "slug": "video-youtube-image-figee-son-continue-fr",
+      "sourcePath": "articles/video-youtube-image-figee-son-continue-fr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-image-figee-son-continue-fr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Une vidéo YouTube enregistrée reste figée alors que le son continue : que vérifier ?",
+      "wordCount": 1975
     }
   ],
   "localeCounts": {
@@ -15821,7 +15850,7 @@
     "es": 20,
     "fa": 20,
     "fil": 22,
-    "fr": 19,
+    "fr": 20,
     "hi": 20,
     "id": 134,
     "it": 19,
