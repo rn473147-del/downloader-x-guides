@@ -1,6 +1,6 @@
 {
-  "count": 522,
-  "generatedAt": "2026-09-23T11:40:32.000Z",
+  "count": 523,
+  "generatedAt": "2026-09-23T14:58:46.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15928,6 +15928,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Vídeo do YouTube salvo não avança pela barra de tempo: o que verificar?",
       "wordCount": 1786
+    },
+    {
+      "canonical": "https://downloader-x.com/ru/guides/youtube-video-ne-pereimenuetsya-ne-peremeshchaetsya-ru/",
+      "category": "YOUTUBE",
+      "date": "2026-09-23",
+      "description": "Пошаговая проверка сохранённого видео YouTube, которое не удаётся переименовать или переместить: плеер, синхронизация, права, накопитель и имя файла.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Проверка сохранённого видео YouTube, которое не переименовывается или не перемещается",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ru",
+      "parentHub": "https://downloader-x.com/ru/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-ne-pereimenuetsya-ne-peremeshchaetsya-ru.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ru",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 30332,
+      "slug": "youtube-video-ne-pereimenuetsya-ne-peremeshchaetsya-ru",
+      "sourcePath": "articles/youtube-video-ne-pereimenuetsya-ne-peremeshchaetsya-ru.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-ne-pereimenuetsya-ne-peremeshchaetsya-ru.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Сохранённое видео YouTube не переименовывается или не перемещается: что проверить?",
+      "wordCount": 1615
     }
   ],
   "localeCounts": {
@@ -15947,7 +15976,7 @@
     "ms": 19,
     "nl": 19,
     "pt": 20,
-    "ru": 19,
+    "ru": 20,
     "th": 25,
     "tr": 19,
     "vi": 21,
