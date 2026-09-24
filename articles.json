@@ -1,6 +1,6 @@
 {
-  "count": 528,
-  "generatedAt": "2026-09-24T14:57:39.000Z",
+  "count": 529,
+  "generatedAt": "2026-09-24T23:20:47.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -13049,6 +13049,35 @@
       "wordCount": 1978
     },
     {
+      "canonical": "https://downloader-x.com/en/guides/youtube-video-repeats-same-section-check-en/",
+      "category": "YOUTUBE",
+      "date": "2026-09-25",
+      "description": "A step-by-step guide to checking a saved YouTube video that repeats the same section: separate player repeat settings, timeline behavior, file damage, copies, and storage issues.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Checking a saved YouTube video that repeats the same section",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-repeats-same-section-check-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19993,
+      "slug": "youtube-video-repeats-same-section-check-en",
+      "sourcePath": "articles/youtube-video-repeats-same-section-check-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-repeats-same-section-check-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Saved YouTube Video Keeps Repeating the Same Section: What Should You Check?",
+      "wordCount": 1977
+    },
+    {
       "canonical": "https://downloader-x.com/vi/guides/x-audio-07-vi/",
       "category": "X",
       "date": "2026-09-04",
@@ -16107,7 +16136,7 @@
   "localeCounts": {
     "ar": 20,
     "de": 20,
-    "en": 21,
+    "en": 22,
     "es": 20,
     "fa": 20,
     "fil": 22,
