@@ -1,6 +1,6 @@
 {
-  "count": 526,
-  "generatedAt": "2026-09-24T07:23:10.000Z",
+  "count": 527,
+  "generatedAt": "2026-09-24T11:41:38.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16044,6 +16044,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Opgeslagen YouTube-video speelt te snel of te langzaam: wat controleer je?",
       "wordCount": 1870
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/video-youtube-berhenti-saat-layar-dikunci-id/",
+      "category": "YOUTUBE",
+      "date": "2026-09-24",
+      "description": "Panduan memeriksa video YouTube tersimpan yang berhenti saat layar ponsel dikunci: bedakan kondisi file, pemutar, kontrol layar kunci, audio latar, dan hemat baterai.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa video YouTube tersimpan yang berhenti saat layar dikunci",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-berhenti-saat-layar-dikunci-id.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19555,
+      "slug": "video-youtube-berhenti-saat-layar-dikunci-id",
+      "sourcePath": "articles/video-youtube-berhenti-saat-layar-dikunci-id.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-berhenti-saat-layar-dikunci-id.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube tersimpan berhenti saat layar dikunci: apa yang perlu dicek?",
+      "wordCount": 1663
     }
   ],
   "localeCounts": {
@@ -16055,7 +16084,7 @@
     "fil": 22,
     "fr": 20,
     "hi": 20,
-    "id": 134,
+    "id": 135,
     "it": 20,
     "ja": 20,
     "km": 1,
