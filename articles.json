@@ -1,6 +1,6 @@
 {
-  "count": 524,
-  "generatedAt": "2026-09-23T23:22:31.000Z",
+  "count": 525,
+  "generatedAt": "2026-09-24T03:47:53.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -15986,6 +15986,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Kaydedilen YouTube videosu galeride iki kez görünüyor: ne kontrol edilmeli?",
       "wordCount": 1511
+    },
+    {
+      "canonical": "https://downloader-x.com/ms/guides/video-youtube-thumbnail-tidak-berubah-selepas-potong-ms/",
+      "category": "YOUTUBE",
+      "date": "2026-09-24",
+      "description": "Panduan memeriksa thumbnail video YouTube yang masih menunjukkan bingkai lama selepas dipotong: bezakan cache galeri, suntingan tidak musnah dan fail eksport sebenar.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa thumbnail video YouTube yang tidak berubah selepas video dipotong",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ms",
+      "parentHub": "https://downloader-x.com/ms/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-thumbnail-tidak-berubah-selepas-potong-ms.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ms",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19548,
+      "slug": "video-youtube-thumbnail-tidak-berubah-selepas-potong-ms",
+      "sourcePath": "articles/video-youtube-thumbnail-tidak-berubah-selepas-potong-ms.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-thumbnail-tidak-berubah-selepas-potong-ms.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Thumbnail video YouTube yang disimpan tidak berubah selepas dipotong: apa perlu diperiksa?",
+      "wordCount": 1613
     }
   ],
   "localeCounts": {
@@ -16002,7 +16031,7 @@
     "ja": 20,
     "km": 1,
     "ko": 22,
-    "ms": 19,
+    "ms": 20,
     "nl": 19,
     "pt": 20,
     "ru": 20,
