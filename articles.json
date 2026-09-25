@@ -1,6 +1,6 @@
 {
-  "count": 532,
-  "generatedAt": "2026-09-25T11:42:08.000Z",
+  "count": 533,
+  "generatedAt": "2026-09-25T14:55:53.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16217,6 +16217,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存的YouTube视频画面左右镜像？如何判断是显示问题还是文件本身",
       "wordCount": 1991
+    },
+    {
+      "canonical": "https://downloader-x.com/ko/guides/youtube-video-black-screen-at-start-check-ko/",
+      "category": "YOUTUBE",
+      "date": "2026-09-25",
+      "description": "저장한 YouTube 영상의 시작 부분만 검게 보이고 이후에는 정상 재생될 때 원본 장면, 플레이어, 썸네일, 파일 완성도, 편집 여백과 전송 사본을 안전하게 비교하는 방법입니다.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "저장한 YouTube 영상의 처음 몇 초가 검은 화면일 때 원인 확인하기",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ko",
+      "parentHub": "https://downloader-x.com/ko/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-black-screen-at-start-check-ko.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ko",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 25637,
+      "slug": "youtube-video-black-screen-at-start-check-ko",
+      "sourcePath": "articles/youtube-video-black-screen-at-start-check-ko.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-black-screen-at-start-check-ko.html",
+      "standardVersion": "2026-09-v2",
+      "title": "저장한 YouTube 영상이 처음 몇 초 동안 검은 화면으로 보일 때 확인할 항목",
+      "wordCount": 1582
     }
   ],
   "localeCounts": {
@@ -16232,7 +16261,7 @@
     "it": 20,
     "ja": 21,
     "km": 1,
-    "ko": 22,
+    "ko": 23,
     "ms": 20,
     "nl": 20,
     "pt": 20,
