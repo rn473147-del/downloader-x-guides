@@ -1,6 +1,6 @@
 {
-  "count": 535,
-  "generatedAt": "2026-09-26T03:46:55.000Z",
+  "count": 536,
+  "generatedAt": "2026-09-26T07:24:45.254Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16304,6 +16304,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Random ang Pangalan ng Na-save na YouTube Video: Paano Ito Palitan at Ayusin?",
       "wordCount": 1632
+    },
+    {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-rotated-sideways-upside-down-check-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-26",
+      "description": "सहेजे गए YouTube वीडियो के 90° घूमकर, किनारे की ओर या उल्टा दिखने पर source, screen rotation, player, file metadata, gallery cache और transferred copy को जाँचने की हिंदी गाइड।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो के 90° घूमकर या उल्टा दिखने का कारण जाँचना",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-rotated-sideways-upside-down-check-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 27545,
+      "slug": "youtube-video-rotated-sideways-upside-down-check-hi",
+      "sourcePath": "articles/youtube-video-rotated-sideways-upside-down-check-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-rotated-sideways-upside-down-check-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजा गया YouTube वीडियो 90° घूमकर या उल्टा दिखे तो क्या जाँचें?",
+      "wordCount": 1856
     }
   ],
   "localeCounts": {
@@ -16314,7 +16343,7 @@
     "fa": 20,
     "fil": 23,
     "fr": 20,
-    "hi": 20,
+    "hi": 21,
     "id": 135,
     "it": 20,
     "ja": 21,
