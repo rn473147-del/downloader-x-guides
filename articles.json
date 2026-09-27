@@ -1,6 +1,6 @@
 {
-  "count": 541,
-  "generatedAt": "2026-09-27T07:23:42.000Z",
+  "count": 542,
+  "generatedAt": "2026-09-27T11:39:02.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16478,6 +16478,35 @@
       "standardVersion": "2026-09-v2",
       "title": "L’audio del video YouTube salvato si sente solo a sinistra o a destra: cosa controllare?",
       "wordCount": 1736
+    },
+    {
+      "canonical": "https://downloader-x.com/pt/guides/video-youtube-tela-verde-blocos-coloridos-verificar-pt/",
+      "category": "YOUTUBE",
+      "date": "2026-09-27",
+      "description": "Guia em português para um vídeo YouTube salvo que mostra tela verde ou blocos coloridos: compare fonte, arquivo, player, aceleração gráfica, tela e transferência.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Verificar um vídeo YouTube salvo que mostra tela verde ou blocos coloridos",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "pt",
+      "parentHub": "https://downloader-x.com/pt/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-tela-verde-blocos-coloridos-verificar-pt.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "pt",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19756,
+      "slug": "video-youtube-tela-verde-blocos-coloridos-verificar-pt",
+      "sourcePath": "articles/video-youtube-tela-verde-blocos-coloridos-verificar-pt.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-tela-verde-blocos-coloridos-verificar-pt.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Vídeo do YouTube salvo fica com tela verde ou blocos coloridos: o que verificar?",
+      "wordCount": 1798
     }
   ],
   "localeCounts": {
@@ -16496,7 +16525,7 @@
     "ko": 23,
     "ms": 20,
     "nl": 20,
-    "pt": 20,
+    "pt": 21,
     "ru": 20,
     "th": 26,
     "tr": 20,
