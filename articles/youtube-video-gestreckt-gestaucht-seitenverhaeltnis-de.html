@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YouTube-Video wirkt gestreckt oder gestaucht: Was prüfen? | Downloader-X</title>
+<meta name="description" content="Prüfanleitung für ein gespeichertes YouTube-Video mit verzerrtem Seitenverhältnis: Datei, Player, Rotation, Pixel, Export und Übertragung getrennt testen.">
+<meta name="author" content="Downloader-X Guides">
+<link rel="canonical" href="https://downloader-x.com/de/guides/youtube-video-gestreckt-gestaucht-seitenverhaeltnis-de/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<style>
+:root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:16px;background:#14233b}.visual figcaption{padding:.8rem .35rem .2rem;color:#64748b;font-size:.92rem}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}code{padding:.12rem .35rem;border-radius:5px;background:#eef2f7;font-size:.92em}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta h3,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}table{font-size:.92rem}}
+</style>
+</head>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/de/guides/">Downloader-X Guides</a><nav><a href="https://downloader-x.com/de/guides/">Alle Guides</a><a href="https://downloader-x.com/de/">Downloader-X auf Deutsch</a></nav></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">YouTube · Seitenverhältnis · Fehlersuche</div>
+    <h1>Gespeichertes YouTube-Video wirkt gestreckt oder gestaucht: Was prüfen?</h1>
+    <p>Wenn Kreise oval, Personen ungewöhnlich breit oder Hochkantaufnahmen zusammengedrückt erscheinen, trennen Sie Datei, Player, Drehung, Anzeige und Export, bevor Sie das Original verändern.</p>
+    <a class="button" href="https://downloader-x.com/de/youtube-downloader/">YouTube Downloader öffnen</a>
+  </section>
+
+  <figure class="visual" aria-labelledby="visual-caption">
+    <iframe src="https://www.youtube.com/embed/cNV_GlKcjUc" title="What's Going on with the Hole in the Ozone Layer? We Asked a NASA Expert — NASA" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption id="visual-caption"><strong>Reales YouTube-Beispiel:</strong> „What's Going on with the Hole in the Ozone Layer? We Asked a NASA Expert“ von <strong>NASA</strong>. <a href="https://www.youtube.com/watch?v=cNV_GlKcjUc" target="_blank" rel="noopener noreferrer">Originalvideo auf YouTube ansehen</a>. Runde Grafiken, eingeblendete Karten und klar begrenzte Bildflächen eignen sich als sichtbare Bezugspunkte für einen Seitenverhältnis-Vergleich. Der offizielle Player zeigt nur die Quelle; er ist keine von Downloader-X erzeugte Datei und belegt kein lokales Download-Ergebnis.</figcaption>
+  </figure>
+
+  <article class="article">
+    <p class="lead">Ein gespeichertes Video kann vollständig abspielen und trotzdem falsch proportioniert aussehen: Ein Gesicht wird breiter, ein Kreis zum Oval, ein 16:9-Bild auffällig schmal oder eine Hochkantaufnahme auf die ganze Bildschirmbreite gezogen. Das bedeutet nicht automatisch, dass die Bilddaten beschädigt sind. Häufig interpretiert ein Player die Abmessungen, Drehinformationen oder Darstellungsregeln anders als ein anderer.</p>
+    <p>Für eine brauchbare Diagnose brauchen Sie eine unveränderte Referenz, einen leicht erkennbaren Bildausschnitt und Vergleichstests, bei denen immer nur ein Faktor wechselt. Vermeiden Sie voreilige Zuschnitte oder mehrere Exporte: Sie können den sichtbaren Fehler fest in eine neue Datei einbauen und erschweren danach die Suche nach der ursprünglichen Ursache.</p>
+    <p class="foot">Mit Unterstützung von Codex (KI) vorbereitet · Zuletzt aktualisiert: 27. September 2026</p>
+
+    <nav class="toc" aria-label="Inhaltsverzeichnis"><strong>Inhaltsverzeichnis</strong><ol><li><a href="#symptom">Verzerrung genau beschreiben</a></li><li><a href="#reference">Referenz und Prüfpunkt sichern</a></li><li><a href="#steps">Neun Prüfschritte durchführen</a></li><li><a href="#results">Ergebnisse einordnen</a></li><li><a href="#ratio">Seitenverhältnis verstehen</a></li><li><a href="#rotation">Drehung und Export prüfen</a></li><li><a href="#avoid">Riskante Schnelllösungen vermeiden</a></li><li><a href="#faq">Häufige Fragen</a></li><li><a href="#related">Passenden Guide öffnen</a></li></ol></nav>
+
+    <h2 id="symptom">1. Die Verzerrung genauer als „falsches Format“ beschreiben</h2>
+    <p>Prüfen Sie zuerst, was sich sichtbar verändert. Ist das gesamte Bild zu breit oder zu schmal? Sind nur Menschen und runde Gegenstände verzerrt, während Player-Menüs normal aussehen? Werden schwarze Balken hinzugefügt, abgeschnitten oder durch gedehnte Bildinhalte ersetzt? Eine falsche Fenstergröße ist etwas anderes als ein Bild, das innerhalb des Fensters falsch skaliert wird.</p>
+    <p>Wählen Sie einen festen Zeitpunkt, an dem eine bekannte Form, eine Texttafel oder ein klarer Bildrand zu sehen ist. Notieren Sie, ob die Verzerrung schon im Vorschaubild erscheint, erst beim Vollbildmodus beginnt oder nach einer Drehung des Geräts auftritt. Bei einer Hochkantaufnahme ist außerdem wichtig, ob das Video seitlich liegt, nur falsch skaliert wird oder beides gleichzeitig passiert.</p>
+    <div class="note"><strong>Wichtige Trennung:</strong> Ein korrekt gefüllter Bildschirm beweist kein korrektes Seitenverhältnis. Ein Player kann ein Bild beschneiden oder dehnen, damit keine Balken sichtbar sind. Umgekehrt sind schwarze Balken nicht automatisch ein Dateifehler; sie können den ursprünglichen Bildausschnitt gerade unverzerrt erhalten.</div>
+
+    <h2 id="reference">2. Eine unveränderte Referenz und einen festen Bildausschnitt sichern</h2>
+    <p>Legen Sie die ursprüngliche Datei in einen eigenen Ordner und arbeiten Sie nur mit einer Kopie. Notieren Sie Dateiname, Größe, Dauer, sichtbare Breite und Höhe, sofern der Player oder die Dateiinformationen diese Werte anzeigt. Erstellen Sie keine neue Datei, bevor Sie dieselbe Kopie in mehreren Wiedergabeumgebungen verglichen haben.</p>
+    <p>Öffnen Sie die echte YouTube-Seite und suchen Sie denselben Bildausschnitt, sofern das Video weiterhin öffentlich erreichbar ist. Vergleichen Sie Formen und Bildränder, nicht die Größe des Browserfensters. Das eingebettete NASA-Video oben ist ein überprüfbares Quellenbeispiel; es wurde für diesen Artikel nicht heruntergeladen und nicht als Ergebnis des Werkzeugs getestet.</p>
+    <div class="check"><strong>Für den Vergleich notieren:</strong> Zeitpunkt, sichtbare Form, Ausrichtung, schwarze Balken oder Beschnitt, Player und Version, Vollbildstatus, Gerät, Dateigröße sowie angezeigte Pixelabmessungen.</div>
+
+    <h2 id="steps">3. Neun Schritte, um Streckung oder Stauchung einzugrenzen</h2>
+    <ol class="steps">
+      <li><strong>Original schützen.</strong> Erstellen Sie eine Arbeitskopie und lassen Sie die unveränderte Datei unangetastet.</li>
+      <li><strong>Prüfpunkt festlegen.</strong> Wählen Sie eine Szene mit Kreis, Quadrat, Texttafel oder eindeutigem Bildrand und notieren Sie den Zeitpunkt.</li>
+      <li><strong>Fenster und Vollbild vergleichen.</strong> Prüfen Sie dieselbe Stelle einmal im normalen Fenster und einmal im Vollbild, ohne andere Einstellungen zu ändern.</li>
+      <li><strong>Darstellungsmodus kontrollieren.</strong> Suchen Sie im Player nach Einstellungen wie „Anpassen“, „Füllen“, „Originalgröße“, „Zoomen“ oder „Seitenverhältnis“ und dokumentieren Sie den aktiven Modus.</li>
+      <li><strong>Zweiten Player verwenden.</strong> Öffnen Sie exakt dieselbe Kopie in einem anderen vertrauenswürdigen Player auf demselben Gerät.</li>
+      <li><strong>Zweites Gerät vergleichen.</strong> Testen Sie dieselbe Datei unverändert auf einem weiteren verfügbaren Gerät, bevor Sie sie bearbeiten.</li>
+      <li><strong>Drehinformationen beachten.</strong> Prüfen Sie bei Hochkant- oder gedrehten Aufnahmen, ob Breite und Höhe plausibel sind und ob nur ein Player die Ausrichtung falsch deutet.</li>
+      <li><strong>Übertragung ausschließen.</strong> Liegt die Datei auf USB, SD-Karte oder Cloud-Speicher, kopieren Sie sie vollständig auf den internen Speicher und vergleichen Sie Größe und Dauer.</li>
+      <li><strong>Erst nach dem Befund exportieren.</strong> Wenn nur eine Ziel-App das Bild falsch zeigt, erstellen Sie höchstens eine dokumentierte Arbeitskopie mit passender Ausrichtung und korrektem Seitenverhältnis; bewahren Sie die Referenz.</li>
+    </ol>
+
+    <h2 id="results">4. Die Vergleichsergebnisse richtig einordnen</h2>
+    <table><thead><tr><th>Beobachtung</th><th>Wahrscheinlicher Prüfbereich</th><th>Nächster Schritt</th></tr></thead><tbody>
+      <tr><td>Nur ein Player dehnt das Bild</td><td>Zoom-, Füll- oder Seitenverhältnis-Einstellung</td><td>Auf „Anpassen“ oder automatisches Originalverhältnis wechseln und erneut prüfen.</td></tr>
+      <tr><td>Nur im Vollbild ist das Bild verzerrt</td><td>Vollbildskalierung, Display oder Player</td><td>Fenstermodus und zweiten Player auf demselben Bildschirm vergleichen.</td></tr>
+      <tr><td>Alle Player auf einem Gerät zeigen den Fehler</td><td>Systemanzeige, Grafikskalierung oder Datei-Metadaten</td><td>Dieselbe Datei auf einem zweiten Gerät unverändert öffnen.</td></tr>
+      <tr><td>Mehrere Geräte zeigen exakt dieselbe Verzerrung</td><td>Datei, falsche Abmessungen oder bereits verzerrter Export</td><td>Quellenansicht und unveränderte Referenz vergleichen.</td></tr>
+      <tr><td>Nur eine exportierte oder versendete Kopie ist betroffen</td><td>Editor, Exportprofil oder Plattform-Verarbeitung</td><td>Original behalten und Exporteinstellung mit nur einer neuen Testkopie prüfen.</td></tr>
+    </tbody></table>
+    <p>Ein Unterschied zwischen Playern ist besonders hilfreich: Dann muss nicht sofort die Bilddatei neu erzeugt werden. Zeigen dagegen verschiedene Player und Geräte dieselbe Formverzerrung an derselben Stelle, prüfen Sie, ob die Datei bereits mit falschen Abmessungen erstellt wurde oder ob eine frühere Bearbeitung das Seitenverhältnis fest eingebrannt hat.</p>
+
+    <h2 id="ratio">5. Seitenverhältnis, Pixel und Anzeige nicht verwechseln</h2>
+    <h3>Breite und Höhe bilden nur den Ausgangspunkt</h3>
+    <p>Das Seitenverhältnis beschreibt das Verhältnis von Bildbreite zu Bildhöhe. Typische Beispiele sind 16:9 für viele Querformatvideos und 9:16 für Hochkantvideos. Pixelabmessungen wie <code>1920×1080</code> oder <code>1080×1920</code> liefern dazu einen Hinweis. Entscheidend ist aber, wie Player und Datei diese Werte interpretieren und auf den verfügbaren Bildschirm abbilden.</p>
+    <p>Ein Player kann ein korrektes 16:9-Bild in ein anderes Fenster einpassen, ohne die Proportionen zu verändern; dann entstehen eventuell Balken. Ein Modus wie „Füllen“ kann dagegen Bildränder abschneiden. Eine erzwungene Skalierung auf die gesamte Breite und Höhe kann Kreise sichtbar zu Ovalen machen. Diese drei Ergebnisse sehen verschieden aus und sollten nicht mit demselben Lösungsversuch behandelt werden.</p>
+    <h3>Quadratische und nichtquadratische Pixel</h3>
+    <p>Bei modernen Dateien entsprechen angezeigte Bildpunkte meist den erwarteten quadratischen Pixeln. Manche Formate oder ältere Bearbeitungswege speichern jedoch zusätzliche Angaben dazu, wie breit einzelne Pixel dargestellt werden sollen. Ignoriert eine App diese Information, kann das Bild gestreckt wirken, obwohl die gespeicherte Breite und Höhe zunächst plausibel aussehen. Deshalb ist der Vergleich in einem zweiten Player aussagekräftiger als das bloße Umbenennen der Dateiendung.</p>
+
+    <h2 id="rotation">6. Drehinformationen, Bearbeitung und Export getrennt testen</h2>
+    <p>Smartphones und Bearbeitungsprogramme können die Bilddaten in einer Ausrichtung speichern und zusätzlich vermerken, wie sie gedreht angezeigt werden sollen. Wenn eine App diese Information berücksichtigt und eine andere nicht, erscheint dasselbe Video einmal korrekt, einmal seitlich oder mit vertauschter Breite und Höhe. Prüfen Sie zuerst die unveränderte Datei in mehreren Playern, statt sofort jedes Einzelbild neu zu drehen.</p>
+    <p>Wenn ein Schnittprogramm die Datei korrekt importiert, aber beim Export verzerrt, vergleichen Sie Projektformat, Sequenzgröße und Exportabmessungen. Ein Hochkantprojekt sollte nicht unbemerkt in ein Querformatprofil gezwungen werden. Nutzen Sie eine kurze Arbeitskopie als Test und ändern Sie pro Export nur eine Einstellung. Kontrollieren Sie Anfang, Prüfpunkt und Ende der neuen Datei.</p>
+    <p>Bei Messenger- oder Cloud-Kopien kann eine Plattform das Video neu verarbeiten. Vergleichen Sie deshalb nicht nur Dateinamen, sondern auch Größe, Dauer und sichtbare Abmessungen. Wenn die lokale Referenz korrekt ist und erst die versendete Kopie gestreckt wirkt, liegt der nächste Prüfpunkt im Übertragungs- oder Verarbeitungsweg, nicht in der ursprünglichen Wiedergabe.</p>
+
+    <h2 id="avoid">7. Schnelllösungen vermeiden, die die Proportionen dauerhaft verschlechtern</h2>
+    <h3>Nicht auf Verdacht zuschneiden</h3>
+    <p>Ein Beschnitt kann Balken entfernen, ändert aber den Bildinhalt. Wenn der eigentliche Fehler nur ein Player-Modus war, verlieren Sie unnötig Bildränder. Prüfen Sie zuerst „Anpassen“, „Füllen“ und „Originalgröße“ mit derselben Referenz.</p>
+    <h3>Dateiendung nicht als Formatkorrektur umbenennen</h3>
+    <p>Eine Umbenennung von <code>.webm</code> zu <code>.mp4</code> ändert weder Container, Codec, Pixelabmessungen noch Seitenverhältnis-Metadaten. Sie kann die Erkennung durch Apps zusätzlich verwirren.</p>
+    <h3>Nicht mehrere Konvertierungen hintereinander starten</h3>
+    <p>Jeder Export kann Auflösung, Bildausschnitt, Metadaten und Qualität verändern. Falls nach den Vergleichen eine kompatible Arbeitskopie nötig ist, erzeugen Sie genau eine dokumentierte Variante aus der autorisierten Referenz. Vergleichen Sie wieder denselben Zeitpunkt und behalten Sie das Original.</p>
+    <div class="rights"><strong>Quelle und Ergebnis getrennt halten:</strong> Notieren Sie Originaltitel, Kanal, URL, Erlaubnis und Prüfdatum. Das NASA-Video wird über den offiziellen YouTube-Player angezeigt. Es ist kein Beleg dafür, dass Downloader-X eine bestimmte Auflösung, Ausrichtung oder fehlerfreie lokale Datei liefert.</div>
+
+    <section id="faq"><h2>8. Häufige Fragen</h2>
+      <details><summary>Ist die Datei beschädigt, wenn Menschen zu breit aussehen?</summary><p>Nicht zwingend. Oft erzwingt nur ein Player einen Füll- oder Zoommodus. Vergleichen Sie Fenster und Vollbild, einen zweiten Player sowie ein zweites Gerät, bevor Sie die Datei neu erzeugen.</p></details>
+      <details><summary>Sind schwarze Balken immer ein Fehler?</summary><p>Nein. Balken können nötig sein, um den vollständigen Bildausschnitt ohne Dehnung zu zeigen. Entscheidend ist, ob Formen korrekt proportioniert und Bildränder vollständig oder bewusst beschnitten sind.</p></details>
+      <details><summary>Welche Werte sollte ich bei einer Hochkantaufnahme erwarten?</summary><p>Bei einem typischen Hochkantvideo ist die Höhe größer als die Breite, etwa bei einem 9:16-Verhältnis. Zusätzlich können Drehinformationen vorhanden sein. Verlassen Sie sich deshalb nicht nur auf zwei Zahlen, sondern vergleichen Sie mehrere Player.</p></details>
+      <details><summary>Soll ich das Video sofort neu exportieren?</summary><p>Nein. Prüfen Sie zuerst die unveränderte Kopie. Wenn nur eine Ziel-App betroffen ist, kann eine einzelne dokumentierte Arbeitskopie sinnvoll sein; mehrere spontane Exporte erschweren den Vergleich.</p></details>
+      <details><summary>Beweist das eingebettete NASA-Video ein korrektes Download-Ergebnis?</summary><p>Nein. Es ist eine echte YouTube-Quelle im offiziellen Player und dient nur als sichtbare Referenz. Eine lokale Datei muss unabhängig davon geprüft werden.</p></details>
+    </section>
+
+    <section class="related" id="related"><h2>9. Wenn zusätzlich grüne oder violette Flächen erscheinen</h2><p>Ein falsches Seitenverhältnis und farbige Bildflächen sind unterschiedliche Fehlerbilder. Falls neben der Formverzerrung auch grüne, violette oder blockartige Bereiche auftreten, hilft die verwandte deutsche Anleitung beim Vergleich von Player, Decoder, Hardwarebeschleunigung und Datei.</p><a href="https://downloader-x.com/de/guides/youtube-video-gruene-violette-flaechen-pruefen-de/">YouTube-Video zeigt grüne oder violette Flächen: Was prüfen?</a></section>
+    <section class="cta"><h3>Eine öffentliche und erlaubte YouTube-Adresse prüfen</h3><p>Öffnen Sie das Werkzeug nur für eigene oder autorisierte Medien. Verwenden Sie die tatsächlich angebotenen Optionen und kontrollieren Sie Seitenverhältnis, Ausrichtung und Bildränder anschließend an einem festen Prüfpunkt.</p><a class="button" href="https://downloader-x.com/de/youtube-downloader/">Adresse im YouTube Downloader prüfen</a></section>
+    <p class="foot">Downloader-X ist nicht mit YouTube oder Google verbunden. Rechte am eingebetteten Inhalt verbleiben bei der ursprünglichen Quelle. Nutzen Sie nur öffentliche oder autorisierte Medien.</p>
+  </article>
+</main>
+<footer class="footer"><a href="https://downloader-x.com/de/guides/">Downloader-X Guides</a> · Nur öffentliche oder autorisierte Medien verwenden.</footer>
+</body>
+</html>
