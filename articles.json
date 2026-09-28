@@ -1,6 +1,6 @@
 {
-  "count": 548,
-  "generatedAt": "2026-09-28T14:53:34.000Z",
+  "count": 549,
+  "generatedAt": "2026-09-28T23:23:56.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16681,12 +16681,41 @@
       "standardVersion": "2026-09-v2",
       "title": "Durasi video YouTube tersimpan lebih panjang dan bagian akhir membeku: apa yang perlu dicek?",
       "wordCount": 1586
+    },
+    {
+      "canonical": "https://downloader-x.com/en/guides/youtube-video-wrong-title-artist-metadata-check-en/",
+      "category": "YOUTUBE",
+      "date": "2026-09-29",
+      "description": "Check why a saved YouTube video shows the wrong title, artist, or album in a media player by separating the source identity, filename, embedded metadata, and library cache.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Checking why a saved YouTube video shows the wrong title or artist in a media player",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-wrong-title-artist-metadata-check-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20977,
+      "slug": "youtube-video-wrong-title-artist-metadata-check-en",
+      "sourcePath": "articles/youtube-video-wrong-title-artist-metadata-check-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-wrong-title-artist-metadata-check-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Saved YouTube Video Shows the Wrong Title or Artist: What Should You Check?",
+      "wordCount": 1984
     }
   ],
   "localeCounts": {
     "ar": 21,
     "de": 21,
-    "en": 22,
+    "en": 23,
     "es": 21,
     "fa": 21,
     "fil": 23,
