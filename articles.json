@@ -1,6 +1,6 @@
 {
-  "count": 546,
-  "generatedAt": "2026-09-28T07:26:09.000Z",
+  "count": 547,
+  "generatedAt": "2026-09-28T11:43:36.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16623,6 +16623,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Opgeslagen YouTube-video is zwart-wit terwijl de bron kleur heeft: wat controleer je?",
       "wordCount": 1727
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/video-youtube-durasi-lebih-panjang-akhir-membeku-id/",
+      "category": "YOUTUBE",
+      "date": "2026-09-28",
+      "description": "Panduan memeriksa video YouTube tersimpan yang lebih panjang dari sumber lalu membeku atau gelap di bagian akhir: bandingkan versi, durasi, pemutar, salinan, dan ekspor.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa video YouTube tersimpan yang lebih panjang dari sumber dan membeku di bagian akhir",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-durasi-lebih-panjang-akhir-membeku-id.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19910,
+      "slug": "video-youtube-durasi-lebih-panjang-akhir-membeku-id",
+      "sourcePath": "articles/video-youtube-durasi-lebih-panjang-akhir-membeku-id.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-durasi-lebih-panjang-akhir-membeku-id.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Durasi video YouTube tersimpan lebih panjang dan bagian akhir membeku: apa yang perlu dicek?",
+      "wordCount": 1586
     }
   ],
   "localeCounts": {
@@ -16634,7 +16663,7 @@
     "fil": 23,
     "fr": 21,
     "hi": 21,
-    "id": 135,
+    "id": 136,
     "it": 21,
     "ja": 21,
     "km": 1,
