@@ -1,6 +1,6 @@
 {
-  "count": 551,
-  "generatedAt": "2026-09-29T07:26:41.000Z",
+  "count": 552,
+  "generatedAt": "2026-09-29T11:45:14.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16768,6 +16768,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存したYouTube動画に字幕が表示されないときの確認方法",
       "wordCount": 1987
+    },
+    {
+      "canonical": "https://downloader-x.com/zh/guides/youtube-video-cloud-processing-no-preview-zh/",
+      "category": "YOUTUBE",
+      "date": "2026-09-29",
+      "description": "保存的YouTube视频上传云盘后一直显示处理中、无法生成预览或只能下载时，如何检查本地文件、上传状态、格式兼容、云端转码与权限。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "检查保存的YouTube视频上传云盘后一直处理中或无法预览的原因",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "zh",
+      "parentHub": "https://downloader-x.com/zh/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-cloud-processing-no-preview-zh.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "zh",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21361,
+      "slug": "youtube-video-cloud-processing-no-preview-zh",
+      "sourcePath": "articles/youtube-video-cloud-processing-no-preview-zh.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-cloud-processing-no-preview-zh.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存的YouTube视频上传云盘后一直处理中或无法预览？逐项检查方法",
+      "wordCount": 1999
     }
   ],
   "localeCounts": {
@@ -16791,7 +16820,7 @@
     "th": 27,
     "tr": 21,
     "vi": 22,
-    "zh": 21
+    "zh": 22
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
   "standardVersion": "2026-09-x-keywords-v1",
