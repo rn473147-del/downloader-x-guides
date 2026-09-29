@@ -1,6 +1,6 @@
 {
-  "count": 553,
-  "generatedAt": "2026-09-29T14:57:05.000Z",
+  "count": 554,
+  "generatedAt": "2026-09-29T23:21:43.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16826,6 +16826,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存的YouTube视频上传云盘后一直处理中或无法预览？逐项检查方法",
       "wordCount": 1999
+    },
+    {
+      "canonical": "https://downloader-x.com/vi/guides/video-youtube-lech-hinh-tieng-sau-khi-cat-vi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-30",
+      "description": "Cách tìm nguyên nhân video YouTube đã lưu bị lệch hình và tiếng sau khi cắt bằng cách so sánh bản gốc, bản xem trước, điểm cắt và tệp xuất.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Kiểm tra video YouTube đã lưu bị lệch hình và tiếng sau khi cắt",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "vi",
+      "parentHub": "https://downloader-x.com/vi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-lech-hinh-tieng-sau-khi-cat-vi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "vi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 23322,
+      "slug": "video-youtube-lech-hinh-tieng-sau-khi-cat-vi",
+      "sourcePath": "articles/video-youtube-lech-hinh-tieng-sau-khi-cat-vi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-lech-hinh-tieng-sau-khi-cat-vi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Video YouTube đã lưu bị lệch hình và tiếng sau khi cắt: kiểm tra thế nào?",
+      "wordCount": 1955
     }
   ],
   "localeCounts": {
@@ -16848,7 +16877,7 @@
     "ru": 21,
     "th": 27,
     "tr": 21,
-    "vi": 22,
+    "vi": 23,
     "zh": 22
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
