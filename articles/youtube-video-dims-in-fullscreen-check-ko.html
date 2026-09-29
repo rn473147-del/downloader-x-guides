@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>저장한 YouTube 영상이 전체 화면에서 자동으로 어두워질 때 확인할 항목</title>
+<meta name="description" content="저장한 YouTube 영상이 창 모드에서는 정상인데 전체 화면에서만 어두워질 때 파일 밝기, 플레이어 오버레이, 자동 밝기, 절전 모드, HDR과 외부 디스플레이를 구분해 점검하는 방법입니다.">
+<meta name="author" content="Downloader-X Guides">
+<style>
+:root{--ink:#172033;--muted:#59687d;--teal:#007f78;--pink:#e8457a;--paper:#f4f7fb;--line:#dce4ed;--soft:#edf9f8;--warn:#fff4dc;--dark:#14233b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:#086dc2;text-underline-offset:3px}.sitebar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid var(--line);background:#fff}.sitebar a{font-weight:800;text-decoration:none}.sitebar nav{display:flex;gap:18px;flex-wrap:wrap}.wrap{width:min(100% - 32px,1040px);margin:34px auto 64px}.hero{padding:clamp(28px,6vw,58px);border-radius:28px;background:radial-gradient(circle at 86% 18%,#e8457a66,transparent 27%),linear-gradient(135deg,#10233e,#006f6a);color:#fff}.eyebrow{font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#91efe8}.hero h1{font-size:clamp(2.25rem,6vw,3.85rem);line-height:1.08;letter-spacing:-.04em;margin:.6rem 0 1rem}.hero p{max-width:780px;font-size:1.15rem;color:#e7f7f6}.button{display:inline-block;margin-top:10px;padding:13px 19px;border-radius:12px;background:#fff;color:#075b57;text-decoration:none;font-weight:900}.visual{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:22px;background:#fff}.visual iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:16px;background:#14233b}.visual figcaption{padding:.8rem .35rem .2rem;color:#64748b;font-size:.92rem}.article{width:min(100%,900px);margin:0 auto;background:#fff;padding:clamp(24px,5vw,58px);border:1px solid #e2e8f0;border-radius:24px;box-shadow:0 18px 55px rgba(20,35,60,.07)}h2{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.3;margin:2.7rem 0 .8rem}h3{font-size:1.18rem;margin:1.8rem 0 .45rem}p,li{color:#334155}.lead{font-size:1.18rem;color:#52627a}.toc,.note,.rights,.check{padding:1.2rem 1.35rem;border-radius:16px;margin:1.5rem 0}.toc,.note{background:var(--soft)}.toc{border:1px solid #cde8e5}.toc a{text-decoration:none}.note{border-left:5px solid var(--teal)}.rights{background:var(--warn);border-left:5px solid #e59b17}.check{background:#f7f9fc;border:1px solid var(--line)}.steps{list-style:none;padding:0;counter-reset:step}.steps li{counter-increment:step;position:relative;margin:14px 0;padding:18px 20px 18px 66px;border:1px solid var(--line);border-radius:15px;background:#fbfdff}.steps li:before{content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:var(--teal);color:#fff;font-weight:900}table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0}th,td{padding:.8rem;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf7f7}code{padding:.12rem .35rem;border-radius:5px;background:#eef2f7;font-size:.92em}details{margin:.75rem 0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:12px}summary{cursor:pointer;font-weight:800}.related{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}.related a{display:block;margin:9px 0;padding:12px 14px;border:1px solid var(--line);border-radius:11px;text-decoration:none}.cta{margin-top:2.5rem;padding:1.8rem;border-radius:18px;background:var(--dark);color:#fff}.cta h2,.cta h3,.cta p{color:#fff}.cta .button{color:#075b57}.foot{font-size:.86rem;color:#66758a;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.footer{padding:28px 20px;text-align:center;color:#64748b}@media(max-width:640px){.sitebar{align-items:flex-start;flex-direction:column}.wrap{width:100%;margin:0}.hero,.article{border-radius:0;border-left:0;border-right:0}.article{padding:22px}table{font-size:.92rem}}
+</style>
+<link rel="canonical" href="https://downloader-x.com/ko/guides/youtube-video-dims-in-fullscreen-check-ko/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"저장한 YouTube 영상이 전체 화면에서 자동으로 어두워질 때 확인할 항목","description":"저장한 YouTube 영상이 창 모드에서는 정상인데 전체 화면에서만 어두워질 때 파일 밝기, 플레이어 오버레이, 자동 밝기, 절전 모드, HDR과 외부 디스플레이를 구분해 점검하는 방법입니다.","inLanguage":"ko","datePublished":"2026-09-29","dateModified":"2026-09-29","author":{"@type":"Organization","name":"Downloader-X Guides"},"mainEntityOfPage":"https://downloader-x.com/ko/guides/youtube-video-dims-in-fullscreen-check-ko/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Downloader-X 한국어","item":"https://downloader-x.com/ko/"},{"@type":"ListItem","position":2,"name":"가이드","item":"https://downloader-x.com/ko/guides/"},{"@type":"ListItem","position":3,"name":"전체 화면 밝기 저하 점검","item":"https://downloader-x.com/ko/guides/youtube-video-dims-in-fullscreen-check-ko/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"전체 화면에서만 어두우면 저장 파일이 손상된 것인가요?","acceptedAnswer":{"@type":"Answer","text":"창 모드와 일시 정지 화면이 정상이라면 파일보다 플레이어의 전체 화면 오버레이, 기기의 자동 밝기, 절전 설정 또는 HDR 표시 경로를 먼저 구분해야 합니다. 같은 파일을 같은 시점에서 비교하세요."}},{"@type":"Question","name":"화면을 한 번 누르면 밝아졌다가 다시 어두워지는 이유는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"재생 컨트롤이 나타날 때 기기가 화면 밝기나 대비를 다르게 보이게 하거나, 컨트롤이 사라진 뒤 전체 화면 표시 정책이 다시 적용될 수 있습니다. 이 변화는 파일 픽셀 변경과 다릅니다."}},{"@type":"Question","name":"자동 밝기를 끄면 항상 해결되나요?","acceptedAnswer":{"@type":"Answer","text":"항상 그렇지는 않습니다. 자동 밝기, 절전 모드, 플레이어 영상 향상, HDR과 외부 디스플레이 설정이 각각 영향을 줄 수 있으므로 한 번에 한 항목만 바꾸고 원래 값을 기록해야 합니다."}},{"@type":"Question","name":"밝기를 올린 새 파일로 다시 내보내야 하나요?","acceptedAnswer":{"@type":"Answer","text":"여러 플레이어와 기기에서 실제 영상 장면 자체가 일관되게 어둡다는 근거가 없으면 먼저 재인코딩하지 마세요. 표시 설정 문제를 새 파일로 덮으면 정상 장면이 과도하게 밝아질 수 있습니다."}},{"@type":"Question","name":"임베드된 NASA 영상은 Downloader-X 결과인가요?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. NASA의 공식 YouTube 원본을 확인하기 위한 예시이며 특정 저장 파일의 밝기, 형식, 화질 또는 다운로드 성공을 증명하지 않습니다."}}]}</script>
+</head>
+<body data-guide-layout="reference">
+<header class="sitebar"><a href="https://downloader-x.com/ko/guides/">Downloader-X 가이드</a><nav><a href="https://downloader-x.com/ko/guides/">모든 가이드</a><a href="https://downloader-x.com/ko/">Downloader-X 한국어</a></nav></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">YouTube · 전체 화면 · 밝기 점검</div>
+    <h1>저장한 YouTube 영상이 전체 화면에서 자동으로 어두워질 때 확인할 항목</h1>
+    <p>창 모드에서는 정상인데 전체 화면으로 전환한 뒤 화면만 어두워진다면 파일을 바로 수정하지 마세요. 영상 픽셀과 플레이어 표시, 자동 밝기, 절전 모드, HDR 및 외부 화면을 순서대로 분리합니다.</p>
+    <a class="button" href="https://downloader-x.com/ko/youtube-downloader/">YouTube Downloader 열기</a>
+  </section>
+  <figure class="visual" aria-labelledby="visual-caption">
+    <iframe src="https://www.youtube.com/embed/iTHUUjTA-LI" title="Seeing Earth as Only NASA Can — NASA" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption id="visual-caption"><strong>YouTube 원본 예시:</strong> “Seeing Earth as Only NASA Can” — <strong>NASA</strong>. <a href="https://www.youtube.com/watch?v=iTHUUjTA-LI" target="_blank" rel="noopener noreferrer">YouTube에서 원본 열기</a> 또는 <a href="https://www.youtube.com/@NASA" target="_blank" rel="noopener noreferrer">NASA 공식 채널 확인</a>. 밝은 지구, 어두운 우주와 화면 속 글자가 함께 있어 같은 시점의 밝기와 대비를 식별하기 좋은 공개 과학 영상입니다. 이 공식 임베드는 출처를 보여 주는 예시일 뿐, Downloader-X가 만든 파일이나 저장 결과가 아닙니다.</figcaption>
+  </figure>
+  <article class="article">
+    <p class="lead">저장한 영상이 창 안에서는 자연스럽게 보이지만 전체 화면 버튼을 누른 직후 전체 장면이 어두워지는 경우가 있습니다. 이때 가장 중요한 질문은 “파일 안의 영상 픽셀이 바뀌었는가”가 아니라 “같은 파일의 같은 프레임을 표시하는 조건이 바뀌었는가”입니다. 화면 크기, 플레이어 컨트롤, 주변광 센서, 배터리 상태, HDR 처리와 연결된 모니터가 모두 표시 결과에 영향을 줄 수 있습니다.</p>
+    <p>이 글은 본인이 만들었거나 저장과 확인 권한을 받은 공개 영상의 로컬 파일을 안전하게 점검하는 절차입니다. 특정 주소의 형식, 밝기, 해상도, 소리 또는 저장 성공을 보장하지 않습니다. 원본 파일을 보존하고 같은 시점을 비교하며 한 번에 한 조건만 바꾸는 방식으로 원인을 좁히세요.</p>
+    <p class="foot">Downloader-X Guides 편집부 · 2026년 9월 29일 게시 · AI 보조 편집 검토</p>
+    <nav class="toc" aria-label="목차"><strong>목차</strong><ol><li><a href="#define">전체 화면 밝기 저하를 정확히 정의하기</a></li><li><a href="#layers">파일과 표시 계층 구분하기</a></li><li><a href="#prepare">비교 기준과 원본 보호하기</a></li><li><a href="#steps">9단계로 원인 좁히기</a></li><li><a href="#results">관찰 결과 해석하기</a></li><li><a href="#settings">기기와 플레이어 설정 확인하기</a></li><li><a href="#hdr">HDR과 외부 화면 구분하기</a></li><li><a href="#faq">자주 묻는 질문</a></li><li><a href="#related">관련 가이드와 다음 단계</a></li></ol></nav>
+
+    <h2 id="define">1. 어두워지는 순간과 범위를 정확히 기록하기</h2>
+    <p>“전체 화면에서 어둡다”는 표현에는 서로 다른 현상이 섞여 있습니다. 전체 화면으로 전환하자마자 화면 전체가 한 단계 어두워지는지, 플레이어 버튼이 사라질 때만 변하는지, 밝은 장면과 어두운 장면 사이에서 반복되는지부터 구분하세요. 변화가 시작되는 정확한 행동과 시간을 알아야 파일의 장면 변화와 기기의 표시 반응을 나눌 수 있습니다.</p>
+    <h3>같은 프레임을 창 모드와 전체 화면에서 비교합니다</h3>
+    <p>식별하기 쉬운 시점 하나를 선택해 일시 정지합니다. 인물 얼굴, 흰 글자, 밝은 하늘처럼 기준이 분명한 프레임이 좋습니다. 먼저 창 모드에서 보고, 재생 위치를 움직이지 않은 채 전체 화면으로 전환합니다. 장면의 내용은 그대로인데 화면 전체의 밝기만 달라진다면 영상 데이터보다 표시 경로를 먼저 의심할 근거가 생깁니다.</p>
+    <h3>컨트롤이 나타났을 때와 사라졌을 때를 나눕니다</h3>
+    <p>화면을 한 번 눌러 재생 버튼과 진행 막대를 표시한 뒤 밝기를 관찰하고, 몇 초 후 컨트롤이 사라졌을 때 다시 봅니다. 컨트롤 상태에 따라 밝기가 바뀐다면 플레이어 오버레이, 시스템의 동영상 표시 정책 또는 주변광 반응일 수 있습니다. 반면 캡처한 같은 프레임 자체가 모든 앱에서 동일하게 어둡다면 파일 쪽 확인이 필요합니다.</p>
+    <div class="note"><strong>핵심 기록:</strong> 기기 밝기 수치, 배터리 잔량, 충전 여부, 창 모드와 전체 화면의 같은 시점, 컨트롤 표시 여부를 한 줄에 적으세요. 기억만으로 비교하면 장면 자체의 명암 변화와 화면 밝기 변화를 혼동하기 쉽습니다.</div>
+
+    <h2 id="layers">2. 영상 파일, 플레이어, 운영체제와 디스플레이를 분리하기</h2>
+    <p>첫 번째 층은 파일에 들어 있는 영상 픽셀입니다. 파일 자체가 어둡다면 같은 시점이 여러 신뢰할 수 있는 플레이어와 다른 기기에서도 비슷하게 보입니다. 두 번째 층은 플레이어입니다. 전체 화면 전용 밝기, 영상 향상, 야간 모드, 제스처 밝기 또는 오버레이가 적용될 수 있습니다.</p>
+    <p>세 번째 층은 운영체제입니다. 자동 밝기, 적응형 색상, 눈 보호 기능, 배터리 절약, 발열 보호가 화면 출력을 바꿀 수 있습니다. 네 번째 층은 디스플레이입니다. 휴대폰 패널, 노트북 내장 화면, TV, 외부 모니터는 같은 신호를 서로 다른 밝기와 색 영역으로 표시할 수 있습니다. 이 네 층을 한꺼번에 바꾸면 어느 조치가 영향을 줬는지 알 수 없습니다.</p>
+    <table><thead><tr><th>관찰 결과</th><th>우선 확인할 층</th><th>피해야 할 행동</th></tr></thead><tbody><tr><td>창 모드는 정상이고 전체 화면만 어두움</td><td>플레이어·운영체제 표시 설정</td><td>바로 밝기를 높여 재인코딩하지 않기</td></tr><tr><td>컨트롤이 보일 때 밝아지고 사라지면 어두움</td><td>플레이어 오버레이·적응형 밝기</td><td>장면 자체가 바뀌었다고 단정하지 않기</td></tr><tr><td>배터리 부족 때만 어두워짐</td><td>절전 모드·발열·자동 밝기</td><td>여러 절전 설정을 동시에 바꾸지 않기</td></tr><tr><td>외부 모니터에서만 명암이 달라짐</td><td>HDR·색 영역·디스플레이 입력</td><td>원본 파일을 덮어쓰지 않기</td></tr><tr><td>모든 기기와 플레이어에서 같은 프레임이 어두움</td><td>파일 픽셀·원본 영상</td><td>출처 비교 없이 파일 손상이라 부르지 않기</td></tr></tbody></table>
+
+    <h2 id="prepare">3. 확인 전에 원본과 비교 조건을 보호하기</h2>
+    <p>가장 먼저 저장된 파일을 기준 원본으로 정하고 수정하지 마세요. 파일 이름, 확장자, 정확한 크기, 재생 시간, 저장 경로를 기록합니다. 원본 YouTube 페이지의 제목과 채널, 비교할 시점도 함께 남깁니다. 이후 시험에는 단순 복사한 작업용 사본을 사용하되 편집 앱이나 메신저를 거치지 않습니다.</p>
+    <div class="check"><strong>점검 전 최소 기록</strong><ul><li>공개 원본 URL, 제목, 채널과 사용 권한</li><li>파일 이름, 확장자, 크기, 재생 시간과 경로</li><li>비교할 장면의 정확한 시·분·초</li><li>창 모드와 전체 화면에서 보인 차이</li><li>기기 밝기 수치, 자동 밝기와 절전 상태</li><li>플레이어 이름, 버전과 영상 관련 설정</li><li>내장 화면인지 외부 모니터인지 여부</li><li>원본과 작업용 사본을 구분하는 이름</li></ul></div>
+    <p>비교 중에는 같은 방, 같은 화면 각도, 같은 밝기 수치와 같은 파일을 유지하세요. 주변 조명이 크게 바뀌면 자동 밝기가 정상적으로 반응해 결과가 달라질 수 있습니다. 화면을 사진으로 찍어 비교할 때는 카메라 자동 노출도 변하므로 사진만으로 결론 내리지 말고 실제 설정과 눈으로 본 변화도 기록합니다.</p>
+    <div class="rights"><strong>볼 수 있는 권리와 저장·재사용 권리는 다릅니다.</strong> 공개 YouTube 영상도 자유롭게 복제, 편집 또는 재게시할 수 있다는 뜻은 아닙니다. 본인 소유이거나 명시적 허가 또는 적용 가능한 조건이 있는 자료만 사용하고, 비공개·유료·회원용·지역 제한을 우회하지 마세요.</div>
+
+    <h2 id="steps">4. 파일을 바꾸지 않고 9단계로 원인 좁히기</h2>
+    <ol class="steps">
+      <li><strong>공개 원본과 권한을 확인합니다.</strong> 정확한 단일 YouTube 영상 페이지에서 제목, 채널과 사용 권한을 기록합니다. 원본 스트리밍 화면은 로컬 파일 결과와 별도로 취급합니다.</li>
+      <li><strong>비교 프레임을 하나 정합니다.</strong> 흰 글자, 얼굴, 하늘처럼 밝기를 알아보기 쉬운 장면을 고르고 정확한 시간을 적습니다. 모든 비교는 같은 프레임에서 시작합니다.</li>
+      <li><strong>기준 원본을 보호합니다.</strong> 파일 크기와 재생 시간을 기록하고 단순 복사본을 만듭니다. 확장자를 바꾸거나 밝기 보정을 적용하지 않습니다.</li>
+      <li><strong>창 모드에서 기준을 봅니다.</strong> 기기 밝기 수치, 자동 밝기, 절전 상태와 충전 여부를 적고 선택한 프레임을 일시 정지합니다.</li>
+      <li><strong>재생 위치를 유지한 채 전체 화면으로 전환합니다.</strong> 즉시 어두워지는지, 컨트롤이 사라진 뒤 변하는지, 몇 초 후 돌아오는지 기록합니다.</li>
+      <li><strong>두 번째 신뢰할 수 있는 플레이어로 같은 파일을 엽니다.</strong> 기기와 파일은 그대로 두고 앱만 바꿉니다. 두 앱의 영상 향상과 제스처 밝기 상태도 따로 적습니다.</li>
+      <li><strong>자동 밝기와 절전 조건을 한 항목씩 시험합니다.</strong> 원래 값을 기록한 뒤 한 설정만 바꾸고 같은 프레임을 다시 봅니다. 변화가 없으면 원래 값으로 되돌린 후 다음 항목을 확인합니다.</li>
+      <li><strong>다른 화면 또는 다른 기기에서 같은 사본을 봅니다.</strong> 변환하지 않고 복사하며 파일 크기가 같은지 확인합니다. 외부 화면을 쓴다면 HDR과 색상 모드도 기록합니다.</li>
+      <li><strong>확인된 층에만 조치합니다.</strong> 플레이어 설정이면 그 앱만 조정하고, 절전 조건이면 시스템 설정만 관리합니다. 여러 환경에서 파일 자체가 어둡다는 근거가 있을 때만 복사본으로 편집 시험을 합니다.</li>
+    </ol>
+    <div class="note"><strong>멈춰야 할 시점:</strong> 같은 파일이 두 번째 플레이어 또는 다른 기기에서 정상이고, 전체 화면 조건에서만 변화한다면 원본 픽셀을 고치는 작업은 우선순위가 아닙니다. 정상 파일을 반복 변환하면 화질 저하와 사본 혼동이 추가될 수 있습니다.</div>
+
+    <h2 id="results">5. 결과에 따라 다음 확인을 선택하기</h2>
+    <h3>한 플레이어의 전체 화면에서만 어두운 경우</h3>
+    <p>같은 파일이 다른 플레이어의 전체 화면에서는 정상이라면 첫 앱의 설정이나 표시 방식이 핵심 변수입니다. 영상 향상, 명암 강화, 야간 효과, 제스처 밝기와 하드웨어 디코딩 관련 항목을 확인하되 여러 값을 동시에 바꾸지 마세요. 앱 업데이트 뒤 생긴 변화라면 버전과 날짜도 기록해 두면 재현에 도움이 됩니다.</p>
+    <h3>컨트롤이 사라질 때만 어두운 경우</h3>
+    <p>컨트롤 오버레이가 보이는 동안과 사라진 뒤 밝기가 달라진다면 같은 영상 프레임이 다른 UI 상태에서 표시된 것입니다. 화면을 다시 눌렀을 때 반복되는지 확인하고, 플레이어의 전체 화면 밝기 제스처나 동영상 향상 기능을 살펴봅니다. 이 패턴만으로 파일 손상이나 어두운 인코딩을 결론 내릴 수 없습니다.</p>
+    <h3>충전 여부나 배터리 잔량에 따라 달라지는 경우</h3>
+    <p>배터리가 낮을 때만 어두워지거나 충전하면 즉시 밝아진다면 절전 모드, 최대 밝기 제한 또는 발열 보호를 우선 봅니다. 밝기 슬라이더 위치가 같아도 기기가 실제 출력을 제한할 수 있습니다. 기기가 뜨겁다면 잠시 식힌 뒤 같은 조건으로 다시 확인하고, 안전 경고를 무시해 밝기를 강제로 올리지 마세요.</p>
+    <h3>모든 플레이어와 기기에서 같은 장면이 어두운 경우</h3>
+    <p>창 모드와 전체 화면 모두 어둡고, 다른 기기에서도 같은 프레임이 동일하게 보인다면 공개 원본의 같은 시점과 비교합니다. 원본도 같다면 제작된 명암일 수 있습니다. 원본은 정상인데 로컬 파일만 일관되게 다르다면 가장 이른 사본과 전송·편집 이력을 대조하고, 실제 파일 정보를 남긴 뒤 별도 작업용 복사본으로만 시험합니다.</p>
+
+    <h2 id="settings">6. 휴대폰과 컴퓨터에서 확인할 표시 설정</h2>
+    <p>휴대폰에서는 화면 가장자리를 위아래로 쓸어 밝기를 바꾸는 플레이어 제스처가 활성화돼 있을 수 있습니다. 전체 화면으로 전환하는 과정에서 손가락이 가장자리를 스치면 시스템 밝기와 별개인 앱 내부 값이 바뀔 수 있습니다. 같은 동작을 반복하기보다 앱의 제스처 표시와 밝기 아이콘을 확인하고 원래 값을 기록하세요.</p>
+    <p>자동 밝기는 주변광 센서가 감지한 환경에 맞춰 출력을 조절합니다. 어두운 방에서 전체 화면의 검은 영역이 커지면 기기가 밝기를 낮추는 것처럼 느껴질 수 있습니다. 시험을 위해 자동 밝기를 잠시 바꾸더라도 원래 설정을 기억하고, 접근성이나 눈 건강을 위한 설정을 장기간 해제하지 마세요.</p>
+    <p>컴퓨터에서는 운영체제의 야간 조명, 적응형 밝기, 배터리 절약과 그래픽 제어판의 동영상 색상 설정을 분리합니다. 브라우저 스트리밍과 로컬 플레이어가 다른 그래픽 경로를 쓸 수도 있습니다. 한 번에 한 옵션만 시험한 뒤 결과가 없으면 되돌리는 것이 안전합니다.</p>
+    <div class="check"><strong>설정 비교 원칙</strong><ul><li>변경 전 화면 밝기 수치와 설정값을 기록</li><li>같은 파일과 같은 프레임 유지</li><li>자동 밝기와 절전 모드를 동시에 바꾸지 않기</li><li>플레이어 제스처와 시스템 밝기를 구분</li><li>발열이나 배터리 안전 제한을 우회하지 않기</li><li>시험 뒤 원래 설정으로 복원</li></ul></div>
+
+    <h2 id="hdr">7. HDR, 색 영역과 외부 디스플레이 차이 확인하기</h2>
+    <p>HDR 영상이나 HDR을 지원하는 디스플레이에서는 창 모드와 전체 화면의 표시 경로가 달라질 수 있습니다. 운영체제, 플레이어, 그래픽 장치와 화면이 모두 HDR 상태를 협상하면서 명암이 바뀌기도 합니다. “HDR” 표시가 보인다는 이유만으로 파일 품질을 추정하지 말고, 실제 파일 정보와 화면 설정을 따로 기록하세요.</p>
+    <h3>내장 화면과 외부 모니터를 같은 것으로 보지 않습니다</h3>
+    <p>노트북 내장 화면은 정상인데 HDMI로 연결한 TV에서만 어둡다면 파일보다 외부 화면의 입력 모드, HDR, 블랙 레벨 또는 색 영역이 먼저입니다. 케이블을 바꾸기 전에 어떤 입력과 화면 모드인지 기록하고, 다른 정상 영상도 같은 방식으로 어두워지는지 확인합니다. 외부 화면 하나의 결과로 파일을 편집하지 마세요.</p>
+    <h3>밝기 보정은 마지막에 복사본으로 시험합니다</h3>
+    <p>여러 플레이어와 화면에서 같은 파일 장면이 일관되게 어둡고 공개 원본과도 분명히 다르다는 근거가 있을 때만 편집을 고려합니다. 원본을 보존하고 짧은 복사본에 최소한의 보정을 적용한 뒤 밝은 장면이 날아가지 않는지, 어두운 장면의 세부가 유지되는지, 색이 치우치지 않는지 확인합니다. 전체 파일은 짧은 시험이 검증된 뒤에만 새 이름으로 내보냅니다.</p>
+    <p>확장자를 <code>.mp4</code>로 고쳐 쓰는 것은 밝기나 HDR 정보를 복구하는 방법이 아닙니다. 파일 이름표만 바뀌며 오히려 플레이어 인식을 방해할 수 있습니다. 도구 화면에 표시되지 않은 화질, 색 영역 또는 오디오 특성을 추정하지 말고 실제 파일 정보와 재생 관찰만 사용하세요.</p>
+
+    <section id="faq"><h2>8. 자주 묻는 질문</h2>
+      <details><summary>전체 화면에서만 어두우면 저장 파일이 손상된 것인가요?</summary><p>그렇다고 단정할 수 없습니다. 창 모드와 일시 정지 화면이 정상이라면 플레이어 오버레이, 자동 밝기, 절전 모드 또는 HDR 표시 경로를 먼저 분리하세요. 같은 파일을 두 플레이어에서 비교하는 것이 빠른 기준입니다.</p></details>
+      <details><summary>화면을 한 번 누르면 밝아졌다가 컨트롤이 사라지면 다시 어두워지는 이유는 무엇인가요?</summary><p>재생 컨트롤이 보일 때 화면 전체의 대비가 다르게 느껴지거나, 컨트롤이 사라진 뒤 플레이어의 전체 화면 표시 정책이 다시 적용될 수 있습니다. 같은 프레임이므로 파일 픽셀 변경과 구분해야 합니다.</p></details>
+      <details><summary>자동 밝기를 끄면 항상 해결되나요?</summary><p>아닙니다. 자동 밝기 외에도 절전 모드, 발열 제한, 플레이어 영상 향상, HDR과 외부 디스플레이가 영향을 줄 수 있습니다. 원래 설정을 적고 한 항목씩 시험하세요.</p></details>
+      <details><summary>밝기를 올린 새 파일로 바로 내보내도 되나요?</summary><p>먼저 파일이 실제로 어둡다는 근거를 여러 플레이어와 기기에서 확인하세요. 표시 문제인데 파일을 밝게 만들면 다른 화면에서 과도하게 밝아질 수 있습니다. 필요하면 원본을 보존하고 짧은 복사본으로 시험합니다.</p></details>
+      <details><summary>위 NASA 임베드는 Downloader-X의 저장 결과인가요?</summary><p>아닙니다. 공식 YouTube 원본의 제목, 채널과 동일 시점을 확인하기 위한 공개 예시입니다. 특정 저장 파일의 밝기, 형식, 화질 또는 다운로드 성공을 증명하지 않습니다.</p></details>
+    </section>
+
+    <section class="related" id="related"><h2>9. 관련 가이드와 다음 단계</h2><p>전체 화면의 밝기 변화가 아니라 영상 시작 부분만 검은 뒤 정상 장면으로 이어진다면, 원본 도입부와 첫 프레임 처리부터 구분하는 편이 정확합니다.</p><a href="https://downloader-x.com/ko/guides/youtube-video-black-screen-at-start-check-ko/">저장한 YouTube 영상이 처음 몇 초 동안 검은 화면으로 보일 때 확인할 항목</a></section>
+    <section class="cta"><h3>권한이 있는 정확한 YouTube 주소부터 확인하세요</h3><p>공개 원본의 제목과 채널을 확인하고 도구에 실제로 표시되는 선택지만 사용하세요. 저장 뒤에는 원본을 보존하고 같은 프레임을 창 모드와 전체 화면에서 비교합니다.</p><a class="button" href="https://downloader-x.com/ko/youtube-downloader/">YouTube Downloader에서 확인하기</a></section>
+    <p class="foot">Downloader-X Guides · 2026년 9월 29일</p>
+  </article>
+</main>
+<footer class="footer">© 2026 Downloader-X Guides · 저장한 영상의 전체 화면 밝기를 안전하게 점검하는 한국어 가이드</footer>
+</body>
+</html>
