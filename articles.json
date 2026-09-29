@@ -1,6 +1,6 @@
 {
-  "count": 550,
-  "generatedAt": "2026-09-29T03:50:29.000Z",
+  "count": 551,
+  "generatedAt": "2026-09-29T07:26:41.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16739,6 +16739,35 @@
       "standardVersion": "2026-09-v2",
       "title": "El video de YouTube guardado se abre como audio y no muestra imagen: qué revisar",
       "wordCount": 1823
+    },
+    {
+      "canonical": "https://downloader-x.com/ja/guides/youtube-video-subtitles-not-showing-check-ja/",
+      "category": "YOUTUBE",
+      "date": "2026-09-29",
+      "description": "元のYouTube動画には字幕があるのに保存した動画で表示されない場合に、字幕トラック、焼き付け文字、別ファイル、プレーヤー設定を順番に確認する方法です。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "保存したYouTube動画に字幕が表示されない原因を確認する",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ja",
+      "parentHub": "https://downloader-x.com/ja/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-subtitles-not-showing-check-ja.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ja",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 23812,
+      "slug": "youtube-video-subtitles-not-showing-check-ja",
+      "sourcePath": "articles/youtube-video-subtitles-not-showing-check-ja.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-subtitles-not-showing-check-ja.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存したYouTube動画に字幕が表示されないときの確認方法",
+      "wordCount": 1987
     }
   ],
   "localeCounts": {
@@ -16752,7 +16781,7 @@
     "hi": 21,
     "id": 136,
     "it": 21,
-    "ja": 21,
+    "ja": 22,
     "km": 1,
     "ko": 23,
     "ms": 21,
