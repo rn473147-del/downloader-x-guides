@@ -1,6 +1,6 @@
 {
-  "count": 549,
-  "generatedAt": "2026-09-28T23:30:20.000Z",
+  "count": 550,
+  "generatedAt": "2026-09-29T03:50:29.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16710,13 +16710,42 @@
       "standardVersion": "2026-09-v2",
       "title": "Saved YouTube Video Shows the Wrong Title or Artist: What Should You Check?",
       "wordCount": 1984
+    },
+    {
+      "canonical": "https://downloader-x.com/es/guides/video-youtube-guardado-se-abre-como-audio-sin-imagen-es/",
+      "category": "YOUTUBE",
+      "date": "2026-09-29",
+      "description": "Guía para revisar por qué un video de YouTube guardado se abre como audio o no muestra imagen: distingue archivo, pistas, códec, reproductor, copia y conversión.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Revisar por qué un video de YouTube guardado se abre como audio y no muestra imagen",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "es",
+      "parentHub": "https://downloader-x.com/es/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-guardado-se-abre-como-audio-sin-imagen-es.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "es",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20864,
+      "slug": "video-youtube-guardado-se-abre-como-audio-sin-imagen-es",
+      "sourcePath": "articles/video-youtube-guardado-se-abre-como-audio-sin-imagen-es.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-guardado-se-abre-como-audio-sin-imagen-es.html",
+      "standardVersion": "2026-09-v2",
+      "title": "El video de YouTube guardado se abre como audio y no muestra imagen: qué revisar",
+      "wordCount": 1823
     }
   ],
   "localeCounts": {
     "ar": 21,
     "de": 21,
     "en": 23,
-    "es": 21,
+    "es": 22,
     "fa": 21,
     "fil": 23,
     "fr": 21,
