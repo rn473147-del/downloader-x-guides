@@ -1,6 +1,6 @@
 {
-  "count": 556,
-  "generatedAt": "2026-09-30T07:39:09.000Z",
+  "count": 557,
+  "generatedAt": "2026-09-30T11:51:23.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16913,10 +16913,39 @@
       "standardVersion": "2026-09-v2",
       "title": "सहेजे गए YouTube वीडियो में टाइमलाइन नहीं खिसकती या आगे नहीं बढ़ती: क्या जाँचें?",
       "wordCount": 1993
+    },
+    {
+      "canonical": "https://downloader-x.com/ar/guides/youtube-video-closes-player-same-time-crash-check-ar/",
+      "category": "YOUTUBE",
+      "date": "2026-09-30",
+      "description": "دليل عملي لتشخيص فيديو YouTube محفوظ يغلق تطبيق التشغيل أو يعطله عند التوقيت نفسه، مع فصل خلل الملف عن التطبيق والجهاز دون حذف الأصل.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "فحص فيديو YouTube محفوظ يغلق المشغّل عند التوقيت نفسه",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ar",
+      "parentHub": "https://downloader-x.com/ar/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-closes-player-same-time-crash-check-ar.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ar",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 27219,
+      "slug": "youtube-video-closes-player-same-time-crash-check-ar",
+      "sourcePath": "articles/youtube-video-closes-player-same-time-crash-check-ar.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-closes-player-same-time-crash-check-ar.html",
+      "standardVersion": "2026-09-v2",
+      "title": "فيديو YouTube المحفوظ يُغلق المشغّل عند اللحظة نفسها: ماذا تفحص؟",
+      "wordCount": 1840
     }
   ],
   "localeCounts": {
-    "ar": 21,
+    "ar": 22,
     "de": 21,
     "en": 23,
     "es": 22,
