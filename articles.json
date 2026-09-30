@@ -1,6 +1,6 @@
 {
-  "count": 557,
-  "generatedAt": "2026-09-30T11:51:23.000Z",
+  "count": 558,
+  "generatedAt": "2026-09-30T23:26:35.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -8374,6 +8374,35 @@
       "title": "twitter 動画保存 サイト アプリなし",
       "toolSupport": "supported",
       "wordCount": 1840
+    },
+    {
+      "canonical": "https://downloader-x.com/fa/guides/youtube-video-inverted-negative-colors-check-fa/",
+      "category": "YOUTUBE",
+      "date": "2026-10-01",
+      "description": "راهنمای فارسی برای تشخیص رنگ‌های وارونه یا نگاتیو در ویدیوی ذخیره‌شده YouTube با مقایسه منبع، فایل، پخش‌کننده، تنظیمات دسترسی، نمایشگر و نسخه منتقل‌شده.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "بررسی رنگ‌های وارونه یا نگاتیو در ویدیوی ذخیره‌شده YouTube",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fa",
+      "parentHub": "https://downloader-x.com/fa/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-inverted-negative-colors-check-fa.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fa",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 26925,
+      "slug": "youtube-video-inverted-negative-colors-check-fa",
+      "sourcePath": "articles/youtube-video-inverted-negative-colors-check-fa.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-inverted-negative-colors-check-fa.html",
+      "standardVersion": "2026-09-v2",
+      "title": "رنگ‌های ویدیوی ذخیره‌شده YouTube وارونه یا نگاتیو شده‌اند: چه چیزهایی را بررسی کنیم؟",
+      "wordCount": 1889
     },
     {
       "canonical": "https://downloader-x.com/ja/guides/x-core-01-ja/",
@@ -16949,7 +16978,7 @@
     "de": 21,
     "en": 23,
     "es": 22,
-    "fa": 21,
+    "fa": 22,
     "fil": 24,
     "fr": 21,
     "hi": 22,
