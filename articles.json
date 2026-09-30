@@ -1,6 +1,6 @@
 {
-  "count": 555,
-  "generatedAt": "2026-09-30T03:49:47.000Z",
+  "count": 556,
+  "generatedAt": "2026-09-30T07:39:09.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -16884,6 +16884,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Hindi Na Mag-play ang Na-save na YouTube Video Pagkatapos ng Phone Update: Ano ang Susuriin?",
       "wordCount": 1688
+    },
+    {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-timeline-seek-fast-forward-not-working-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-09-30",
+      "description": "सहेजे गए YouTube वीडियो में टाइमलाइन खिसकाने, आगे बढ़ाने या बीच से चलाने पर दिक्कत हो तो file completeness, duration, player, storage और copied file जाँचने की हिंदी गाइड।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो में टाइमलाइन और आगे बढ़ाने की समस्या जाँचें",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-timeline-seek-fast-forward-not-working-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 28907,
+      "slug": "youtube-video-timeline-seek-fast-forward-not-working-hi",
+      "sourcePath": "articles/youtube-video-timeline-seek-fast-forward-not-working-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-timeline-seek-fast-forward-not-working-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजे गए YouTube वीडियो में टाइमलाइन नहीं खिसकती या आगे नहीं बढ़ती: क्या जाँचें?",
+      "wordCount": 1993
     }
   ],
   "localeCounts": {
@@ -16894,7 +16923,7 @@
     "fa": 21,
     "fil": 24,
     "fr": 21,
-    "hi": 21,
+    "hi": 22,
     "id": 136,
     "it": 21,
     "ja": 22,
