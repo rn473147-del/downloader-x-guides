@@ -1,6 +1,6 @@
 {
-  "count": 558,
-  "generatedAt": "2026-09-30T23:26:35.000Z",
+  "count": 559,
+  "generatedAt": "2026-10-01T03:44:03.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -8374,6 +8374,35 @@
       "title": "twitter 動画保存 サイト アプリなし",
       "toolSupport": "supported",
       "wordCount": 1840
+    },
+    {
+      "canonical": "https://downloader-x.com/fr/guides/miniature-video-youtube-ne-correspond-pas-fichier-fr/",
+      "category": "YOUTUBE",
+      "date": "2026-10-01",
+      "description": "Guide français pour comprendre pourquoi la miniature d’une vidéo YouTube enregistrée ne correspond pas au contenu lu, en vérifiant fichier, cache, galerie, copies et transfert.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Vérifier une miniature de vidéo YouTube qui ne correspond pas au fichier lu",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fr",
+      "parentHub": "https://downloader-x.com/fr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/miniature-video-youtube-ne-correspond-pas-fichier-fr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fr",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20960,
+      "slug": "miniature-video-youtube-ne-correspond-pas-fichier-fr",
+      "sourcePath": "articles/miniature-video-youtube-ne-correspond-pas-fichier-fr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/miniature-video-youtube-ne-correspond-pas-fichier-fr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "La miniature d’une vidéo YouTube enregistrée ne correspond pas au fichier lu : que vérifier ?",
+      "wordCount": 1909
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/youtube-video-inverted-negative-colors-check-fa/",
@@ -16980,7 +17009,7 @@
     "es": 22,
     "fa": 22,
     "fil": 24,
-    "fr": 21,
+    "fr": 22,
     "hi": 22,
     "id": 136,
     "it": 21,
