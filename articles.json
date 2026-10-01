@@ -1,6 +1,6 @@
 {
-  "count": 562,
-  "generatedAt": "2026-10-01T15:10:51.000Z",
+  "count": 563,
+  "generatedAt": "2026-10-01T23:17:45.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17087,6 +17087,35 @@
       "standardVersion": "2026-09-v2",
       "title": "فيديو YouTube المحفوظ يُغلق المشغّل عند اللحظة نفسها: ماذا تفحص؟",
       "wordCount": 1840
+    },
+    {
+      "canonical": "https://downloader-x.com/ru/guides/subtitry-youtube-kvadraty-neponyatnye-simvoly-proverka-ru/",
+      "category": "YOUTUBE",
+      "date": "2026-10-02",
+      "description": "Пошаговая проверка сохранённых субтитров YouTube, если вместо букв видны квадраты, знаки замены или нечитаемые символы: дорожка, UTF-8, шрифт и проигрыватель.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Проверка субтитров YouTube, которые показывают квадраты или непонятные символы",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ru",
+      "parentHub": "https://downloader-x.com/ru/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/subtitry-youtube-kvadraty-neponyatnye-simvoly-proverka-ru.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ru",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 30507,
+      "slug": "subtitry-youtube-kvadraty-neponyatnye-simvoly-proverka-ru",
+      "sourcePath": "articles/subtitry-youtube-kvadraty-neponyatnye-simvoly-proverka-ru.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/subtitry-youtube-kvadraty-neponyatnye-simvoly-proverka-ru.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Субтитры видео YouTube показывают квадраты или непонятные символы: что проверить?",
+      "wordCount": 1513
     }
   ],
   "localeCounts": {
@@ -17106,7 +17135,7 @@
     "ms": 21,
     "nl": 21,
     "pt": 22,
-    "ru": 21,
+    "ru": 22,
     "th": 27,
     "tr": 21,
     "vi": 23,
