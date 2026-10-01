@@ -1,6 +1,6 @@
 {
-  "count": 560,
-  "generatedAt": "2026-10-01T07:25:53.000Z",
+  "count": 561,
+  "generatedAt": "2026-10-01T11:37:20.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -8374,6 +8374,35 @@
       "title": "twitter 動画保存 サイト アプリなし",
       "toolSupport": "supported",
       "wordCount": 1840
+    },
+    {
+      "canonical": "https://downloader-x.com/it/guides/video-youtube-salvato-non-compare-chromecast-airplay-it/",
+      "category": "YOUTUBE",
+      "date": "2026-10-01",
+      "description": "Il video YouTube salvato non compare tra i contenuti da inviare alla TV? Controlla file, app, rete, Google Cast, AirPlay e compatibilità senza modificare l’originale.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Video YouTube salvato che non compare su Chromecast, Google Cast o AirPlay",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "it",
+      "parentHub": "https://downloader-x.com/it/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-salvato-non-compare-chromecast-airplay-it.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "it",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19956,
+      "slug": "video-youtube-salvato-non-compare-chromecast-airplay-it",
+      "sourcePath": "articles/video-youtube-salvato-non-compare-chromecast-airplay-it.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-salvato-non-compare-chromecast-airplay-it.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Il video YouTube salvato non compare su Chromecast o AirPlay: cosa controllare?",
+      "wordCount": 1725
     },
     {
       "canonical": "https://downloader-x.com/de/guides/youtube-video-kein-ton-hdmi-geraet-pruefen-de/",
@@ -17041,7 +17070,7 @@
     "fr": 22,
     "hi": 22,
     "id": 136,
-    "it": 21,
+    "it": 22,
     "ja": 22,
     "km": 1,
     "ko": 24,
