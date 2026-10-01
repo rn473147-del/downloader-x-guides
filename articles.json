@@ -1,6 +1,6 @@
 {
-  "count": 559,
-  "generatedAt": "2026-10-01T03:44:03.000Z",
+  "count": 560,
+  "generatedAt": "2026-10-01T07:25:53.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -8374,6 +8374,35 @@
       "title": "twitter 動画保存 サイト アプリなし",
       "toolSupport": "supported",
       "wordCount": 1840
+    },
+    {
+      "canonical": "https://downloader-x.com/de/guides/youtube-video-kein-ton-hdmi-geraet-pruefen-de/",
+      "category": "YOUTUBE",
+      "date": "2026-10-01",
+      "description": "Prüfen Sie ein gespeichertes YouTube-Video, das am Gerät Ton hat, über HDMI aber stumm bleibt: Datei, Ausgabegerät, Kabel, Fernseher und Audiospur getrennt testen.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Gespeichertes YouTube-Video mit Ton am Gerät, aber ohne Ton über HDMI prüfen",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "de",
+      "parentHub": "https://downloader-x.com/de/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-kein-ton-hdmi-geraet-pruefen-de.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "de",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21046,
+      "slug": "youtube-video-kein-ton-hdmi-geraet-pruefen-de",
+      "sourcePath": "articles/youtube-video-kein-ton-hdmi-geraet-pruefen-de.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-kein-ton-hdmi-geraet-pruefen-de.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Gespeichertes YouTube-Video hat über HDMI keinen Ton, am Gerät aber schon: Was prüfen?",
+      "wordCount": 1718
     },
     {
       "canonical": "https://downloader-x.com/fr/guides/miniature-video-youtube-ne-correspond-pas-fichier-fr/",
@@ -17004,7 +17033,7 @@
   ],
   "localeCounts": {
     "ar": 22,
-    "de": 21,
+    "de": 22,
     "en": 23,
     "es": 22,
     "fa": 22,
