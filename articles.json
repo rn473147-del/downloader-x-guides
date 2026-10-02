@@ -1,6 +1,6 @@
 {
-  "count": 563,
-  "generatedAt": "2026-10-01T23:17:45.000Z",
+  "count": 564,
+  "generatedAt": "2026-10-02T03:46:15.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17116,6 +17116,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Субтитры видео YouTube показывают квадраты или непонятные символы: что проверить?",
       "wordCount": 1513
+    },
+    {
+      "canonical": "https://downloader-x.com/tr/guides/youtube-altyazi-alt-satir-kesiliyor-ekran-disina-tasiyor-tr/",
+      "category": "YOUTUBE",
+      "date": "2026-10-02",
+      "description": "Kaydedilen YouTube videosunda altyazının alt satırı kesiliyor veya ekran dışına taşıyorsa yakınlaştırma, en-boy oranı, güvenli alan, yazı boyutu ve altyazı türünü kontrol edin.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Kaydedilen YouTube videosunda alt satırı kesilen altyazıyı kontrol etme",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "tr",
+      "parentHub": "https://downloader-x.com/tr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-altyazi-alt-satir-kesiliyor-ekran-disina-tasiyor-tr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "tr",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 22276,
+      "slug": "youtube-altyazi-alt-satir-kesiliyor-ekran-disina-tasiyor-tr",
+      "sourcePath": "articles/youtube-altyazi-alt-satir-kesiliyor-ekran-disina-tasiyor-tr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-altyazi-alt-satir-kesiliyor-ekran-disina-tasiyor-tr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Kaydedilen YouTube videosunda altyazının alt satırı kesiliyor: ne kontrol edilmeli?",
+      "wordCount": 1510
     }
   ],
   "localeCounts": {
@@ -17137,7 +17166,7 @@
     "pt": 22,
     "ru": 22,
     "th": 27,
-    "tr": 21,
+    "tr": 22,
     "vi": 23,
     "zh": 22
   },
