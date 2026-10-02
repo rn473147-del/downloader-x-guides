@@ -1,6 +1,6 @@
 {
-  "count": 565,
-  "generatedAt": "2026-10-02T07:20:27.000Z",
+  "count": 566,
+  "generatedAt": "2026-10-02T11:42:48.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -10125,6 +10125,35 @@
       "wordCount": 1577
     },
     {
+      "canonical": "https://downloader-x.com/nl/guides/youtube-video-thumbnail-wazig-maar-video-scherp-nl/",
+      "category": "YOUTUBE",
+      "date": "2026-10-02",
+      "description": "Controleer waarom de thumbnail van een opgeslagen YouTube-video wazig is terwijl de video zelf scherp afspeelt: bestand, cache, schaal, galerij en gekozen frame.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Wazige thumbnail van een scherp afgespeelde YouTube-video controleren",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "nl",
+      "parentHub": "https://downloader-x.com/nl/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-thumbnail-wazig-maar-video-scherp-nl.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "nl",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20481,
+      "slug": "youtube-video-thumbnail-wazig-maar-video-scherp-nl",
+      "sourcePath": "articles/youtube-video-thumbnail-wazig-maar-video-scherp-nl.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-thumbnail-wazig-maar-video-scherp-nl.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Thumbnail van opgeslagen YouTube-video is wazig, maar de video is scherp: wat controleer je?",
+      "wordCount": 1670
+    },
+    {
       "canonical": "https://downloader-x.com/ms/guides/x-safety-14-ms/",
       "category": "X",
       "date": "2026-09-04",
@@ -17191,7 +17220,7 @@
     "km": 1,
     "ko": 24,
     "ms": 22,
-    "nl": 21,
+    "nl": 22,
     "pt": 22,
     "ru": 22,
     "th": 27,
