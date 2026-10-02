@@ -1,6 +1,6 @@
 {
-  "count": 567,
-  "generatedAt": "2026-10-02T14:58:42.000Z",
+  "count": 568,
+  "generatedAt": "2026-10-02T23:21:05.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2182,6 +2182,35 @@
       "title": "descargador de videos de twitter hd",
       "toolSupport": "conditional",
       "wordCount": 1542
+    },
+    {
+      "canonical": "https://downloader-x.com/th/guides/youtube-video-playable-cannot-send-line-messenger-th/",
+      "category": "YOUTUBE",
+      "date": "2026-10-03",
+      "description": "คู่มือตรวจวิดีโอ YouTube ที่เล่นในเครื่องได้แต่ส่งผ่าน LINE หรือ Messenger ไม่ได้ โดยแยกไฟล์ สิทธิ์ ขนาด รูปแบบ เครือข่าย และผลฝั่งผู้รับ",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "ตรวจวิดีโอ YouTube ที่เล่นได้แต่ส่งผ่าน LINE หรือ Messenger ไม่ได้",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "th",
+      "parentHub": "https://downloader-x.com/th/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-playable-cannot-send-line-messenger-th.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "th",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 33290,
+      "slug": "youtube-video-playable-cannot-send-line-messenger-th",
+      "sourcePath": "articles/youtube-video-playable-cannot-send-line-messenger-th.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-playable-cannot-send-line-messenger-th.html",
+      "standardVersion": "2026-09-v2",
+      "title": "วิดีโอ YouTube ที่บันทึกไว้เล่นได้ แต่ส่งผ่าน LINE หรือ Messenger ไม่ได้: ควรตรวจอะไรบ้าง",
+      "wordCount": 1922
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17252,7 +17281,7 @@
     "nl": 22,
     "pt": 22,
     "ru": 22,
-    "th": 27,
+    "th": 28,
     "tr": 22,
     "vi": 23,
     "zh": 22
