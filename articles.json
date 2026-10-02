@@ -1,6 +1,6 @@
 {
-  "count": 566,
-  "generatedAt": "2026-10-02T11:42:48.000Z",
+  "count": 567,
+  "generatedAt": "2026-10-02T14:58:42.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17203,6 +17203,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Video YouTube yang disimpan hilang bunyi selepas dipotong: apa perlu diperiksa?",
       "wordCount": 1577
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/audio-video-youtube-putus-putus-gambar-lancar-id/",
+      "category": "YOUTUBE",
+      "date": "2026-10-02",
+      "description": "Panduan memeriksa audio video YouTube tersimpan yang putus-putus saat gambar tetap lancar: bedakan file, pemutar, Bluetooth, penyimpanan, dan perangkat.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa audio video YouTube yang putus-putus saat gambar tetap lancar",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/audio-video-youtube-putus-putus-gambar-lancar-id.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19906,
+      "slug": "audio-video-youtube-putus-putus-gambar-lancar-id",
+      "sourcePath": "articles/audio-video-youtube-putus-putus-gambar-lancar-id.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/audio-video-youtube-putus-putus-gambar-lancar-id.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Audio video YouTube tersimpan putus-putus tetapi gambar tetap lancar: apa yang perlu dicek?",
+      "wordCount": 1542
     }
   ],
   "localeCounts": {
@@ -17214,7 +17243,7 @@
     "fil": 24,
     "fr": 22,
     "hi": 22,
-    "id": 136,
+    "id": 137,
     "it": 22,
     "ja": 22,
     "km": 1,
