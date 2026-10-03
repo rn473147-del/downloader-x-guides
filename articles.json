@@ -1,6 +1,6 @@
 {
-  "count": 570,
-  "generatedAt": "2026-10-03T07:26:41.000Z",
+  "count": 571,
+  "generatedAt": "2026-10-03T11:49:17.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2269,6 +2269,35 @@
       "standardVersion": "2026-09-v2",
       "title": "El video de YouTube guardado se oye solo por un auricular: qué revisar",
       "wordCount": 1839
+    },
+    {
+      "canonical": "https://downloader-x.com/ja/guides/youtube-video-offline-cannot-play-needs-internet-ja/",
+      "category": "YOUTUBE",
+      "date": "2026-10-03",
+      "description": "保存したYouTube動画がネット接続なしで再生できない場合に、端末内の実ファイル、クラウドのみの項目、URLやHTML、未完了の保存、プレーヤーを安全に切り分けます。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "保存したYouTube動画がオフラインで再生できないときの確認方法",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ja",
+      "parentHub": "https://downloader-x.com/ja/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-offline-cannot-play-needs-internet-ja.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ja",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 22764,
+      "slug": "youtube-video-offline-cannot-play-needs-internet-ja",
+      "sourcePath": "articles/youtube-video-offline-cannot-play-needs-internet-ja.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-offline-cannot-play-needs-internet-ja.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存したYouTube動画がオフラインで再生できないときに確認すること",
+      "wordCount": 1982
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17332,7 +17361,7 @@
     "hi": 22,
     "id": 137,
     "it": 22,
-    "ja": 22,
+    "ja": 23,
     "km": 1,
     "ko": 24,
     "ms": 22,
