@@ -1,6 +1,6 @@
 {
-  "count": 571,
-  "generatedAt": "2026-10-03T11:49:17.000Z",
+  "count": 572,
+  "generatedAt": "2026-10-03T14:57:26.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2298,6 +2298,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存したYouTube動画がオフラインで再生できないときに確認すること",
       "wordCount": 1982
+    },
+    {
+      "canonical": "https://downloader-x.com/zh/guides/youtube-video-playback-too-fast-slow-at-1x-zh/",
+      "category": "YOUTUBE",
+      "date": "2026-10-03",
+      "description": "保存的YouTube视频即使显示1倍速仍播放过快或过慢？按顺序检查播放器速度、文件时长、帧率解释、编辑时间线、复制过程与导出结果。",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "检查保存的 YouTube 视频在 1 倍速下仍然过快或过慢",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "zh",
+      "parentHub": "https://downloader-x.com/zh/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-playback-too-fast-slow-at-1x-zh.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "zh",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 18590,
+      "slug": "youtube-video-playback-too-fast-slow-at-1x-zh",
+      "sourcePath": "articles/youtube-video-playback-too-fast-slow-at-1x-zh.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-playback-too-fast-slow-at-1x-zh.html",
+      "standardVersion": "2026-09-v2",
+      "title": "保存的YouTube视频在1倍速下仍然过快或过慢：该检查什么？",
+      "wordCount": 1983
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17371,7 +17400,7 @@
     "th": 28,
     "tr": 22,
     "vi": 23,
-    "zh": 22
+    "zh": 23
   },
   "sourceCommit": "12d7be452a46b470bb724fff9970b3721b1a37e8",
   "standardVersion": "2026-09-x-keywords-v1",
