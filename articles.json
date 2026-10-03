@@ -1,6 +1,6 @@
 {
-  "count": 569,
-  "generatedAt": "2026-10-03T03:45:47.000Z",
+  "count": 570,
+  "generatedAt": "2026-10-03T07:26:41.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2240,6 +2240,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Saved YouTube Video Has Sound, but the Editor Shows No Waveform: What Should You Check?",
       "wordCount": 1943
+    },
+    {
+      "canonical": "https://downloader-x.com/es/guides/video-youtube-sonido-solo-un-auricular-canal-es/",
+      "category": "YOUTUBE",
+      "date": "2026-10-03",
+      "description": "Revisa por qué un video de YouTube guardado se oye solo por un auricular: canales, balance, reproductor, editor, cable y archivo antes de convertirlo.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Revisar un video de YouTube guardado que se oye solo por un auricular",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "es",
+      "parentHub": "https://downloader-x.com/es/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-sonido-solo-un-auricular-canal-es.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "es",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20711,
+      "slug": "video-youtube-sonido-solo-un-auricular-canal-es",
+      "sourcePath": "articles/video-youtube-sonido-solo-un-auricular-canal-es.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-sonido-solo-un-auricular-canal-es.html",
+      "standardVersion": "2026-09-v2",
+      "title": "El video de YouTube guardado se oye solo por un auricular: qué revisar",
+      "wordCount": 1839
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17296,7 +17325,7 @@
     "ar": 22,
     "de": 22,
     "en": 24,
-    "es": 22,
+    "es": 23,
     "fa": 22,
     "fil": 24,
     "fr": 22,
