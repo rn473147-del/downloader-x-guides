@@ -1,6 +1,6 @@
 {
-  "count": 568,
-  "generatedAt": "2026-10-02T23:21:05.000Z",
+  "count": 569,
+  "generatedAt": "2026-10-03T03:45:47.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2211,6 +2211,35 @@
       "standardVersion": "2026-09-v2",
       "title": "วิดีโอ YouTube ที่บันทึกไว้เล่นได้ แต่ส่งผ่าน LINE หรือ Messenger ไม่ได้: ควรตรวจอะไรบ้าง",
       "wordCount": 1922
+    },
+    {
+      "canonical": "https://downloader-x.com/en/guides/youtube-video-sound-no-waveform-editor-check-en/",
+      "category": "YOUTUBE",
+      "date": "2026-10-03",
+      "description": "Check why a saved YouTube video has sound while an editor shows no waveform by separating the audio track, timeline display, cache, and project state.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Check a saved YouTube video that has sound but no waveform in an editor",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-sound-no-waveform-editor-check-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20897,
+      "slug": "youtube-video-sound-no-waveform-editor-check-en",
+      "sourcePath": "articles/youtube-video-sound-no-waveform-editor-check-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-sound-no-waveform-editor-check-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Saved YouTube Video Has Sound, but the Editor Shows No Waveform: What Should You Check?",
+      "wordCount": 1943
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17266,7 +17295,7 @@
   "localeCounts": {
     "ar": 22,
     "de": 22,
-    "en": 23,
+    "en": 24,
     "es": 22,
     "fa": 22,
     "fil": 24,
