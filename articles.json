@@ -1,6 +1,6 @@
 {
-  "count": 572,
-  "generatedAt": "2026-10-03T14:57:26.000Z",
+  "count": 573,
+  "generatedAt": "2026-10-03T23:20:11.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2327,6 +2327,35 @@
       "standardVersion": "2026-09-v2",
       "title": "保存的YouTube视频在1倍速下仍然过快或过慢：该检查什么？",
       "wordCount": 1983
+    },
+    {
+      "canonical": "https://downloader-x.com/ko/guides/youtube-video-green-purple-screen-audio-normal-ko/",
+      "category": "YOUTUBE",
+      "date": "2026-10-04",
+      "description": "저장한 YouTube 영상의 소리는 정상인데 화면이 초록색·보라색으로 보일 때 원본, 파일 완성도, 플레이어, 하드웨어 가속, 디스플레이와 전송 사본을 순서대로 확인합니다.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "저장한 YouTube 영상이 초록색 또는 보라색 화면으로 보일 때 원인 확인하기",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ko",
+      "parentHub": "https://downloader-x.com/ko/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-green-purple-screen-audio-normal-ko.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ko",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 26095,
+      "slug": "youtube-video-green-purple-screen-audio-normal-ko",
+      "sourcePath": "articles/youtube-video-green-purple-screen-audio-normal-ko.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-green-purple-screen-audio-normal-ko.html",
+      "standardVersion": "2026-09-v2",
+      "title": "저장한 YouTube 영상이 초록색 또는 보라색 화면으로 보일 때 확인할 항목",
+      "wordCount": 1574
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17392,7 +17421,7 @@
     "it": 22,
     "ja": 23,
     "km": 1,
-    "ko": 24,
+    "ko": 25,
     "ms": 22,
     "nl": 22,
     "pt": 22,
