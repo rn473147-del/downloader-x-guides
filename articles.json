@@ -1,6 +1,6 @@
 {
-  "count": 575,
-  "generatedAt": "2026-10-04T07:30:16.000Z",
+  "count": 576,
+  "generatedAt": "2026-10-04T11:42:54.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2414,6 +2414,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Humihinto ang Na-save na YouTube Video Kapag May Notification o Tawag: Ano ang Susuriin?",
       "wordCount": 1999
+    },
+    {
+      "canonical": "https://downloader-x.com/hi/guides/youtube-video-audio-earpiece-instead-speaker-hi/",
+      "category": "YOUTUBE",
+      "date": "2026-10-04",
+      "description": "सहेजे गए YouTube वीडियो की आवाज़ मुख्य स्पीकर के बजाय ईयरपीस से आए तो media volume, call mode, proximity sensor, Bluetooth, player और file को क्रम से जाँचें।",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "सहेजे गए YouTube वीडियो की आवाज़ ईयरपीस से आने पर स्पीकर और output route की जाँच",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "hi",
+      "parentHub": "https://downloader-x.com/hi/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-audio-earpiece-instead-speaker-hi.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "hi",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 33943,
+      "slug": "youtube-video-audio-earpiece-instead-speaker-hi",
+      "sourcePath": "articles/youtube-video-audio-earpiece-instead-speaker-hi.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-audio-earpiece-instead-speaker-hi.html",
+      "standardVersion": "2026-09-v2",
+      "title": "सहेजे गए YouTube वीडियो की आवाज़ ईयरपीस से आती है: स्पीकर कैसे जाँचें?",
+      "wordCount": 1913
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17474,7 +17503,7 @@
     "fa": 22,
     "fil": 25,
     "fr": 22,
-    "hi": 22,
+    "hi": 23,
     "id": 137,
     "it": 22,
     "ja": 23,
