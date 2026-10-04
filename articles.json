@@ -1,6 +1,6 @@
 {
-  "count": 574,
-  "generatedAt": "2026-10-04T03:49:15.000Z",
+  "count": 575,
+  "generatedAt": "2026-10-04T07:30:16.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -2385,6 +2385,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Video YouTube đã lưu có trong ứng dụng Tệp nhưng không xuất hiện ở Thư viện ảnh: kiểm tra gì?",
       "wordCount": 1967
+    },
+    {
+      "canonical": "https://downloader-x.com/fil/guides/youtube-video-humihinto-notification-tawag-fil/",
+      "category": "YOUTUBE",
+      "date": "2026-10-04",
+      "description": "Gabay sa pagsusuri kapag humihinto ang na-save na YouTube video dahil sa notification o tawag: ihiwalay ang file, player, audio focus, Bluetooth at phone settings.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Suriin ang na-save na YouTube video na humihinto kapag may notification o tawag",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fil",
+      "parentHub": "https://downloader-x.com/fil/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-humihinto-notification-tawag-fil.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fil",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 22835,
+      "slug": "youtube-video-humihinto-notification-tawag-fil",
+      "sourcePath": "articles/youtube-video-humihinto-notification-tawag-fil.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-humihinto-notification-tawag-fil.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Humihinto ang Na-save na YouTube Video Kapag May Notification o Tawag: Ano ang Susuriin?",
+      "wordCount": 1999
     },
     {
       "canonical": "https://downloader-x.com/fa/guides/download-x-twitter-video-hd-any-device-fa/",
@@ -17443,7 +17472,7 @@
     "en": 24,
     "es": 23,
     "fa": 22,
-    "fil": 24,
+    "fil": 25,
     "fr": 22,
     "hi": 22,
     "id": 137,
