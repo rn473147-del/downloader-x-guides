@@ -1,6 +1,6 @@
 {
-  "count": 578,
-  "generatedAt": "2026-10-04T23:24:37.000Z",
+  "count": 579,
+  "generatedAt": "2026-10-05T03:50:45.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17551,6 +17551,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Audio video YouTube tersimpan putus-putus tetapi gambar tetap lancar: apa yang perlu dicek?",
       "wordCount": 1542
+    },
+    {
+      "canonical": "https://downloader-x.com/fr/guides/video-youtube-enregistre-mauvaise-langue-piste-audio-fr/",
+      "category": "YOUTUBE",
+      "date": "2026-10-05",
+      "description": "Guide français pour diagnostiquer une vidéo YouTube enregistrée qui se lit dans la mauvaise langue en vérifiant source, piste audio, lecteur, copie, montage et transfert.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Vérifier la piste audio d’une vidéo YouTube enregistrée qui se lit dans la mauvaise langue",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "fr",
+      "parentHub": "https://downloader-x.com/fr/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-enregistre-mauvaise-langue-piste-audio-fr.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "fr",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21047,
+      "slug": "video-youtube-enregistre-mauvaise-langue-piste-audio-fr",
+      "sourcePath": "articles/video-youtube-enregistre-mauvaise-langue-piste-audio-fr.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-enregistre-mauvaise-langue-piste-audio-fr.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Une vidéo YouTube enregistrée se lit dans la mauvaise langue : quelle piste audio vérifier ?",
+      "wordCount": 1984
     }
   ],
   "localeCounts": {
@@ -17560,7 +17589,7 @@
     "es": 23,
     "fa": 23,
     "fil": 25,
-    "fr": 22,
+    "fr": 23,
     "hi": 23,
     "id": 137,
     "it": 22,
