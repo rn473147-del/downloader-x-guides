@@ -1,6 +1,6 @@
 {
-  "count": 580,
-  "generatedAt": "2026-10-05T11:50:55.000Z",
+  "count": 581,
+  "generatedAt": "2026-10-05T15:01:01.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17609,6 +17609,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Gespeichertes YouTube-Video zeigt ein Bild, aber „Audioformat nicht unterstützt“: Was prüfen?",
       "wordCount": 1814
+    },
+    {
+      "canonical": "https://downloader-x.com/it/guides/video-youtube-si-chiude-schermo-intero-it/",
+      "category": "YOUTUBE",
+      "date": "2026-10-05",
+      "description": "Guida italiana per un video YouTube salvato che chiude il lettore passando a schermo intero: confrontare file, app, rotazione, display e accelerazione grafica.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Controllare un video YouTube salvato che si chiude passando a schermo intero",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "it",
+      "parentHub": "https://downloader-x.com/it/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-si-chiude-schermo-intero-it.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "it",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20932,
+      "slug": "video-youtube-si-chiude-schermo-intero-it",
+      "sourcePath": "articles/video-youtube-si-chiude-schermo-intero-it.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-si-chiude-schermo-intero-it.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Il video YouTube salvato si chiude quando passa a schermo intero: cosa controllare?",
+      "wordCount": 1916
     }
   ],
   "localeCounts": {
@@ -17621,7 +17650,7 @@
     "fr": 23,
     "hi": 23,
     "id": 137,
-    "it": 22,
+    "it": 23,
     "ja": 23,
     "km": 1,
     "ko": 25,
