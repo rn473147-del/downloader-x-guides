@@ -1,6 +1,6 @@
 {
-  "count": 579,
-  "generatedAt": "2026-10-05T03:50:45.000Z",
+  "count": 580,
+  "generatedAt": "2026-10-05T11:50:55.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17580,11 +17580,40 @@
       "standardVersion": "2026-09-v2",
       "title": "Une vidéo YouTube enregistrée se lit dans la mauvaise langue : quelle piste audio vérifier ?",
       "wordCount": 1984
+    },
+    {
+      "canonical": "https://downloader-x.com/de/guides/youtube-video-audioformat-nicht-unterstuetzt-de/",
+      "category": "YOUTUBE",
+      "date": "2026-10-05",
+      "description": "Deutscher Leitfaden für ein gespeichertes YouTube-Video, dessen Bild läuft, während der Player das Audioformat ablehnt: Datei, Spur, Player und Gerät getrennt prüfen.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Audioformat-Warnung bei einem gespeicherten YouTube-Video systematisch prüfen",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "de",
+      "parentHub": "https://downloader-x.com/de/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-audioformat-nicht-unterstuetzt-de.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "de",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 21220,
+      "slug": "youtube-video-audioformat-nicht-unterstuetzt-de",
+      "sourcePath": "articles/youtube-video-audioformat-nicht-unterstuetzt-de.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-audioformat-nicht-unterstuetzt-de.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Gespeichertes YouTube-Video zeigt ein Bild, aber „Audioformat nicht unterstützt“: Was prüfen?",
+      "wordCount": 1814
     }
   ],
   "localeCounts": {
     "ar": 23,
-    "de": 22,
+    "de": 23,
     "en": 24,
     "es": 23,
     "fa": 23,
