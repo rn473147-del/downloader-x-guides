@@ -1,6 +1,6 @@
 {
-  "count": 581,
-  "generatedAt": "2026-10-05T15:01:01.000Z",
+  "count": 582,
+  "generatedAt": "2026-10-05T23:17:39.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17638,6 +17638,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Il video YouTube salvato si chiude quando passa a schermo intero: cosa controllare?",
       "wordCount": 1916
+    },
+    {
+      "canonical": "https://downloader-x.com/pt/guides/video-youtube-recomeca-inicio-fechar-player-pt/",
+      "category": "YOUTUBE",
+      "date": "2026-10-06",
+      "description": "Guia em português para um vídeo do YouTube salvo que perde o ponto de reprodução ao fechar o player: histórico, sessão, caminho do arquivo e marcadores.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Verificar por que um vídeo do YouTube salvo recomeça do início no player",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "pt",
+      "parentHub": "https://downloader-x.com/pt/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/video-youtube-recomeca-inicio-fechar-player-pt.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "pt",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 19968,
+      "slug": "video-youtube-recomeca-inicio-fechar-player-pt",
+      "sourcePath": "articles/video-youtube-recomeca-inicio-fechar-player-pt.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/video-youtube-recomeca-inicio-fechar-player-pt.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Vídeo do YouTube salvo recomeça do início ao fechar o player: o que verificar?",
+      "wordCount": 1880
     }
   ],
   "localeCounts": {
@@ -17656,7 +17685,7 @@
     "ko": 25,
     "ms": 22,
     "nl": 22,
-    "pt": 22,
+    "pt": 23,
     "ru": 22,
     "th": 28,
     "tr": 22,
