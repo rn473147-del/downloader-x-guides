@@ -1,6 +1,6 @@
 {
-  "count": 582,
-  "generatedAt": "2026-10-05T23:17:39.000Z",
+  "count": 583,
+  "generatedAt": "2026-10-06T03:41:45.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17667,6 +17667,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Vídeo do YouTube salvo recomeça do início ao fechar o player: o que verificar?",
       "wordCount": 1880
+    },
+    {
+      "canonical": "https://downloader-x.com/ru/guides/youtube-video-zamenilos-failom-s-tem-zhe-imenem-ru/",
+      "category": "YOUTUBE",
+      "date": "2026-10-06",
+      "description": "Пошаговая проверка, если сохранённое видео YouTube оказалось заменено файлом с тем же именем: папка, размер, длительность, облачная синхронизация и резервная копия.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Проверить, почему сохранённое видео YouTube заменилось файлом с тем же именем",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "ru",
+      "parentHub": "https://downloader-x.com/ru/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-zamenilos-failom-s-tem-zhe-imenem-ru.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "ru",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 35223,
+      "slug": "youtube-video-zamenilos-failom-s-tem-zhe-imenem-ru",
+      "sourcePath": "articles/youtube-video-zamenilos-failom-s-tem-zhe-imenem-ru.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-zamenilos-failom-s-tem-zhe-imenem-ru.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Сохранённое видео YouTube заменилось файлом с тем же именем: что проверить?",
+      "wordCount": 1571
     }
   ],
   "localeCounts": {
@@ -17686,7 +17715,7 @@
     "ms": 22,
     "nl": 22,
     "pt": 23,
-    "ru": 22,
+    "ru": 23,
     "th": 28,
     "tr": 22,
     "vi": 24,
