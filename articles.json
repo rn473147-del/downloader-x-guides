@@ -1,6 +1,6 @@
 {
-  "count": 586,
-  "generatedAt": "2026-10-06T14:46:40.000Z",
+  "count": 587,
+  "generatedAt": "2026-10-06T23:12:40.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17783,6 +17783,35 @@
       "standardVersion": "2026-09-v2",
       "title": "Opgeslagen YouTube-video kan niet worden verplaatst omdat pad of bestandsnaam te lang is: wat controleer je?",
       "wordCount": 1747
+    },
+    {
+      "canonical": "https://downloader-x.com/id/guides/subtitel-video-youtube-muncul-dua-kali-menumpuk-id/",
+      "category": "YOUTUBE",
+      "date": "2026-10-07",
+      "description": "Panduan memeriksa subtitel video YouTube tersimpan yang muncul dua kali atau bertumpuk: bedakan teks tertanam, trek pemutar, dan file SRT/VTT eksternal.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Memeriksa subtitel video YouTube tersimpan yang muncul dua kali dan saling menumpuk",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "id",
+      "parentHub": "https://downloader-x.com/id/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/subtitel-video-youtube-muncul-dua-kali-menumpuk-id.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "id",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20458,
+      "slug": "subtitel-video-youtube-muncul-dua-kali-menumpuk-id",
+      "sourcePath": "articles/subtitel-video-youtube-muncul-dua-kali-menumpuk-id.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/subtitel-video-youtube-muncul-dua-kali-menumpuk-id.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Subtitel video YouTube tersimpan muncul dua kali dan saling menumpuk: apa yang perlu dicek?",
+      "wordCount": 1607
     }
   ],
   "localeCounts": {
@@ -17794,7 +17823,7 @@
     "fil": 25,
     "fr": 23,
     "hi": 23,
-    "id": 137,
+    "id": 138,
     "it": 23,
     "ja": 23,
     "km": 1,
