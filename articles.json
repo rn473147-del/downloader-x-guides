@@ -1,6 +1,6 @@
 {
-  "count": 587,
-  "generatedAt": "2026-10-06T23:12:40.000Z",
+  "count": 588,
+  "generatedAt": "2026-10-07T03:45:04.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -699,6 +699,35 @@
       "title": "beste twitter video downloader website",
       "toolSupport": "supported",
       "wordCount": 1607
+    },
+    {
+      "canonical": "https://downloader-x.com/th/guides/youtube-video-part-temporary-file-incomplete-th/",
+      "category": "YOUTUBE",
+      "date": "2026-10-07",
+      "description": "คู่มือตรวจไฟล์ .part หรือไฟล์ชั่วคราวหลังบันทึกวิดีโอ YouTube แยกงานที่ยังทำอยู่ ไฟล์ค้าง พื้นที่ไม่พอ และสำเนาที่ไม่สมบูรณ์ก่อนลบหรือเปลี่ยนชื่อ",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "ตรวจไฟล์ .part หรือไฟล์ชั่วคราวของวิดีโอ YouTube ก่อนลบหรือเปลี่ยนชื่อ",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "th",
+      "parentHub": "https://downloader-x.com/th/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-part-temporary-file-incomplete-th.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "th",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 34378,
+      "slug": "youtube-video-part-temporary-file-incomplete-th",
+      "sourcePath": "articles/youtube-video-part-temporary-file-incomplete-th.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-part-temporary-file-incomplete-th.html",
+      "standardVersion": "2026-09-v2",
+      "title": "บันทึกวิดีโอ YouTube แล้วเหลือไฟล์ .part หรือไฟล์ชั่วคราว: ควรตรวจอะไรก่อนลบหรือเปลี่ยนชื่อ",
+      "wordCount": 1967
     },
     {
       "canonical": "https://downloader-x.com/de/guides/x-core-11-de/",
@@ -17832,7 +17861,7 @@
     "nl": 23,
     "pt": 23,
     "ru": 23,
-    "th": 28,
+    "th": 29,
     "tr": 23,
     "vi": 24,
     "zh": 23
