@@ -1,6 +1,6 @@
 {
-  "count": 588,
-  "generatedAt": "2026-10-07T03:45:04.000Z",
+  "count": 589,
+  "generatedAt": "2026-10-07T07:16:55.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17841,12 +17841,41 @@
       "standardVersion": "2026-09-v2",
       "title": "Subtitel video YouTube tersimpan muncul dua kali dan saling menumpuk: apa yang perlu dicek?",
       "wordCount": 1607
+    },
+    {
+      "canonical": "https://downloader-x.com/en/guides/youtube-video-corrupted-one-app-plays-another-en/",
+      "category": "YOUTUBE",
+      "date": "2026-10-07",
+      "description": "Check a saved YouTube video that one app calls corrupted while another plays it: compare the same file, container, codecs, tracks, copies, storage, and app support safely.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/youtube-video-guide.svg",
+      "imageAlt": "Checking a saved YouTube video that one app calls corrupted while another app plays it",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "en",
+      "parentHub": "https://downloader-x.com/en/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/youtube-video-corrupted-one-app-plays-another-en.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "en",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 20470,
+      "slug": "youtube-video-corrupted-one-app-plays-another-en",
+      "sourcePath": "articles/youtube-video-corrupted-one-app-plays-another-en.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/youtube-video-corrupted-one-app-plays-another-en.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Saved YouTube Video Is Called Corrupted in One App but Plays in Another: What Should You Check?",
+      "wordCount": 1968
     }
   ],
   "localeCounts": {
     "ar": 23,
     "de": 23,
-    "en": 24,
+    "en": 25,
     "es": 23,
     "fa": 23,
     "fil": 25,
