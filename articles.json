@@ -1,6 +1,6 @@
 {
-  "count": 589,
-  "generatedAt": "2026-10-07T07:16:55.000Z",
+  "count": 590,
+  "generatedAt": "2026-10-07T11:30:33.000Z",
   "items": [
     {
       "canonical": "https://downloader-x.com/ar/guides/download-x-twitter-video-hd-any-device-ar/",
@@ -17870,13 +17870,42 @@
       "standardVersion": "2026-09-v2",
       "title": "Saved YouTube Video Is Called Corrupted in One App but Plays in Another: What Should You Check?",
       "wordCount": 1968
+    },
+    {
+      "canonical": "https://downloader-x.com/es/guides/reel-instagram-fecha-incorrecta-galeria-es/",
+      "category": "INSTAGRAM",
+      "date": "2026-10-07",
+      "description": "Cómo comprobar por qué un Reel de Instagram guardado aparece con una fecha incorrecta en la galería: separa fecha del archivo, metadatos, importación, zona horaria y copias.",
+      "image": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/assets/instagram-video-guide.svg",
+      "imageAlt": "Reel de Instagram guardado con fecha incorrecta en la galería: qué revisar",
+      "imageAspectRatio": "16:9",
+      "imageFit": "cover",
+      "imageHeight": 675,
+      "imageWidth": 1200,
+      "locale": "es",
+      "parentHub": "https://downloader-x.com/es/guides/",
+      "rawUrl": "https://raw.githubusercontent.com/rn473147-del/downloader-x-guides/main/articles/reel-instagram-fecha-incorrecta-galeria-es.html",
+      "robots": "index,follow,max-image-preview:large",
+      "routeLocale": "es",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "size": 17764,
+      "slug": "reel-instagram-fecha-incorrecta-galeria-es",
+      "sourcePath": "articles/reel-instagram-fecha-incorrecta-galeria-es.html",
+      "sourceUrl": "https://rn473147-del.github.io/downloader-x-guides/articles/reel-instagram-fecha-incorrecta-galeria-es.html",
+      "standardVersion": "2026-09-v2",
+      "title": "Un Reel de Instagram guardado aparece con fecha incorrecta en la galería: qué revisar",
+      "wordCount": 1665
     }
   ],
   "localeCounts": {
     "ar": 23,
     "de": 23,
     "en": 25,
-    "es": 23,
+    "es": 24,
     "fa": 23,
     "fil": 25,
     "fr": 23,
